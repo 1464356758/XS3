@@ -50,7 +50,8 @@ jobs:
               assert hashlib.sha256((root/name).read_bytes()).hexdigest()==expected, name
           print('Verified template files:',len(m['files']))
           PY
-          rsync -a             --exclude='.git'             --exclude='book/state.json'             --exclude='book/workflow.json'             --exclude='online/index.json'             /tmp/xs2-template/ ./
+          rsync -a             --exclude='.git'             --exclude='book/state.json'             --exclude='book/workflow.json'             --exclude='online/index.json' \
+            --exclude='.github/workflows/validate.yml'             /tmp/xs2-template/ ./
           test ! -f book/state.json
           test ! -f book/workflow.json
           python3 - <<'PY'
