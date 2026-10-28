@@ -1,6 +1,6 @@
 {
   "system_version": "4.3-quality",
-  "project_name": "未命名小说",
+  "project_name": "《大旱三年，我替县城算活路》",
   "book_root": "book",
   "authority": {
     "mode": "github",
@@ -13,8 +13,11 @@
     "chapter_order": "serial",
     "route_window_min": 3,
     "route_window_max": 5,
-    "platform": null,
-    "genre": null
+    "platform": "17k",
+    "genre": "男频·架空历史·乱世经营",
+    "platform_confirmation_pending": true,
+    "original_requested_platform": "7k小说平台",
+    "platform_confirmation_note": "17K was used for prior market survey; confirm whether the user meant this exact platform before signing or publishing."
   },
   "execution": {
     "context_character_budget": 80000,

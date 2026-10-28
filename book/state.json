@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "book_id": "7be49326-b891-4d4a-ad8c-7f189ed00645",
-  "title": "未命名小说",
-  "revision": 0,
+  "title": "《大旱三年，我替县城算活路》",
+  "revision": 3,
   "config": {
     "target_chapters": 100,
     "target_han": 900000,
@@ -24,8 +24,34 @@
   "chapters": {},
   "checkpoints": [],
   "needs_revalidation": [],
-  "inputs": {},
-  "input_history": [],
+  "inputs": {
+    "canon": {
+      "kind": "canon",
+      "path": "inputs/canon_5728c47dc6d664664b63fc8e0877d9ca26972091a7bba8622087fdbcb44807ad.md",
+      "sha256": "5728c47dc6d664664b63fc8e0877d9ca26972091a7bba8622087fdbcb44807ad",
+      "reason": "T01选题已获作者明确同意，建立首次采用前的设定和阶段路线"
+    },
+    "roadmap": {
+      "kind": "roadmap",
+      "path": "inputs/roadmap_6bb43c212424d014e289097086d1fe10a1520441e694f1691229ab86c781876b.md",
+      "sha256": "6bb43c212424d014e289097086d1fe10a1520441e694f1691229ab86c781876b",
+      "reason": "T01选题已获作者明确同意，建立首次采用前的设定和阶段路线"
+    }
+  },
+  "input_history": [
+    {
+      "kind": "canon",
+      "path": "inputs/canon_5728c47dc6d664664b63fc8e0877d9ca26972091a7bba8622087fdbcb44807ad.md",
+      "sha256": "5728c47dc6d664664b63fc8e0877d9ca26972091a7bba8622087fdbcb44807ad",
+      "reason": "T01选题已获作者明确同意，建立首次采用前的设定和阶段路线"
+    },
+    {
+      "kind": "roadmap",
+      "path": "inputs/roadmap_6bb43c212424d014e289097086d1fe10a1520441e694f1691229ab86c781876b.md",
+      "sha256": "6bb43c212424d014e289097086d1fe10a1520441e694f1691229ab86c781876b",
+      "reason": "T01选题已获作者明确同意，建立首次采用前的设定和阶段路线"
+    }
+  ],
   "tasks": {},
   "completion": null,
   "serialization": {
