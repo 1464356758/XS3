@@ -26,6 +26,8 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+      - name: Install declared regression-test dependency
+        run: python3 -m pip install -r requirements-private.txt
       - name: Check whether immutable chapter already exists
         id: exists
         run: |
