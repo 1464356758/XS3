@@ -11,26 +11,26 @@
   "source": {
     "repository_url": "https://github.com/1464356758/XS3",
     "branch": "main",
-    "generated_at": "2026-10-28T14:34:39+00:00",
-    "state_revision": 3,
-    "workflow_revision": 5,
-    "state_sha256": "bafe83f192a4df35d4d939b70a33e5e4c9f666d97f415450f4b7389600783cda",
-    "workflow_sha256": "7c89e1b73ed3b24660fb89e9e5bf40102a5cae5000ec5197098286e9394240ca",
+    "generated_at": "2026-10-28T15:06:09+00:00",
+    "state_revision": 4,
+    "workflow_revision": 6,
+    "state_sha256": "03a19526950b6be0472cbaa7008d00ccfa7198014986c7dbe9c01ede0ae58f23",
+    "workflow_sha256": "2e27cb78f303b59d0f47e3f5e9f6bd102aa73b8ce9112a1734d9ca73f2cc396e",
     "manuscript_storage": "plain_files_v1",
     "requires_reader_key": false
   },
   "progress": {
     "target_chapters": 100,
-    "adopted_chapters": 0,
+    "adopted_chapters": 1,
     "target_han": 900000,
-    "actual_han": 0,
+    "actual_han": 9800,
     "completed": false,
     "needs_revalidation": [],
     "reviewed_until": 0,
     "window_review_due": false,
     "unresolved_reviews": [],
     "serial_mode": true,
-    "frozen_chapters": 0,
+    "frozen_chapters": 1,
     "published_chapters": 0,
     "publication_status": "只统计真实回执；无回执不等于未发布",
     "open_incidents": 0,
@@ -40,12 +40,25 @@
   "task": {
     "phase": "PLANNING",
     "label": "长篇规划",
-    "chapter": 1,
-    "detail": "作者已明确选定T01；已建立100章阶段路线、人物规则和粮食账本。17K仅为已研究的暂行平台，发布前仍需澄清7K/17K指向。",
-    "next_action": "检查首章任务书及粮食、人物知情、赈令权限；确认平台后撰写并审核CH001，未通过不采用。",
-    "updated_at": "2026-10-28T14:34:39+00:00"
+    "chapter": 2,
+    "detail": "CH001《八千斤粮》已完成实测汉字、审读、发布前检查并定稿冻结；暂无平台发布回执。下一章须读取本章全部冻结正文。",
+    "next_action": "开始CH002《门外三千人》前先核对木牌旧序、暂册、库存净重与外衙验转副联；仅写下一章。",
+    "updated_at": "2026-10-28T15:06:09+00:00"
   },
-  "chapters": [],
+  "chapters": [
+    {
+      "number": 1,
+      "title": "八千斤粮",
+      "stage": "S01",
+      "han_count": 9800,
+      "text_path": "book/chapters/CH001_9b026639f0418f7e3b58d085458e9ab5cabd09403de838a4a745e67df1945c1d.txt",
+      "sha256": "9b026639f0418f7e3b58d085458e9ab5cabd09403de838a4a745e67df1945c1d",
+      "needs_revalidation": false,
+      "frozen": true,
+      "publication_status": "unreported",
+      "published_at": null
+    }
+  ],
   "topics": [
     {
       "id": "T01",
@@ -506,6 +519,12 @@
       "phase": "PLANNING",
       "label": "长篇规划",
       "detail": "作者已明确选定T01；已建立100章阶段路线、人物规则和粮食账本。17K仅为已研究的暂行平台，发布前仍需澄清7K/17K指向。"
+    },
+    {
+      "at": "2026-10-28T15:06:09+00:00",
+      "phase": "PLANNING",
+      "label": "长篇规划",
+      "detail": "CH001《八千斤粮》已完成实测汉字、审读、发布前检查并定稿冻结；暂无平台发布回执。下一章须读取本章全部冻结正文。"
     }
   ]
 }

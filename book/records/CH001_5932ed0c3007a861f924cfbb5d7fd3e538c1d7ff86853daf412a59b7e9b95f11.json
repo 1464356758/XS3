@@ -1,0 +1,166 @@
+{
+  "chapter": 1,
+  "title": "八千斤粮",
+  "stage": "S01",
+  "base_revision": 3,
+  "canon_sha256": "5728c47dc6d664664b63fc8e0877d9ca26972091a7bba8622087fdbcb44807ad",
+  "text_sha256": "9b026639f0418f7e3b58d085458e9ab5cabd09403de838a4a745e67df1945c1d",
+  "complete": true,
+  "story_time_end": 660,
+  "summary": "五月初九晨，北阜官仓账面460袋，双人点袋160袋，差300袋但未证明被盗。许砚带镣铐争取封存原账、异人点袋和县令限当日临时核验，承认昨夜抄簿时对24袋补登入仓凭证的疏漏。杜延衡承认今日误时，保留原领牌次序并要求未登记者另立暂册。许母说昨夜听到三辆车，未见载货或车上人物，此信息登记未核。尾声一张出运副联被发现外衙验转押改盖，下有疑似州字，尚无法查明失粮去向。县民仍未领到粮，许砚仍受监。",
+  "review": {
+    "read_full_text": true,
+    "decision": "adopt",
+    "blocking_issues": [],
+    "sources_checked": [],
+    "conclusion": "已逐场审核同日时序、账额、票据可信度、官职权力、证人限知与人物自主选择。旧版草稿配给写法存在两制歧义，正式正文统一为每人每日十分之九斤；检查文内数字、各场因果和章尾未完成承诺，无剩余必须修项。同上下文审读不是独立真实读者。"
+  },
+  "facts": [
+    {
+      "kind": "fact",
+      "key": "time:CH001:date",
+      "value": "景宁十六年五月初九，清晨至申时进行封仓核查。",
+      "holder": "",
+      "valid_from": 0,
+      "valid_until": null,
+      "quote": "景宁十六年五月初九，仓门外第三根拒马被撞倒时"
+    },
+    {
+      "kind": "state",
+      "key": "warehouse:northfu:bags-counted",
+      "value": "两名独立点袋人各得160袋；袋数确定，实重未逐袋验。",
+      "holder": "",
+      "valid_from": 140,
+      "valid_until": null,
+      "quote": "第一人报一百六十，第二人也报一百六十。"
+    },
+    {
+      "kind": "state",
+      "key": "warehouse:northfu:book-shortfall",
+      "value": "账面应存460袋，实盘160袋，袋数差300袋，不能直接等同被偷。",
+      "holder": "",
+      "valid_from": 0,
+      "valid_until": null,
+      "quote": "少的三百袋，谁签的数？"
+    },
+    {
+      "kind": "state",
+      "key": "resources:northfu:seed-reserve",
+      "value": "县令明确另仓种粮72袋、3600斤封存，不纳入现可赈粮。",
+      "holder": "",
+      "valid_from": 400,
+      "valid_until": null,
+      "quote": "种粮三千六百斤，另仓封存，不入眼前八千斤。"
+    },
+    {
+      "kind": "state",
+      "key": "resources:northfu:food-grain-nominal",
+      "value": "160袋每袋名额50斤，名额总量8000斤，逐袋实重未验。",
+      "holder": "",
+      "valid_from": 430,
+      "valid_until": null,
+      "quote": "名额八千斤，净重待验"
+    },
+    {
+      "kind": "state",
+      "key": "legal:xuyan:status",
+      "value": "许砚仍被拘押并获受监旁证核验机会，没有获无罪或正式释放。",
+      "holder": "",
+      "valid_from": 580,
+      "valid_until": null,
+      "quote": "你要的本官给了，但给你的不是清白。"
+    },
+    {
+      "kind": "state",
+      "key": "legal:northfu:temporary-order",
+      "value": "杜县令签仅限当日仓内核数、封账、留证之令；未授权跨县调粮。",
+      "holder": "",
+      "valid_from": 570,
+      "valid_until": null,
+      "quote": "这个令只准你们今日核数、封账、留证。"
+    },
+    {
+      "kind": "state",
+      "key": "relief:unregistered:ledger",
+      "value": "未登记赈户暂册由县衙建立；不等于已经取得正式配给资格。",
+      "holder": "",
+      "valid_from": 500,
+      "valid_until": null,
+      "quote": "无号者另立暂册。"
+    },
+    {
+      "kind": "knowledge",
+      "key": "witness:mother:night-carts",
+      "value": "母亲听见三辆车，未认出人，未见车内粮；证词待核。",
+      "holder": "许母",
+      "valid_from": 220,
+      "valid_until": null,
+      "quote": "我眼睛不好，认不清人。"
+    },
+    {
+      "kind": "knowledge",
+      "key": "document:xuyan:altered-endorsement",
+      "value": "看到外衙验转副联旧押被盖改与下层州字残痕，但不知粮真实去向。",
+      "holder": "许砚",
+      "valid_from": 650,
+      "valid_until": null,
+      "quote": "是一个“州”字的下半截。"
+    },
+    {
+      "kind": "belief",
+      "key": "warehouse:shijinglou:account",
+      "value": "石景楼声称晨间仅因账页线损而重装账册，尚未核实。",
+      "holder": "石景楼",
+      "valid_from": 430,
+      "valid_until": null,
+      "quote": "旧线断了，今晨重新穿的。"
+    },
+    {
+      "kind": "state",
+      "key": "family:xuyan:medicine-debt",
+      "value": "许家药铺仍欠九十文，为母亲取药有现实缺口。",
+      "holder": "",
+      "valid_from": 220,
+      "valid_until": null,
+      "quote": "欠了九十文。"
+    }
+  ],
+  "progression": {
+    "goal": "许砚保命并厘清官仓差额，在兑粮危机中阻止原证毁损。",
+    "obstacle": "身为嫌犯无权开仓调粮，三千赈户等不到当日米，县令担心城乱与问责，仓丞可控制账钥。",
+    "method": "申请捕头封钥、两名无关人员重数、实物与账目分开核，限制证人声称的事实等级，并推动有权者签临时核验令。",
+    "choice": "许砚承认自己未查24袋补登入仓凭据的职业疏漏，同时要求该责任与300袋真实去向分开。",
+    "result": "两名独立点袋160袋，县令签当日核验令、保留原领牌与另立暂册，尾声证物出现外衙改押线索。",
+    "consequence": "许砚仍遭拘问，药债和门外饥饿未解；限今日核验并留下实名责任，杜县令与捕头须承担延迟赈粮风险。",
+    "next_options": "CH002逐户复核原领牌与城外暂册，核外衙存根的实际保存与调取权限；不得假定失粮已追回。",
+    "scene_function": "八场分别完成危机引爆、独立盘袋、时间代价、亲情与未知证词、县权决策、排号矛盾、抄账责任和实物线索，非同一种嘴战循环。"
+  },
+  "thread_events": [
+    {
+      "action": "plant",
+      "id": "P01",
+      "description": "300袋缺口取证，逐项查明已核与未知",
+      "quote": "这张副联的验转押，被人改过。"
+    },
+    {
+      "action": "plant",
+      "id": "P02",
+      "description": "许砚阶段性合法处置及受监查账权限兑现",
+      "quote": "你要的本官给了，但给你的不是清白。"
+    },
+    {
+      "action": "plant",
+      "id": "P03",
+      "description": "未登记赈户纳入调查并落实真实处置或拒绝后果",
+      "quote": "无号者另立暂册。"
+    },
+    {
+      "action": "plant",
+      "id": "P05",
+      "description": "许母疾病、欠药与子母关系需要真实行动结果",
+      "quote": "欠了九十文。"
+    }
+  ],
+  "stage_closing": false,
+  "measured_han": 9800
+}
