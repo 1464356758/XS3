@@ -1,0 +1,90 @@
+name: Register author-selected T01 and build XS3 official planning state
+on:
+  push:
+    paths:
+      - '.github/workflows/activate-t01.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: xs3-t01-author-selection
+  cancel-in-progress: false
+jobs:
+  register-t01:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Register platform research and author choice via V4.3 native tools
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json
+          s=json.load(open('book/state.json',encoding='utf-8'))
+          w=json.load(open('book/workflow.json',encoding='utf-8'))
+          assert not s['chapters'], "Cannot change an existing serialized novel"
+          assert s['book_id']==w['book_id']
+          if w['selected_topic'] is None:
+              assert w['phase']=='WAITING_PLATFORM', w['phase']
+          else:
+              assert w['selected_topic']['id']=='T01'
+          PY
+          if python3 -c 'import json; w=json.load(open("book/workflow.json"));exit(0 if w.get("selected_topic") is None else 1)'; then
+            python3 tools/online_state.py select-platform --platform 17k
+            python3 tools/online_state.py research --file drafts/platform_17k_T01_checked_20261028.json
+            python3 tools/online_state.py topics --file drafts/topics_17k_T01_20261028.json
+            python3 tools/online_state.py select-topic --id T01 --request '用户原话：那就用T01的选题吧！'
+          fi
+          python3 - <<'PY'
+          import json
+          s=json.load(open('book/state.json',encoding='utf-8'))
+          w=json.load(open('book/workflow.json',encoding='utf-8'))
+          assert w['selected_topic']['id']=='T01'
+          assert s['title']=='《大旱三年，我替县城算活路》'
+          assert not s['chapters']
+          PY
+          for kind in canon roadmap; do
+            case "$kind" in
+              canon) file='book/planning/T01_CANON_V1.0.md';;
+              roadmap) file='book/planning/T01_ROADMAP_V1.0.md';;
+            esac
+            if ! python3 -c "import json,sys;d=json.load(open('book/state.json'));sys.exit(0 if '$kind' not in d['inputs'] else 1)"; then
+              continue
+            fi
+            revision=$(python3 -c 'import json;print(json.load(open("book/state.json"))["revision"])')
+            python3 tools/novel_state.py set-input --kind "$kind" --file "$file" --reason 'T01选题已获作者明确同意，建立首次采用前的设定和阶段路线' --base-revision "$revision"
+          done
+          python3 - <<'PY'
+          import json,pathlib
+          p=pathlib.Path('project_config.json')
+          d=json.loads(p.read_text(encoding='utf-8'))
+          d['project_name']='《大旱三年，我替县城算活路》'
+          d['writing']['platform']='17k'
+          d['writing']['genre']='男频·架空历史·乱世经营'
+          d['writing']['platform_confirmation_pending']=True
+          d['writing']['original_requested_platform']='7k小说平台'
+          d['writing']['platform_confirmation_note']='17K was used for prior market survey; confirm whether the user meant this exact platform before signing or publishing.'
+          p.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          PY
+          python3 tools/online_state.py task --phase PLANNING --detail '作者已明确选定T01；已建立100章阶段路线、人物规则和粮食账本。17K仅为已研究的暂行平台，发布前仍需澄清7K/17K指向。' --next '检查首章任务书及粮食、人物知情、赈令权限；确认平台后撰写并审核CH001，未通过不采用。'
+          python3 tools/online_state.py validate-index
+          python3 tools/novel_state.py status
+      - name: Commit registered T01 state with checked source files
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add book/state.json book/workflow.json online/index.json project_config.json book/inputs research
+          if git diff --cached --quiet; then
+            echo "T01 already registered, no change"
+            exit 0
+          fi
+          git commit -m "novel: register author-selected T01 and canonical 100-chapter plan"
+          git push origin HEAD:main
