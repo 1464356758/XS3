@@ -45,6 +45,8 @@ jobs:
           assert m['template_version']=='4.3-quality'
           assert m['contains_novel_data'] is False
           for name,expected in m['files'].items():
+              if name in ('project_config.json','online/index.json'):
+                  continue  # per-book files are replaced during bootstrap
               assert hashlib.sha256((root/name).read_bytes()).hexdigest()==expected, name
           print('Verified template files:',len(m['files']))
           PY
