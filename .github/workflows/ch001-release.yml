@@ -1,0 +1,73 @@
+name: Finalize CH001 with V4.3 release gate
+
+on:
+  push:
+    paths:
+      - '.github/workflows/ch001-release.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: xs3-ch001-finalize
+  cancel-in-progress: false
+
+jobs:
+  finalize:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout up-to-date official project
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Check whether immutable chapter already exists
+        id: exists
+        run: |
+          python3 - <<'PY'
+          import json,os
+          state=json.load(open('book/state.json',encoding='utf-8'))
+          if state.get('chapters',{}).get('1'):
+              assert state.get('serialization',{}).get('frozen',{}).get('1'), 'Formal chapter exists but not frozen'
+              with open(os.environ['GITHUB_OUTPUT'],'a') as o:o.write('already=true\n')
+          else:
+              with open(os.environ['GITHUB_OUTPUT'],'a') as o:o.write('already=false\n')
+          PY
+      - name: Perform full manuscript audit and immutable adoption
+        if: steps.exists.outputs.already == 'false'
+        run: python3 tools/finalize_ch001.py
+      - name: Run deterministic regression suite
+        if: steps.exists.outputs.already == 'false'
+        run: python3 -m unittest discover -s tests -q
+      - name: Recheck exact final manuscript and records
+        if: steps.exists.outputs.already == 'false'
+        run: |
+          python3 tools/online_state.py validate-index
+          python3 tools/novel_state.py --root book status
+          python3 - <<'PY'
+          import json,hashlib
+          from pathlib import Path
+          s=json.loads(Path('book/state.json').read_text('utf-8'))
+          c=s['chapters']['1']
+          assert s['serialization']['frozen']['1']['text_sha256']==c['text_sha256']
+          text=Path('book',c['text_path']).read_text('utf-8')
+          assert hashlib.sha256(text.encode()).hexdigest()==c['text_sha256']
+          assert s['serialization']['published']=={}, 'No platform publication authorized'
+          assert c['han_count']>=8000 and c['han_count']<=10000
+          print('Final file verified with SHA and length:', c['text_path'],c['han_count'])
+          PY
+      - name: Publish checked book-state and immutable chapter in one commit
+        if: steps.exists.outputs.already == 'false'
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A book online drafts/CH001.txt drafts/CH001_record.json drafts/CH001_writing_brief.json drafts/CH001_release_review.json
+          git diff --cached --quiet && { echo 'No new chapter files staged'; exit 1; }
+          git commit -m "LOCK CH001 八千斤粮: full text, facts, review, freeze and index"
+          git push origin HEAD:main
