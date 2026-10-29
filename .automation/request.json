@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "xs3_20261030_0258_prep_7b2c8e19",
-  "base_sha": "5deac4399e63122e66e59ccbf0db7fe1f9f2c19c",
+  "request_id": "xs3_20261030_0300_briefcheck_7b2c8e19",
+  "base_sha": "6e3c93d53f7789b1e420977a52afe558b75c1ec9",
   "book_id": "7be49326-b891-4d4a-ad8c-7f189ed00645",
   "controller": {
     "kind": "automation",
@@ -17,33 +17,9 @@
       "args": [
         "--root",
         "book",
-        "brief-request",
-        "--out",
+        "brief-check",
+        "--file",
         "drafts/CH002_brief.json"
-      ]
-    },
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "history-search",
-        "--query",
-        "木牌 暂册 赈户 无号",
-        "--limit",
-        "10"
-      ]
-    },
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "history-search",
-        "--query",
-        "饥饿 领粮 门外 赈户",
-        "--limit",
-        "10"
       ]
     },
     {
@@ -53,11 +29,9 @@
         "book",
         "context",
         "--profile",
-        "author",
-        "--query",
-        "木牌 暂册 领户",
+        "writer",
         "--out",
-        "drafts/CH002_author.md"
+        "drafts/CH002_writer.md"
       ]
     }
   ]
