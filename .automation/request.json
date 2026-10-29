@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "xs3_20261030_0257_begin_7b2c8e19",
-  "base_sha": "0ce0acc75399859e0da40d6166c9e9aa54e9df1e",
+  "request_id": "xs3_20261030_0258_prep_7b2c8e19",
+  "base_sha": "5deac4399e63122e66e59ccbf0db7fe1f9f2c19c",
   "book_id": "7be49326-b891-4d4a-ad8c-7f189ed00645",
   "controller": {
     "kind": "automation",
@@ -9,5 +9,56 @@
     "session_id": "xs3-20261030-0255-7b2c8e19",
     "platform_run_id": "11a36b53-cdd0-8333-bfc2-3650ca60977b"
   },
-  "phase": "begin"
+  "phase": "command",
+  "run_id": "23d1a59ccc5f45e48dfd94259de1be0f",
+  "commands": [
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "brief-request",
+        "--out",
+        "drafts/CH002_brief.json"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "history-search",
+        "--query",
+        "木牌 暂册 赈户 无号",
+        "--limit",
+        "10"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "history-search",
+        "--query",
+        "饥饿 领粮 门外 赈户",
+        "--limit",
+        "10"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "context",
+        "--profile",
+        "author",
+        "--query",
+        "木牌 暂册 领户",
+        "--out",
+        "drafts/CH002_author.md"
+      ]
+    }
+  ]
 }
