@@ -113,6 +113,11 @@
         "path": "releases/CH001_81d55f85c47f9eaae44474087181fafe1a268db91d54295fe7c2f4bb39ca0280.json",
         "sha256": "81d55f85c47f9eaae44474087181fafe1a268db91d54295fe7c2f4bb39ca0280",
         "used": true
+      },
+      "2": {
+        "path": "releases/CH002_34f970e598861f50f487a6775b48874140dca6803264ac2047fb48da35100a74.json",
+        "sha256": "34f970e598861f50f487a6775b48874140dca6803264ac2047fb48da35100a74",
+        "used": false
       }
     },
     "promises": {

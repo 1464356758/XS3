@@ -1,0 +1,480 @@
+{
+  "schema_version": 1,
+  "book_id": "7be49326-b891-4d4a-ad8c-7f189ed00645",
+  "chapter": 2,
+  "base_revision": 4,
+  "task_id": "b1722310-a491-4924-91fa-89a843b1d57c",
+  "repairs": 0,
+  "text_sha256": "1aff61ae82bab3c18ce9f07dacca310852ca072e1985b52c048c25d9ed267dce",
+  "record_sha256": "abbdd9518b4f1d6c227039322ff1f6500cb46f37ccfa426da058df2f9962adc6",
+  "canon_sha256": "5728c47dc6d664664b63fc8e0877d9ca26972091a7bba8622087fdbcb44807ad",
+  "roadmap_sha256": "6bb43c212424d014e289097086d1fe10a1520441e694f1691229ab86c781876b",
+  "narrative_review_version": 1,
+  "writing_brief_sha256": "1ec17bdb24ce27fb662d38f1db281ac198cb2ebef00ae88b7c7e04558ee8ffc5",
+  "decision": "release",
+  "read_full_text": true,
+  "blocking_issues": [],
+  "read_coverage": {
+    "1": "9b026639f0418f7e3b58d085458e9ab5cabd09403de838a4a745e67df1945c1d",
+    "2": "1aff61ae82bab3c18ce9f07dacca310852ca072e1985b52c048c25d9ed267dce"
+  },
+  "reader_reason_to_continue": "县令承诺明早另签赈令，但两日未发一粒粮，城外新来者已到城墙外；下一章必须回答谁实际领到粮、谁被拒以及有限粮额如何减少。",
+  "consequence": "罗氏典簪折价15文并误去浆洗工钱，小满仍需治疗；丁二旺守夜耽误病妻；韩奉实到19人获登记却无赈号，留村7口待核；县令公开承担次日答复和赈令责任，书吏人手负担增加，许砚仍押回捕房，仓粮未动。",
+  "ending_runway": "CH003以合法赈令和实际过秤发粮打破连续两章纸证交锋，逐户登记领到/拒领、净重与库存；已故户号作为新的可核疑点而非突然揭开幕后主谋。",
+  "checks": {
+    "timeline": {
+      "decision": "pass",
+      "conclusion": "CH001五月初九申时封仓，CH002五月初十从黎明至夜间，昨日核验令已过期，县令新签今日受监辨号令；未发生不合逻辑的同日复用。",
+      "evidence": [
+        {
+          "chapter": 2,
+          "sha256": "1aff61ae82bab3c18ce9f07dacca310852ca072e1985b52c048c25d9ed267dce",
+          "quote": "今日不能拿昨日的令接着使。"
+        }
+      ]
+    },
+    "knowledge": {
+      "decision": "pass",
+      "conclusion": "旧第三仅由旧序签与不完全相合旁证支持，不能断言绝无冒用；韩奉自报26口而实到19口，余7口不冒充亲点；外衙旧押仍未证实失粮去向。",
+      "evidence": [
+        {
+          "chapter": 2,
+          "sha256": "1aff61ae82bab3c18ce9f07dacca310852ca072e1985b52c048c25d9ed267dce",
+          "quote": "韩奉自报留村七口未见人。"
+        }
+      ]
+    },
+    "props_resources": {
+      "decision": "pass",
+      "conclusion": "县仓160袋名额8000斤、净重待复秤，另仓种粮72袋未动；今日未出一袋。罗氏典簪15文属私人诊疗，不混入官仓粮账。",
+      "evidence": [
+        {
+          "chapter": 2,
+          "sha256": "1aff61ae82bab3c18ce9f07dacca310852ca072e1985b52c048c25d9ed267dce",
+          "quote": "一百六十袋仍封存，名额八千斤，净重待复秤。"
+        }
+      ]
+    },
+    "causality": {
+      "decision": "pass",
+      "conclusion": "旧第三与今晨第三冲突，小满病重迫使罗氏离队；证人不足使旧序保留争议；乡民入城和书吏人手不足逼县令亲签次日答复，不靠主角一段说教消除现实成本。",
+      "evidence": [
+        {
+          "chapter": 2,
+          "sha256": "1aff61ae82bab3c18ce9f07dacca310852ca072e1985b52c048c25d9ed267dce",
+          "quote": "主簿终于拿起笔，写下“伤病离场申代候，待县令裁”。"
+        }
+      ]
+    },
+    "power_rules": {
+      "decision": "pass",
+      "conclusion": "杜县令另签受监辨号令，廖十二保管并押送，许砚不得独改户口、动仓粮或解除嫌疑；旧工票和入城资格均不等于赈号。",
+      "evidence": [
+        {
+          "chapter": 2,
+          "sha256": "1aff61ae82bab3c18ce9f07dacca310852ca072e1985b52c048c25d9ed267dce",
+          "quote": "不得独署更改户口，不得动仓粮，不得放免嫌疑"
+        }
+      ]
+    },
+    "promises": {
+      "decision": "pass",
+      "conclusion": "P02嫌犯处置未完，P03从暂册推进至韩奉实到19人和次日受理期限；P01三百袋差额与P05许母九十文药债未被虚假关闭，原截止章保留。",
+      "evidence": [
+        {
+          "chapter": 2,
+          "sha256": "1aff61ae82bab3c18ce9f07dacca310852ca072e1985b52c048c25d9ed267dce",
+          "quote": "明日午前给第一批实到者一个是否受理、何处核籍的书面答复。"
+        }
+      ]
+    },
+    "anti_repeat": {
+      "decision": "pass",
+      "conclusion": "CH001主要是双人点袋、封账、改押线索；CH002有旧新序号冲突、典簪就诊、城门乡民和多方利益。仍有程序对白密度风险，已保留建议，CH003应实际发粮。",
+      "evidence": [
+        {
+          "chapter": 2,
+          "sha256": "1aff61ae82bab3c18ce9f07dacca310852ca072e1985b52c048c25d9ed267dce",
+          "quote": "掌柜收了簪，折价十五文"
+        }
+      ]
+    },
+    "character_agency": {
+      "decision": "pass",
+      "conclusion": "罗氏顾病儿，丁二旺守夜保护自己序号，韩奉拒与嫌犯谈而坚持县令答复，主簿反对增加待核项，县令承担公开责任，各有利益与反抗。",
+      "evidence": [
+        {
+          "chapter": 2,
+          "sha256": "1aff61ae82bab3c18ce9f07dacca310852ca072e1985b52c048c25d9ed267dce",
+          "quote": "那我不跟你谈。"
+        }
+      ]
+    }
+  },
+  "comparison": [
+    {
+      "chapter": 1,
+      "sha256": "9b026639f0418f7e3b58d085458e9ab5cabd09403de838a4a745e67df1945c1d",
+      "quote": "第一人报一百六十，第二人也报一百六十。",
+      "difference": "CH001通过双人点袋、封账和限时令固定物证；CH002不重复盘袋，而以罗氏典簪、小满病痛、丁二旺守夜、韩奉入城使户口核验产生不可逆成本。两章都偏重文书交锋，CH003须兑现实际配粮而不是继续只登记。"
+    }
+  ],
+  "future_window": [
+    {
+      "chapter": 3,
+      "goal": "县令签合法临时配给令并首次过秤发粮，区分实到、代领与待核。",
+      "change": "实际扣减可发净粮，罗氏、丁二旺与韩奉至少一方发生可核领粮或被拒结果。",
+      "ending_question": "赈册为何出现已故户号，谁能合法替其领粮？"
+    },
+    {
+      "chapter": 4,
+      "goal": "用第二把独立秤复核净重、袋耗和石景楼补签凭据。",
+      "change": "石景楼提出可核反证或承担责任，实际余粮与可支天数更新。",
+      "ending_question": "一趟登记过的渡船为何未到西渡？"
+    },
+    {
+      "chapter": 5,
+      "goal": "与西渡脚行谢照禾核船簿并谈有价、有风险的运输合作。",
+      "change": "获得一项真实运力或取证承诺，同时支付银钱、押约或信用代价。",
+      "ending_question": "船簿为何将一趟运粮改为两趟？"
+    }
+  ],
+  "promise_reviews": [
+    {
+      "id": "P01",
+      "action": "keep",
+      "deadline_chapter": 20,
+      "reason": "副联仍封匣、三百袋账实差未定去向，保留CH020取证期限。",
+      "evidence": {
+        "chapter": 2,
+        "sha256": "1aff61ae82bab3c18ce9f07dacca310852ca072e1985b52c048c25d9ed267dce",
+        "quote": "它或许指向远处的粮路"
+      }
+    },
+    {
+      "id": "P02",
+      "action": "keep",
+      "deadline_chapter": 10,
+      "reason": "今日新令只准受监辨号，许砚仍被押回，保留CH010阶段处置期限。",
+      "evidence": {
+        "chapter": 2,
+        "sha256": "1aff61ae82bab3c18ce9f07dacca310852ca072e1985b52c048c25d9ed267dce",
+        "quote": "不得独署更改户口，不得动仓粮，不得放免嫌疑"
+      }
+    },
+    {
+      "id": "P03",
+      "action": "keep",
+      "deadline_chapter": 20,
+      "reason": "韩奉19人实到、7口自报留村，次日午前书面答复仅受理核籍而非给粮，保留CH020安置/拒绝后果期限。",
+      "evidence": {
+        "chapter": 2,
+        "sha256": "1aff61ae82bab3c18ce9f07dacca310852ca072e1985b52c048c25d9ed267dce",
+        "quote": "明日午前给第一批实到者一个是否受理、何处核籍的书面答复。"
+      }
+    },
+    {
+      "id": "P05",
+      "action": "keep",
+      "deadline_chapter": 10,
+      "reason": "许母九十文药债仍未清偿，不能用罗氏的典簪故事替代许母实际诊疗，保留CH010期限。",
+      "evidence": {
+        "chapter": 2,
+        "sha256": "1aff61ae82bab3c18ce9f07dacca310852ca072e1985b52c048c25d9ed267dce",
+        "quote": "欠下的九十文药钱谁来付。"
+      }
+    }
+  ],
+  "incident_actions": [],
+  "narrative_review": {
+    "schema_version": 1,
+    "actual_scenes": [
+      {
+        "event": "黎明罗氏旧第三被重排303号，孩子已无力哭",
+        "choice": "罗氏坚持旧序申诉",
+        "change": "冲突由抽象三千口变成具体家庭与守夜者的不同代价",
+        "evidence": [
+          {
+            "chapter": 2,
+            "sha256": "1aff61ae82bab3c18ce9f07dacca310852ca072e1985b52c048c25d9ed267dce",
+            "quote": "第二块竹片是昨晨排队时"
+          }
+        ]
+      },
+      {
+        "event": "县令审三项昨日回报，昨日令过期",
+        "choice": "另签今日仅受监辨号令",
+        "change": "许砚可查旧号但不能私改赈册、发粮或获释",
+        "evidence": [
+          {
+            "chapter": 2,
+            "sha256": "1aff61ae82bab3c18ce9f07dacca310852ca072e1985b52c048c25d9ed267dce",
+            "quote": "今日不能拿昨日的令接着使。"
+          }
+        ]
+      },
+      {
+        "event": "旧序签、老更夫与旁证并不完全一致",
+        "choice": "许砚不私判旧第三或今晨第三",
+        "change": "旧序与新序分证据留存，两方利益均未获直接发粮",
+        "evidence": [
+          {
+            "chapter": 2,
+            "sha256": "1aff61ae82bab3c18ce9f07dacca310852ca072e1985b52c048c25d9ed267dce",
+            "quote": "我今日排的三，也不是偷你的三。"
+          }
+        ]
+      },
+      {
+        "event": "小满发热无力，罗氏不得不离队",
+        "choice": "典出铜簪换诊水药材",
+        "change": "小满暂时睁眼，罗氏失去15文首饰和浆洗工钱",
+        "evidence": [
+          {
+            "chapter": 2,
+            "sha256": "1aff61ae82bab3c18ce9f07dacca310852ca072e1985b52c048c25d9ed267dce",
+            "quote": "掌柜收了簪，折价十五文"
+          }
+        ]
+      },
+      {
+        "event": "韩奉持旧工票带七户乡民至北门",
+        "choice": "拒绝嫌犯代县令答复，捕头依法验人",
+        "change": "实到19人入城登记，另7口留村仅属自报",
+        "evidence": [
+          {
+            "chapter": 2,
+            "sha256": "1aff61ae82bab3c18ce9f07dacca310852ca072e1985b52c048c25d9ed267dce",
+            "quote": "那我不跟你谈。"
+          }
+        ]
+      },
+      {
+        "event": "五坊三类申诉积压，坊役试擦序号",
+        "choice": "主簿保留证据并要求下次核验期限",
+        "change": "书吏人手不足和后续答复责任显性化",
+        "evidence": [
+          {
+            "chapter": 2,
+            "sha256": "1aff61ae82bab3c18ce9f07dacca310852ca072e1985b52c048c25d9ed267dce",
+            "quote": "你再多留十个待核，谁替我写？"
+          }
+        ]
+      },
+      {
+        "event": "伤病离场者不敢失去排号，县令申时到场",
+        "choice": "准申请代候并公开次日临时赈令",
+        "change": "官府留下可追责任，但今日一袋未发",
+        "evidence": [
+          {
+            "chapter": 2,
+            "sha256": "1aff61ae82bab3c18ce9f07dacca310852ca072e1985b52c048c25d9ed267dce",
+            "quote": "本县明早另发临时赈令。"
+          }
+        ]
+      },
+      {
+        "event": "夜里更多乡民持旧工票与路引来到城门",
+        "choice": "韩奉拿登记纸要求县令次日答复",
+        "change": "三千登记口之外的饥民聚集，下一章必须实际分配",
+        "evidence": [
+          {
+            "chapter": 2,
+            "sha256": "1aff61ae82bab3c18ce9f07dacca310852ca072e1985b52c048c25d9ed267dce",
+            "quote": "等着分的人，却已经站到了城墙外。"
+          }
+        ]
+      }
+    ],
+    "plan_comparison": "原八场任务书基本兑现：黎明妇人、县令新令、旧新序争、孩子典簪、韩奉北门、三册与擦号、县令公示、夜间乡民聚集；实际增加了书吏人手不足和第二名受伤孩子的后果。CH003须改用发粮行动打破纸面流程重复。",
+    "reader": {
+      "mode": "same_context_approximation",
+      "limitation": "本轮已接触设定、路线和完整CH001及CH002，限信息读者审读只是同上下文近似，不是真人或独立模型盲读。",
+      "coverage": {
+        "1": {
+          "text_sha256": "9b026639f0418f7e3b58d085458e9ab5cabd09403de838a4a745e67df1945c1d",
+          "mode": "full_text"
+        },
+        "2": {
+          "text_sha256": "1aff61ae82bab3c18ce9f07dacca310852ca072e1985b52c048c25d9ed267dce",
+          "mode": "full_text"
+        }
+      },
+      "understanding": "读者能区分三千城内登记口、韩奉实到19口、罗氏旧第三与丁二旺今晨第三，理解许砚仍戴铐且无发粮权；结尾逼问次日谁能实际领粮。",
+      "information_load": "旧户号、两日队序、申诉暂册、代候、工票等术语密集，但小满诊疗、典簪和北门乡民具体处境缓冲了公文信息；CH003应减少行政解释。",
+      "promise_delivery": "兑现CH001保留旧序和另立暂册的后续成本，罗氏典簪与韩奉书面受理期限真实发生；尚未兑现发粮、无罪和三百袋去向，不能称完成。",
+      "evidence": [
+        {
+          "chapter": 2,
+          "sha256": "1aff61ae82bab3c18ce9f07dacca310852ca072e1985b52c048c25d9ed267dce",
+          "quote": "掌柜收了簪，折价十五文"
+        },
+        {
+          "chapter": 2,
+          "sha256": "1aff61ae82bab3c18ce9f07dacca310852ca072e1985b52c048c25d9ed267dce",
+          "quote": "等着分的人，却已经站到了城墙外。"
+        }
+      ],
+      "issues": [
+        {
+          "severity": "suggestion",
+          "status": "open",
+          "reason": "罗氏‘今日的三给他’只是情绪上不争第三，非合法转号；CH003必须保留正式序号未裁的状态。",
+          "evidence": {
+            "chapter": 2,
+            "sha256": "1aff61ae82bab3c18ce9f07dacca310852ca072e1985b52c048c25d9ed267dce",
+            "quote": "我说今日的三给他。"
+          }
+        },
+        {
+          "severity": "suggestion",
+          "status": "open",
+          "reason": "连续两章未实际发粮，中后段书吏文书辩论仍密；CH003必须用真实配粮及拒发代价换节奏。",
+          "evidence": {
+            "chapter": 2,
+            "sha256": "1aff61ae82bab3c18ce9f07dacca310852ca072e1985b52c048c25d9ed267dce",
+            "quote": "县仓今日未出一袋。"
+          }
+        }
+      ]
+    },
+    "character_causality": {
+      "opposition": {
+        "status": "reviewed",
+        "conclusion": "韩奉拒绝由嫌犯代理答复，主簿质疑书吏负担，坊役想擦冲突序号避免明日挨打，均有独立诉求。",
+        "evidence": [
+          {
+            "chapter": 2,
+            "sha256": "1aff61ae82bab3c18ce9f07dacca310852ca072e1985b52c048c25d9ed267dce",
+            "quote": "那我不跟你谈。"
+          },
+          {
+            "chapter": 2,
+            "sha256": "1aff61ae82bab3c18ce9f07dacca310852ca072e1985b52c048c25d9ed267dce",
+            "quote": "你再多留十个待核，谁替我写？"
+          }
+        ]
+      },
+      "dialogue": {
+        "status": "reviewed",
+        "conclusion": "罗氏要保留旧序并救子，丁二旺要守住今晨第三，韩奉要乡民被算作县人，县令不愿越权许粮，许砚只能提核验办法。",
+        "evidence": [
+          {
+            "chapter": 2,
+            "sha256": "1aff61ae82bab3c18ce9f07dacca310852ca072e1985b52c048c25d9ed267dce",
+            "quote": "我今日排的三，也不是偷你的三。"
+          },
+          {
+            "chapter": 2,
+            "sha256": "1aff61ae82bab3c18ce9f07dacca310852ca072e1985b52c048c25d9ed267dce",
+            "quote": "我没说先领。我说先把人算人。"
+          }
+        ]
+      },
+      "aftermath": {
+        "status": "reviewed",
+        "conclusion": "罗氏典簪、误工，小满未痊愈，韩奉19人破庙借宿，县令承诺明日受理与赈令，仓粮仍零支出，均可延续。",
+        "evidence": [
+          {
+            "chapter": 2,
+            "sha256": "1aff61ae82bab3c18ce9f07dacca310852ca072e1985b52c048c25d9ed267dce",
+            "quote": "那地方有屋顶，没有粮"
+          },
+          {
+            "chapter": 2,
+            "sha256": "1aff61ae82bab3c18ce9f07dacca310852ca072e1985b52c048c25d9ed267dce",
+            "quote": "掌柜收了簪，折价十五文"
+          }
+        ]
+      }
+    },
+    "history": {
+      "index_sha256": "4ee515e3307bff6e539cc802aa3cfe47524b1aaa461b4f7cddad6d332b5f8339",
+      "queries": [
+        "木牌 暂册 赈户 无号",
+        "饥饿 领粮 门外 赈户"
+      ],
+      "comparisons": [
+        {
+          "similarity": "两章均由许砚主张保留纸面证据，县令/主簿受压力签令，存在‘留纸代替救人’的重复风险。",
+          "difference": "CH001固定仓内物证与账责；CH002涉及旧新排号、孩子看诊典簪和韩奉19人进城，主角无法替县令分配，代价由具体家庭承担。",
+          "source": {
+            "chapter": 1,
+            "sha256": "9b026639f0418f7e3b58d085458e9ab5cabd09403de838a4a745e67df1945c1d",
+            "quote": "第一人报一百六十，第二人也报一百六十。"
+          },
+          "current_evidence": {
+            "chapter": 2,
+            "sha256": "1aff61ae82bab3c18ce9f07dacca310852ca072e1985b52c048c25d9ed267dce",
+            "quote": "掌柜收了簪，折价十五文"
+          }
+        }
+      ],
+      "no_match_reason": ""
+    },
+    "reader_updates": [
+      {
+        "kind": "observed",
+        "statement": "五月初十县仓160袋仍封存、名额8000斤净重待验，72袋种粮未动，今日未发粮。",
+        "evidence": [
+          {
+            "chapter": 2,
+            "sha256": "1aff61ae82bab3c18ce9f07dacca310852ca072e1985b52c048c25d9ed267dce",
+            "quote": "一百六十袋仍封存，名额八千斤，净重待复秤。"
+          }
+        ]
+      },
+      {
+        "kind": "observed",
+        "statement": "罗氏典簪折价15文为小满就诊，旧第三仍待复核，代候仅申请未获发粮资格。",
+        "evidence": [
+          {
+            "chapter": 2,
+            "sha256": "1aff61ae82bab3c18ce9f07dacca310852ca072e1985b52c048c25d9ed267dce",
+            "quote": "掌柜收了簪，折价十五文"
+          },
+          {
+            "chapter": 2,
+            "sha256": "1aff61ae82bab3c18ce9f07dacca310852ca072e1985b52c048c25d9ed267dce",
+            "quote": "原第三待复核"
+          }
+        ]
+      },
+      {
+        "kind": "observed",
+        "statement": "韩奉带19名实到乡民入城、7口留村自报，县令承诺次日午前书面答复第一批实到者受理核籍。",
+        "evidence": [
+          {
+            "chapter": 2,
+            "sha256": "1aff61ae82bab3c18ce9f07dacca310852ca072e1985b52c048c25d9ed267dce",
+            "quote": "北门新到十九人已记实到，韩奉自报留村七口未见人。"
+          }
+        ]
+      },
+      {
+        "kind": "claim",
+        "statement": "韩奉称其旧工票出自县里修渠劳役，但工票不是赈牌，尚未逐一核其真实性。",
+        "evidence": [
+          {
+            "chapter": 2,
+            "sha256": "1aff61ae82bab3c18ce9f07dacca310852ca072e1985b52c048c25d9ed267dce",
+            "quote": "前年修东渠，县里叫我们带干粮来做工。"
+          }
+        ]
+      },
+      {
+        "kind": "uncertain",
+        "statement": "夜间后来者数量、能否获赈粮和三百袋真实去向尚未核实。",
+        "evidence": [
+          {
+            "chapter": 2,
+            "sha256": "1aff61ae82bab3c18ce9f07dacca310852ca072e1985b52c048c25d9ed267dce",
+            "quote": "守卒认得路引上的押记，却不知道该把这些人带往哪一张册。"
+          }
+        ]
+      }
+    ],
+    "reader_update_note": "事实、韩奉自述和未核事项分层；不把名额8000斤当净重，不把旧工票当赈号，不把自报7口当实到，也不把罗氏情绪让序当合法转号。",
+    "surface_findings": []
+  }
+}
