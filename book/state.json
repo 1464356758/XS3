@@ -2,7 +2,7 @@
   "schema_version": 2,
   "book_id": "7be49326-b891-4d4a-ad8c-7f189ed00645",
   "title": "《大旱三年，我替县城算活路》",
-  "revision": 4,
+  "revision": 5,
   "config": {
     "target_chapters": 100,
     "target_han": 900000,
@@ -31,6 +31,16 @@
       "record_sha256": "5932ed0c3007a861f924cfbb5d7fd3e538c1d7ff86853daf412a59b7e9b95f11",
       "han_count": 9800,
       "adopted_at": "2026-10-28T15:06:09+00:00"
+    },
+    "2": {
+      "title": "门外三千人",
+      "stage": "S01",
+      "text_path": "chapters/CH002_1aff61ae82bab3c18ce9f07dacca310852ca072e1985b52c048c25d9ed267dce.txt",
+      "text_sha256": "1aff61ae82bab3c18ce9f07dacca310852ca072e1985b52c048c25d9ed267dce",
+      "record_path": "records/CH002_abbdd9518b4f1d6c227039322ff1f6500cb46f37ccfa426da058df2f9962adc6.json",
+      "record_sha256": "abbdd9518b4f1d6c227039322ff1f6500cb46f37ccfa426da058df2f9962adc6",
+      "han_count": 8259,
+      "adopted_at": "2026-10-29T19:10:03+00:00"
     }
   },
   "checkpoints": [],
@@ -84,7 +94,7 @@
       "task_id": "b1722310-a491-4924-91fa-89a843b1d57c",
       "chapter": 2,
       "mode": "write",
-      "phase": "candidate",
+      "phase": "adopted",
       "repairs": 0,
       "history": [
         {
@@ -105,6 +115,10 @@
       "1": {
         "text_sha256": "9b026639f0418f7e3b58d085458e9ab5cabd09403de838a4a745e67df1945c1d",
         "record_sha256": "5932ed0c3007a861f924cfbb5d7fd3e538c1d7ff86853daf412a59b7e9b95f11"
+      },
+      "2": {
+        "text_sha256": "1aff61ae82bab3c18ce9f07dacca310852ca072e1985b52c048c25d9ed267dce",
+        "record_sha256": "abbdd9518b4f1d6c227039322ff1f6500cb46f37ccfa426da058df2f9962adc6"
       }
     },
     "published": {},
@@ -117,7 +131,7 @@
       "2": {
         "path": "releases/CH002_34f970e598861f50f487a6775b48874140dca6803264ac2047fb48da35100a74.json",
         "sha256": "34f970e598861f50f487a6775b48874140dca6803264ac2047fb48da35100a74",
-        "used": false
+        "used": true
       }
     },
     "promises": {
@@ -138,7 +152,7 @@
         ],
         "deadline_chapter": 20,
         "status": "open",
-        "last_reviewed_chapter": 1
+        "last_reviewed_chapter": 2
       },
       "P02": {
         "history": [
@@ -157,7 +171,7 @@
         ],
         "deadline_chapter": 10,
         "status": "open",
-        "last_reviewed_chapter": 1
+        "last_reviewed_chapter": 2
       },
       "P03": {
         "history": [
@@ -176,7 +190,7 @@
         ],
         "deadline_chapter": 20,
         "status": "open",
-        "last_reviewed_chapter": 1
+        "last_reviewed_chapter": 2
       },
       "P05": {
         "history": [
@@ -195,7 +209,7 @@
         ],
         "deadline_chapter": 10,
         "status": "open",
-        "last_reviewed_chapter": 1
+        "last_reviewed_chapter": 2
       }
     },
     "incidents": {}

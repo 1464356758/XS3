@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "revision": 6,
+  "revision": 7,
   "book_id": "7be49326-b891-4d4a-ad8c-7f189ed00645",
-  "phase": "PLANNING",
+  "phase": "WAITING_NEXT",
   "platform": "17k",
   "selected_topic": {
     "id": "T01",
@@ -28,7 +28,7 @@
   },
   "research_path": "research/platform_32be60e302f637fabf4a55b30494afd7246b966bb0871924ed885bcd6c28300d.json",
   "topics_path": "research/topics_01a68c19995f14b5eb2d2606c6cfd8eb56bb246c03b978f7bc8254fa8535db96.json",
-  "chapter": 2,
+  "chapter": 3,
   "history": [
     {
       "at": "2026-10-28T09:13:53+00:00",
@@ -71,9 +71,15 @@
       "phase": "PLANNING",
       "label": "长篇规划",
       "detail": "CH001《八千斤粮》已完成实测汉字、审读、发布前检查并定稿冻结；暂无平台发布回执。下一章须读取本章全部冻结正文。"
+    },
+    {
+      "at": "2026-10-29T19:10:03+00:00",
+      "phase": "WAITING_NEXT",
+      "label": "等待下一章",
+      "detail": "第2章已采用并冻结；平台发布另凭真实回执登记。"
     }
   ],
-  "detail": "CH001《八千斤粮》已完成实测汉字、审读、发布前检查并定稿冻结；暂无平台发布回执。下一章须读取本章全部冻结正文。",
-  "next_action": "开始CH002《门外三千人》前先核对木牌旧序、暂册、库存净重与外衙验转副联；仅写下一章。",
-  "updated_at": "2026-10-28T15:06:09+00:00"
+  "detail": "第2章已采用并冻结；平台发布另凭真实回执登记。",
+  "next_action": "读取正式状态后，由下一次日更处理下一章。",
+  "updated_at": "2026-10-29T19:10:03+00:00"
 }
