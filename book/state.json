@@ -52,7 +52,24 @@
       "reason": "作者已选定T03，登记100章十阶段因果路线及后续状态变化；尚未写章"
     }
   ],
-  "tasks": {},
+  "tasks": {
+    "1": {
+      "task_id": "a79f32b5-81fa-4d0f-b9fb-27110dfde9c1",
+      "chapter": 1,
+      "mode": "write",
+      "phase": "candidate",
+      "repairs": 0,
+      "history": [
+        {
+          "sha256": "831cf3e99873824eb4db9a904dface44aea19e3ce1af19c3ca37ce8839e78271",
+          "reason": "初稿",
+          "repairs": 0
+        }
+      ],
+      "candidate_sha256": "831cf3e99873824eb4db9a904dface44aea19e3ce1af19c3ca37ce8839e78271",
+      "candidate_path": "candidates/CH001_831cf3e99873824eb4db9a904dface44aea19e3ce1af19c3ca37ce8839e78271.txt"
+    }
+  },
   "completion": null,
   "serialization": {
     "schema_version": 1,
