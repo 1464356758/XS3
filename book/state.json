@@ -62,5 +62,11 @@
     "gates": {},
     "promises": {},
     "incidents": {}
+  },
+  "writing_briefs": {
+    "1": {
+      "path": "briefs/CH001_b864b2e7a9e0c1bd48fab5d11a2d394d2e578b636cee37c48b15a89041ba6e27.json",
+      "sha256": "b864b2e7a9e0c1bd48fab5d11a2d394d2e578b636cee37c48b15a89041ba6e27"
+    }
   }
 }
