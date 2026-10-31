@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "xs3-ch001-repair-20261031-8dc2f194",
-  "base_sha": "b93fa4c2aefad3799c5ce2faab7b036a13f01432",
+  "request_id": "xs3-ch001-v2record-20261031-b8f4a1d0",
+  "base_sha": "ec5d3fd1594782d66552b6db6af0bc676ae2f283",
   "book_id": "376cd0c1-c6be-4958-88fe-08c5f9c37598",
   "controller": {
     "kind": "automation",
@@ -17,13 +17,11 @@
       "args": [
         "--root",
         "book",
-        "repair",
-        "--chapter",
-        "1",
+        "check-record",
         "--text",
         "drafts/XS3_CH001_V2.txt",
-        "--reason",
-        "修正时序歧义及升职错字，保持既有情节与事实不变。"
+        "--record",
+        "drafts/XS3_CH001_V2_record.json"
       ]
     },
     {
@@ -31,13 +29,13 @@
       "args": [
         "--root",
         "book",
-        "context",
-        "--profile",
-        "reader",
+        "release-request",
         "--text",
         "drafts/XS3_CH001_V2.txt",
+        "--record",
+        "drafts/XS3_CH001_V2_record.json",
         "--out",
-        "drafts/XS3_CH001_reader_V2.md"
+        "drafts/XS3_CH001_V2_release_template.json"
       ]
     }
   ]
