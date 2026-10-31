@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "xs3-ch001-context-20261031-7f20acd9",
-  "base_sha": "9dda86987879c66d2ba197cc314de2db23f2e0c6",
+  "request_id": "xs3-ch001-briefwriter-20261031-d7e9ca30",
+  "base_sha": "6626e0d956bfff15e5af915ab8044f498ac892c4",
   "book_id": "376cd0c1-c6be-4958-88fe-08c5f9c37598",
   "controller": {
     "kind": "automation",
@@ -17,9 +17,9 @@
       "args": [
         "--root",
         "book",
-        "brief-request",
-        "--out",
-        "drafts/XS3_CH001_brief_template.json"
+        "brief-check",
+        "--file",
+        "drafts/XS3_CH001_brief_pending.json"
       ]
     },
     {
@@ -29,7 +29,7 @@
         "book",
         "history-search",
         "--query",
-        "命秤 药谷 断药 证人"
+        "乙四七 纸角 废材 封存"
       ]
     },
     {
@@ -39,11 +39,9 @@
         "book",
         "context",
         "--profile",
-        "author",
-        "--query",
-        "林杏 谢迟 庄烬 命秤 乙四七 谢棠",
+        "writer",
         "--out",
-        "drafts/XS3_CH001_author_packet.md"
+        "drafts/XS3_CH001_writer_packet.md"
       ]
     }
   ]
