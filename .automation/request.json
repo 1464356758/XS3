@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "xs3-ch001-briefwriter-20261031-d7e9ca30",
-  "base_sha": "6626e0d956bfff15e5af915ab8044f498ac892c4",
+  "request_id": "xs3-ch001-candidate-20261031-3fc0a15d",
+  "base_sha": "e843bdc974bd99c060678c2f5db85cfc8e29d43f",
   "book_id": "376cd0c1-c6be-4958-88fe-08c5f9c37598",
   "controller": {
     "kind": "automation",
@@ -17,19 +17,11 @@
       "args": [
         "--root",
         "book",
-        "brief-check",
-        "--file",
-        "drafts/XS3_CH001_brief_pending.json"
-      ]
-    },
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "history-search",
-        "--query",
-        "乙四七 纸角 废材 封存"
+        "candidate",
+        "--chapter",
+        "1",
+        "--text",
+        "drafts/XS3_CH001.txt"
       ]
     },
     {
@@ -39,9 +31,11 @@
         "book",
         "context",
         "--profile",
-        "writer",
+        "reader",
+        "--text",
+        "drafts/XS3_CH001.txt",
         "--out",
-        "drafts/XS3_CH001_writer_packet.md"
+        "drafts/XS3_CH001_reader_packet.md"
       ]
     }
   ]
