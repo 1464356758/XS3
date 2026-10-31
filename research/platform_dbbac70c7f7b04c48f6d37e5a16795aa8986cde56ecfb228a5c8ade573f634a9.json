@@ -1,0 +1,182 @@
+{
+  "platform": "17k",
+  "checked_at": "2026-10-31T11:15:00+08:00",
+  "coverage_status": "partial",
+  "sources": [
+    {
+      "id": "OFF01",
+      "title": "17K小说网2026年作者福利及签约保障",
+      "url": "https://zhuanti.17k.com/subject/2026/fuli/index.html",
+      "accessed_at": "2026-10-31T11:15:00+08:00",
+      "scope": "福利制度/违规则/签约激励"
+    },
+    {
+      "id": "OFF02",
+      "title": "17K作者创作中心及创建入口",
+      "url": "https://author.17k.com/",
+      "accessed_at": "2026-10-31T11:15:00+08:00",
+      "scope": "创作与作品管理入口"
+    },
+    {
+      "id": "OFF03",
+      "title": "17K作品管理-签约与上架申请说明",
+      "url": "https://author.17k.com/manage/applicant.html?bookid=3433128",
+      "accessed_at": "2026-10-31T11:15:00+08:00",
+      "scope": "一键直签申请说明；页面为动态模板，谨慎解释"
+    },
+    {
+      "id": "OFF04",
+      "title": "17K小说网帮助中心",
+      "url": "https://img1.17k.com/touch/help.html",
+      "accessed_at": "2026-10-31T11:15:00+08:00",
+      "scope": "作者创建/早期普通签约说明，可能过时"
+    },
+    {
+      "id": "OFF05",
+      "title": "17K小说网官方排行榜",
+      "url": "https://www.17k.com/top/",
+      "accessed_at": "2026-10-31T11:15:00+08:00",
+      "scope": "2026-10-31 10:00页面可见榜单快照"
+    },
+    {
+      "id": "OFF06",
+      "title": "17K小说网首页题材推荐",
+      "url": "https://www.17k.com/",
+      "accessed_at": "2026-10-31T11:15:00+08:00",
+      "scope": "首页作品/多题材推荐，仅佐证题材可见性"
+    },
+    {
+      "id": "OFF07",
+      "title": "17K用户协议",
+      "url": "https://www.17k.com/inc/agreement/users.html",
+      "accessed_at": "2026-10-31T11:15:00+08:00",
+      "scope": "用户权利及平台合规边界"
+    }
+  ],
+  "rules": [
+    {
+      "topic": "官方投稿及创建入口",
+      "status": "verified",
+      "source_id": "OFF02",
+      "conclusion": "作者创作中心提供作者登录/新建作品功能；实际作者账号、身份审核与投稿提交尚未登录验证，本系统不代用户投稿。"
+    },
+    {
+      "topic": "作品原创与版权",
+      "status": "verified",
+      "source_id": "OFF01",
+      "conclusion": "官方福利规则把抄袭、枪稿、旧稿新用、重复更新、作弊等列入违规。投稿需原创且版权清晰；签约形式须看实际协议。"
+    },
+    {
+      "topic": "一键直签",
+      "status": "verified",
+      "source_id": "OFF03",
+      "conclusion": "创作中心签约说明称原创、在本平台首发且超过8000字可申请一键直签；该类型合同及福利限制需申请页实际展示和合同为准，不等于保障全勤或买断。"
+    },
+    {
+      "topic": "2026福利与保障全勤",
+      "status": "verified",
+      "source_id": "OFF01",
+      "conclusion": "保障全勤、分成、保底/买断等为不同合作通道，各有签约、上架、日/月更新及考核门槛；每日8000–10000汉字写作计划不自动产生收益资格。"
+    },
+    {
+      "topic": "普通签约字数存在旧帮助冲突",
+      "status": "verified",
+      "source_id": "OFF04",
+      "conclusion": "旧帮助中心称发书至3万字申请普通签约，与2026的一键直签8千字通道不同；视作不同类型/可能存在历史更新差异，不可笼统说17K统一签约门槛。"
+    },
+    {
+      "topic": "现行AI辅助或AI生成长篇小说可签约规定",
+      "status": "unknown",
+      "source_id": null,
+      "conclusion": "在本次已访问的官方作者中心、福利、帮助和用户协议中未确认统一准入条款；AI短剧/AI漫剧剧本征集不等于AI创作长篇小说被允许。提交平台前须查看最新作者协议或咨询客服编辑。"
+    },
+    {
+      "topic": "官方榜单类型",
+      "status": "verified",
+      "source_id": "OFF05",
+      "conclusion": "页面分推荐票榜、畅销榜、新作品点击榜、作品点击榜等，样本为不同指标和不同周期（周/月/总），不得跨榜位比较收益或留存。"
+    },
+    {
+      "topic": "是否保证签约、低保或固定收入",
+      "status": "unknown",
+      "source_id": null,
+      "conclusion": "无任何官方依据可保证本书签约、低保、分成或具体阅读量，必须等待实际审核和账户结算。"
+    }
+  ],
+  "rank_samples": [],
+  "observed_rankings_unverified_for_full_sample": [
+    {
+      "title": "星痕之门",
+      "rank": 1,
+      "list_name": "推荐票榜·周·全站",
+      "metric": "推荐票",
+      "visible_count": 2561
+    },
+    {
+      "title": "太上无情",
+      "rank": 2,
+      "list_name": "推荐票榜·周·全站",
+      "metric": "推荐票",
+      "visible_count": 1937
+    },
+    {
+      "title": "九星霸体诀",
+      "rank": 3,
+      "list_name": "推荐票榜·周·全站",
+      "metric": "推荐票",
+      "visible_count": 641
+    },
+    {
+      "title": "我有一门呼吸法",
+      "rank": 1,
+      "list_name": "新作品点击榜·周·全站",
+      "metric": "可见数",
+      "visible_count": 747
+    },
+    {
+      "title": "汉末：大汉皇叔祖",
+      "rank": 3,
+      "list_name": "新作品点击榜·周·全站",
+      "metric": "可见数",
+      "visible_count": 535
+    },
+    {
+      "title": "重回归墟",
+      "rank": 4,
+      "list_name": "新作品点击榜·周·全站",
+      "metric": "可见数",
+      "visible_count": 447
+    },
+    {
+      "title": "大明异案录",
+      "rank": 5,
+      "list_name": "新作品点击榜·周·全站",
+      "metric": "可见数",
+      "visible_count": 234
+    },
+    {
+      "title": "穿书七零，我一个…",
+      "rank": 1,
+      "list_name": "新作品点击榜·月·女生",
+      "metric": "可见数",
+      "visible_count": 1025,
+      "truncated_title": true
+    },
+    {
+      "title": "万古第一神",
+      "rank": 2,
+      "list_name": "畅销榜·周·全站",
+      "metric": "名次",
+      "visible_count": null
+    }
+  ],
+  "ranking_observation_time": "2026-10-31 10:00（页面所示北京时间快照；截取周/月子榜位，非即时排名）",
+  "market_analysis": "参考推荐票/畅销/新作品点击三个口径，仅判断玄幻修仙、历史穿越、都市异能、悬疑与年代经营等题材在榜可见；不可推论新书真实签约率、转化、收入。优先选择人物利益冲突明确、开篇有可兑现承诺、每10章产生真实状态变化的原创结构。",
+  "gaps": [
+    "目前多条排名仅有标题和榜位，尚未逐项取得作品详情真实链接、作者字段，因此不计入必填作者+book_url的rank_samples；完整扫榜未达5条，标记partial。",
+    "榜单搜索/渲染快照变化较快，作者信息与当前实时排名未全独立复验。",
+    "未核到现行专门针对AI辅助长篇原创作品的明确准入条款；签约前应核实。",
+    "2026福利对应的个体签约类别、上架及付款条件需要实际账号/合同核对。"
+  ],
+  "selection_guidance": "偏好热门但不照搬榜书；可优先考察T01/T02/T03，作者负责最终选定。"
+}
