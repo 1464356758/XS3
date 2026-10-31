@@ -2,7 +2,7 @@
   "schema_version": 2,
   "book_id": "376cd0c1-c6be-4958-88fe-08c5f9c37598",
   "title": "仙门欠我三千命",
-  "revision": 3,
+  "revision": 4,
   "config": {
     "target_chapters": 100,
     "target_han": 900000,
@@ -21,7 +21,18 @@
     "opening_impact_max_han": 3000,
     "narrative_review_required": true
   },
-  "chapters": {},
+  "chapters": {
+    "1": {
+      "title": "药谷收寿",
+      "stage": "S01",
+      "text_path": "chapters/CH001_ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb.txt",
+      "text_sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+      "record_path": "records/CH001_eb40df45bd855d6c7743ef69586172538a15ed2cde7270c9823ab122933a4270.json",
+      "record_sha256": "eb40df45bd855d6c7743ef69586172538a15ed2cde7270c9823ab122933a4270",
+      "han_count": 9071,
+      "adopted_at": "2026-10-31T06:34:45+00:00"
+    }
+  },
   "checkpoints": [],
   "needs_revalidation": [],
   "inputs": {
@@ -57,7 +68,7 @@
       "task_id": "a79f32b5-81fa-4d0f-b9fb-27110dfde9c1",
       "chapter": 1,
       "mode": "write",
-      "phase": "candidate",
+      "phase": "adopted",
       "repairs": 1,
       "history": [
         {
@@ -79,10 +90,98 @@
   "serialization": {
     "schema_version": 1,
     "enabled": true,
-    "frozen": {},
+    "frozen": {
+      "1": {
+        "text_sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+        "record_sha256": "eb40df45bd855d6c7743ef69586172538a15ed2cde7270c9823ab122933a4270"
+      }
+    },
     "published": {},
-    "gates": {},
-    "promises": {},
+    "gates": {
+      "1": {
+        "path": "releases/CH001_a8cac8063a8252521817599706237665cb548476a0f4dd29b9c1dcf5651715e0.json",
+        "sha256": "a8cac8063a8252521817599706237665cb548476a0f4dd29b9c1dcf5651715e0",
+        "used": true
+      }
+    },
+    "promises": {
+      "T03-P01": {
+        "history": [
+          {
+            "id": "T03-P01",
+            "action": "set",
+            "deadline_chapter": 3,
+            "reason": "林杏付费与暂存药须CH002—003实查，尚未完成。",
+            "evidence": {
+              "chapter": 1,
+              "sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+              "quote": "林杏问：“那我今天带来的十枚，也能写进去么？”"
+            },
+            "chapter": 1
+          }
+        ],
+        "deadline_chapter": 3,
+        "status": "open",
+        "last_reviewed_chapter": 1
+      },
+      "T03-P02": {
+        "history": [
+          {
+            "id": "T03-P02",
+            "action": "set",
+            "deadline_chapter": 5,
+            "reason": "D5续药应CH005实付，CH006再查领药；本章一分未筹。",
+            "evidence": {
+              "chapter": 1,
+              "sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+              "quote": "霜月十一以前，妹妹谢棠还要续药两灵铢。"
+            },
+            "chapter": 1
+          }
+        ],
+        "deadline_chapter": 5,
+        "status": "open",
+        "last_reviewed_chapter": 1
+      },
+      "T03-P03": {
+        "history": [
+          {
+            "id": "T03-P03",
+            "action": "set",
+            "deadline_chapter": 6,
+            "reason": "乙四七纸角不是伪契定论，CH003/006核原始副账阵砂。",
+            "evidence": {
+              "chapter": 1,
+              "sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+              "quote": "不是一次落笔能有的痕迹。"
+            },
+            "chapter": 1
+          }
+        ],
+        "deadline_chapter": 6,
+        "status": "open",
+        "last_reviewed_chapter": 1
+      },
+      "T03-P04": {
+        "history": [
+          {
+            "id": "T03-P04",
+            "action": "set",
+            "deadline_chapter": 10,
+            "reason": "撤牌形成持续生计危机，CH010离谷后需有可供给证人渠道。",
+            "evidence": {
+              "chapter": 1,
+              "sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+              "quote": "暂撤收契房轮值。内务房查明前不得再碰命秤、原契和出入账。"
+            },
+            "chapter": 1
+          }
+        ],
+        "deadline_chapter": 10,
+        "status": "open",
+        "last_reviewed_chapter": 1
+      }
+    },
     "incidents": {}
   },
   "writing_briefs": {

@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "revision": 6,
+  "revision": 7,
   "book_id": "376cd0c1-c6be-4958-88fe-08c5f9c37598",
-  "phase": "REVIEWING",
+  "phase": "WAITING_NEXT",
   "platform": "17k",
   "selected_topic": {
     "id": "T03",
@@ -22,7 +22,7 @@
   },
   "research_path": "research/platform_dbbac70c7f7b04c48f6d37e5a16795aa8986cde56ecfb228a5c8ade573f634a9.json",
   "topics_path": "research/topics_db812f8a69861b61c5bf9ae41bbd26cf395cb5561d306f816afc0f3c8d01841e.json",
-  "chapter": 1,
+  "chapter": 2,
   "history": [
     {
       "at": "2026-10-31T03:04:07+00:00",
@@ -65,9 +65,15 @@
       "phase": "REVIEWING",
       "label": "检查本章",
       "detail": "CH001《药谷收寿》完整9071汉字初稿和带原文引文的审核准备资料已保存；候选、发布前检查及正式冻结均未由Python工具完成。"
+    },
+    {
+      "at": "2026-10-31T06:34:45+00:00",
+      "phase": "WAITING_NEXT",
+      "label": "等待下一章",
+      "detail": "第1章已采用并冻结；平台发布另凭真实回执登记。"
     }
   ],
-  "detail": "CH001《药谷收寿》完整9071汉字初稿和带原文引文的审核准备资料已保存；候选、发布前检查及正式冻结均未由Python工具完成。",
-  "next_action": "继续同一章：在可核实检出完整仓库并运行官方Python的环境进行任务书登记、候选、实际发布前审读、release-check、adopt、索引校验及远端回读，不得提前写CH002。",
-  "updated_at": "2026-10-31T04:54:04.001Z"
+  "detail": "第1章已采用并冻结；平台发布另凭真实回执登记。",
+  "next_action": "读取正式状态后，由下一次日更处理下一章。",
+  "updated_at": "2026-10-31T06:34:45+00:00"
 }

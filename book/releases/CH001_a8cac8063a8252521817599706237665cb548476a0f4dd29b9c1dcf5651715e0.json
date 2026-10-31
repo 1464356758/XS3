@@ -1,0 +1,436 @@
+{
+  "schema_version": 1,
+  "book_id": "376cd0c1-c6be-4958-88fe-08c5f9c37598",
+  "chapter": 1,
+  "base_revision": 3,
+  "task_id": "a79f32b5-81fa-4d0f-b9fb-27110dfde9c1",
+  "repairs": 1,
+  "text_sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+  "record_sha256": "eb40df45bd855d6c7743ef69586172538a15ed2cde7270c9823ab122933a4270",
+  "canon_sha256": "bf7007bd30947ea5654393ba4661faba9900a8569280999d265229ddb8798944",
+  "roadmap_sha256": "6520708fddf9d9af1a26e892a789b0066db99e45a39606a480503f9bd58e67a2",
+  "narrative_review_version": 1,
+  "writing_brief_sha256": "b864b2e7a9e0c1bd48fab5d11a2d394d2e578b636cee37c48b15a89041ba6e27",
+  "decision": "release",
+  "read_full_text": true,
+  "blocking_issues": [],
+  "read_coverage": {
+    "1": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb"
+  },
+  "reader_reason_to_continue": "乙四七账面已收为何先于启阵、纸角的重复压痕能否与副账互证？主角失权后怎么护林杏、筹妹药？",
+  "consequence": "谢迟失去收契房轮值和接触原契的权限；林杏免去本次强行兑付却仍未获得药，谢棠需D5的两灵铢。",
+  "ending_runway": "CH002实际查药价和保护病妇，CH003取有限副账，CH004通过救治寻报酬，CH005付D5药费；不提前揭零号。",
+  "checks": {
+    "timeline": {
+      "decision": "pass",
+      "conclusion": "D0卯时至午前，地点药房、命秤房、炉房、偏屋、医站相连；D5按霜月十一执行，没有暗挪期限。 本轮将原句‘午后的阳光’改为‘日头还没越过谷口的山脊’，消除可能误读为下午的时序歧义。",
+      "evidence": [
+        {
+          "chapter": 1,
+          "sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+          "quote": "霜月初六，卯时的药房还没开门"
+        },
+        {
+          "chapter": 1,
+          "sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+          "quote": "日头还没越过谷口的山脊"
+        }
+      ]
+    },
+    "knowledge": {
+      "decision": "pass",
+      "conclusion": "主人公只见墨痕与账异，明确不能定伪；苏见微明确只掌医病，不懂内账。",
+      "evidence": [
+        {
+          "chapter": 1,
+          "sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+          "quote": "他不敢凭这点东西说有人作伪。"
+        },
+        {
+          "chapter": 1,
+          "sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+          "quote": "病人的事我会记，账上的事我还不清楚。"
+        }
+      ]
+    },
+    "props_resources": {
+      "decision": "pass",
+      "conclusion": "谢迟27铜未变，命砂未增加，取到的纸角仅能认压痕；林杏付32铜还是本人说法。",
+      "evidence": [
+        {
+          "chapter": 1,
+          "sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+          "quote": "他的二十七枚铜钱仍在袖里，刚好一枚也没少"
+        },
+        {
+          "chapter": 1,
+          "sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+          "quote": "这一角不够做命砂凭证，只能认纸压痕。"
+        }
+      ]
+    },
+    "causality": {
+      "decision": "pass",
+      "conclusion": "拒签和封存使林杏当次未兑；庄烬撤牌且仍暂存药，不会因辩论自动治病。",
+      "evidence": [
+        {
+          "chapter": 1,
+          "sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+          "quote": "林杏今天这份寿契停在了未兑的位置。"
+        },
+        {
+          "chapter": 1,
+          "sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+          "quote": "暂撤收契房轮值。内务房查明前不得再碰命秤、原契和出入账。"
+        }
+      ]
+    },
+    "power_rules": {
+      "decision": "pass",
+      "conclusion": "铜秤必须依识印、完整见证与命砂记录，主角没有读心与越阶战力；没有凭改账返回寿息。",
+      "evidence": [
+        {
+          "chapter": 1,
+          "sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+          "quote": "铜环并不能自动分辨一个人是否情愿；它只认印的形状、押契时的气息与阵内记录。"
+        }
+      ]
+    },
+    "promises": {
+      "decision": "pass",
+      "conclusion": "已兑现本次未兑，未兑现新药、妹妹药钱和异常判定，全部留明确期限。",
+      "evidence": [
+        {
+          "chapter": 1,
+          "sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+          "quote": "那今天的药还是没有？"
+        },
+        {
+          "chapter": 1,
+          "sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+          "quote": "霜月十一以前，妹妹谢棠还要续药两灵铢。"
+        }
+      ]
+    },
+    "anti_repeat": {
+      "decision": "pass",
+      "conclusion": "本书尚无已采用章；本章分别通过询问、比价、封秤、取废纸、见妹妹推动，不能冒充跨章比较已通过。 两组不同检索词已通过GitHub执行器实查，历史索引为0条，只能审章内场景功能差异。",
+      "evidence": [
+        {
+          "chapter": 1,
+          "sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+          "quote": "这一角不够做命砂凭证，只能认纸压痕。"
+        },
+        {
+          "chapter": 1,
+          "sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+          "quote": "门口林杏却还坐着，命秤根本没有启用。"
+        }
+      ]
+    },
+    "character_agency": {
+      "decision": "pass",
+      "conclusion": "谢迟主动拒签，林杏自己选择暂缓且要求本人复核，苏见微独立从医者立场行动。",
+      "evidence": [
+        {
+          "chapter": 1,
+          "sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+          "quote": "林杏退了一步：“我现在不办理。”"
+        },
+        {
+          "chapter": 1,
+          "sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+          "quote": "不是你替我说，是我自己说。"
+        }
+      ]
+    }
+  },
+  "comparison": [],
+  "future_window": [
+    {
+      "chapter": 2,
+      "goal": "保护病人并核真实药单",
+      "change": "取得药单编号与病人自主证言",
+      "ending_question": "如何合法取得出库原单？"
+    },
+    {
+      "chapter": 3,
+      "goal": "用有限副账独立对比乙四七",
+      "change": "发现受寿栏空缺与收契方记录不匹配",
+      "ending_question": "宗门能否扣押旧证？"
+    },
+    {
+      "chapter": 4,
+      "goal": "救治换来合法的有条件药费收入",
+      "change": "形成诊疗报酬约定仍不当成到账",
+      "ending_question": "D5之前如何取得两灵铢？"
+    }
+  ],
+  "promise_reviews": [
+    {
+      "id": "T03-P01",
+      "action": "set",
+      "deadline_chapter": 3,
+      "reason": "林杏付费与暂存药须CH002—003实查，尚未完成。",
+      "evidence": {
+        "chapter": 1,
+        "sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+        "quote": "林杏问：“那我今天带来的十枚，也能写进去么？”"
+      }
+    },
+    {
+      "id": "T03-P02",
+      "action": "set",
+      "deadline_chapter": 5,
+      "reason": "D5续药应CH005实付，CH006再查领药；本章一分未筹。",
+      "evidence": {
+        "chapter": 1,
+        "sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+        "quote": "霜月十一以前，妹妹谢棠还要续药两灵铢。"
+      }
+    },
+    {
+      "id": "T03-P03",
+      "action": "set",
+      "deadline_chapter": 6,
+      "reason": "乙四七纸角不是伪契定论，CH003/006核原始副账阵砂。",
+      "evidence": {
+        "chapter": 1,
+        "sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+        "quote": "不是一次落笔能有的痕迹。"
+      }
+    },
+    {
+      "id": "T03-P04",
+      "action": "set",
+      "deadline_chapter": 10,
+      "reason": "撤牌形成持续生计危机，CH010离谷后需有可供给证人渠道。",
+      "evidence": {
+        "chapter": 1,
+        "sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+        "quote": "暂撤收契房轮值。内务房查明前不得再碰命秤、原契和出入账。"
+      }
+    }
+  ],
+  "incident_actions": [],
+  "opening": {
+    "first_hook": {
+      "quote": "“借一年。”收契司的人把笔递到她指间",
+      "why": "实际迫签冲突发生在开头。"
+    },
+    "core_promise": {
+      "quote": "“人是本人，”谢迟拦了一下，“不是她愿意。”",
+      "why": "人物以实际手续反抗未经同意的寿契。"
+    },
+    "protagonist_impact": {
+      "quote": "霜月十一以前，妹妹谢棠还要续药两灵铢。",
+      "why": "其妹药费直接和抉择成本相连。"
+    }
+  },
+  "narrative_review": {
+    "schema_version": 1,
+    "actual_scenes": [
+      {
+        "event": "许七要求林杏以寿契付药，谢迟拦住早押",
+        "choice": "谢迟要求核印和真实意愿",
+        "change": "早押被暂时拦下",
+        "evidence": [
+          {
+            "chapter": 1,
+            "sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+            "quote": "“印还没验。”"
+          }
+        ]
+      },
+      {
+        "event": "核药价与乙四七收契账",
+        "choice": "先记录病妇声明而不篡改官方账",
+        "change": "账面已收与未启阵形成可核矛盾",
+        "evidence": [
+          {
+            "chapter": 1,
+            "sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+            "quote": "门口林杏却还坐着，命秤根本没有启用。"
+          }
+        ]
+      },
+      {
+        "event": "庄烬借妹妹药费促成办契",
+        "choice": "谢迟拒绝用他人出寿换加急申请",
+        "change": "病妇药仍暂存，主管开始人事施压",
+        "evidence": [
+          {
+            "chapter": 1,
+            "sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+            "quote": "我能给你妹妹的药费申请加急。"
+          }
+        ]
+      },
+      {
+        "event": "命秤房办理乙四七手续",
+        "choice": "谢迟要求封砂、拒盖章",
+        "change": "当次未兑且药童轮值被撤",
+        "evidence": [
+          {
+            "chapter": 1,
+            "sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+            "quote": "林杏今天这份寿契停在了未兑的位置。"
+          }
+        ]
+      },
+      {
+        "event": "医者接应、炉房废纸见证、回家对话",
+        "choice": "谢迟不偷原契，取有记录的纸角并面对妹妹",
+        "change": "弱线索保留，药钱压力仍在",
+        "evidence": [
+          {
+            "chapter": 1,
+            "sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+            "quote": "这一角不够做命砂凭证，只能认纸压痕。"
+          }
+        ]
+      }
+    ],
+    "plan_comparison": "实际写了五类关键场面：现场拒签、账目核验、主管要挟、命秤封存、炉房证据和家事。与五场景任务书相比加重病妇自主选择和废材保全过程；未把待核药价写成已查明。 本轮仅修两处字面瑕疵，保留已有五类事件与后果，返修次数为1。",
+    "reader": {
+      "mode": "same_context_approximation",
+      "limitation": "同一个GPT写作且审读，标same_context_approximation；不冒充独立读者与编辑。",
+      "coverage": {
+        "1": {
+          "text_sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+          "mode": "full_text"
+        }
+      },
+      "understanding": "正文足以分清账上已收与真正命秤未启、病妇意愿与药价是两回事。",
+      "information_load": "乙四七、识印、命砂和二证信息密集但出自具体物件；下几章须提高救治和行动比重。",
+      "promise_delivery": "保护病妇当次未兑兑现；实际领药和谢棠药钱仍未兑现。",
+      "evidence": [
+        {
+          "chapter": 1,
+          "sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+          "quote": "林杏今天这份寿契停在了未兑的位置。"
+        },
+        {
+          "chapter": 1,
+          "sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+          "quote": "那今天的药还是没有？"
+        }
+      ],
+      "issues": [
+        {
+          "severity": "suggestion",
+          "status": "open",
+          "reason": "中段手续解释偏密，建议下一章以救治和真实后果提高生活性；尚非事实致命矛盾。",
+          "evidence": {
+            "chapter": 1,
+            "sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+            "quote": "门口林杏却还坐着，命秤根本没有启用。"
+          }
+        }
+      ]
+    },
+    "character_causality": {
+      "opposition": {
+        "status": "reviewed",
+        "conclusion": "庄烬主动控制暂存药与谢棠的申请，又撤销轮值，符合其权力范围。",
+        "evidence": [
+          {
+            "chapter": 1,
+            "sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+            "quote": "我能给你妹妹的药费申请加急。"
+          }
+        ]
+      },
+      "dialogue": {
+        "status": "reviewed",
+        "conclusion": "林杏想知道药价和自身记录，谢迟要手续真实，苏见微强调病人而非内部账。",
+        "evidence": [
+          {
+            "chapter": 1,
+            "sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+            "quote": "不是你替我说，是我自己说。"
+          }
+        ]
+      },
+      "aftermath": {
+        "status": "reviewed",
+        "conclusion": "撤牌后立刻影响谢迟下一顿饭和妹妹续药，林杏未领药由医站接手。",
+        "evidence": [
+          {
+            "chapter": 1,
+            "sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+            "quote": "他的二十七枚铜钱仍在袖里，刚好一枚也没少"
+          }
+        ]
+      }
+    },
+    "history": {
+      "index_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "queries": [
+        "命秤 药谷 断药 证人",
+        "乙四七 纸角 废材 封存"
+      ],
+      "comparisons": [],
+      "no_match_reason": "本书正式已采用章节为0，历史索引无可比较来源，不能虚构第零章或借他书当原文。"
+    },
+    "reader_updates": [
+      {
+        "kind": "observed",
+        "statement": "乙四七当次未启阵、林杏未兑。",
+        "evidence": [
+          {
+            "chapter": 1,
+            "sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+            "quote": "林杏今天这份寿契停在了未兑的位置。"
+          }
+        ]
+      },
+      {
+        "kind": "observed",
+        "statement": "谢迟被暂停收契房轮职和碰账资格。",
+        "evidence": [
+          {
+            "chapter": 1,
+            "sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+            "quote": "暂撤收契房轮值。内务房查明前不得再碰命秤、原契和出入账。"
+          }
+        ]
+      },
+      {
+        "kind": "claim",
+        "statement": "林杏已付32铜是其说法，原收据未核对。",
+        "evidence": [
+          {
+            "chapter": 1,
+            "sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+            "quote": "林婶已经付了三十二铜枚。你账上没有。"
+          }
+        ]
+      },
+      {
+        "kind": "uncertain",
+        "statement": "乙四七有叠加压痕，是否有人伪契未知。",
+        "evidence": [
+          {
+            "chapter": 1,
+            "sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+            "quote": "他不敢凭这点东西说有人作伪。"
+          }
+        ]
+      },
+      {
+        "kind": "observed",
+        "statement": "新药尚未取到且苏见微介入诊疗。",
+        "evidence": [
+          {
+            "chapter": 1,
+            "sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+            "quote": "那今天的药还是没有？"
+          }
+        ]
+      }
+    ],
+    "reader_update_note": "只把本章可见事实记为observed，将付款说法保留claim，将纸痕推断保留uncertain。",
+    "surface_findings": []
+  }
+}
