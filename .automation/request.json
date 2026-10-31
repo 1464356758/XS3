@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "xs3-ch001-begin-20261031-ea724f86",
-  "base_sha": "07deb9bf610961a705f751e314e495a24a081f09",
+  "request_id": "xs3-ch001-context-20261031-7f20acd9",
+  "base_sha": "9dda86987879c66d2ba197cc314de2db23f2e0c6",
   "book_id": "376cd0c1-c6be-4958-88fe-08c5f9c37598",
   "controller": {
     "kind": "automation",
@@ -9,5 +9,42 @@
     "session_id": "xs3-ch001-20261031-manual-c28b1a6e",
     "platform_run_id": null
   },
-  "phase": "begin"
+  "phase": "command",
+  "run_id": "1ee81f8ddfed44ba98588803a9e0b1f1",
+  "commands": [
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "brief-request",
+        "--out",
+        "drafts/XS3_CH001_brief_template.json"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "history-search",
+        "--query",
+        "命秤 药谷 断药 证人"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "context",
+        "--profile",
+        "author",
+        "--query",
+        "林杏 谢迟 庄烬 命秤 乙四七 谢棠",
+        "--out",
+        "drafts/XS3_CH001_author_packet.md"
+      ]
+    }
+  ]
 }
