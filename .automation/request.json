@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "xs3-ch001-candidate-20261031-3fc0a15d",
-  "base_sha": "e843bdc974bd99c060678c2f5db85cfc8e29d43f",
+  "request_id": "xs3-ch001-releaseprep-20261031-6b2e9a0f",
+  "base_sha": "2a263c07d5bb0ef400a1904b6b17e701f4d2b3a9",
   "book_id": "376cd0c1-c6be-4958-88fe-08c5f9c37598",
   "controller": {
     "kind": "automation",
@@ -17,11 +17,11 @@
       "args": [
         "--root",
         "book",
-        "candidate",
-        "--chapter",
-        "1",
+        "check-record",
         "--text",
-        "drafts/XS3_CH001.txt"
+        "drafts/XS3_CH001.txt",
+        "--record",
+        "drafts/XS3_CH001_record_ready.json"
       ]
     },
     {
@@ -29,13 +29,13 @@
       "args": [
         "--root",
         "book",
-        "context",
-        "--profile",
-        "reader",
+        "release-request",
         "--text",
         "drafts/XS3_CH001.txt",
+        "--record",
+        "drafts/XS3_CH001_record_ready.json",
         "--out",
-        "drafts/XS3_CH001_reader_packet.md"
+        "drafts/XS3_CH001_release_template.json"
       ]
     }
   ]

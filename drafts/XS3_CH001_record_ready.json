@@ -1,0 +1,138 @@
+{
+  "chapter": 1,
+  "title": "药谷收寿",
+  "stage": "S01",
+  "base_revision": 3,
+  "canon_sha256": "bf7007bd30947ea5654393ba4661faba9900a8569280999d265229ddb8798944",
+  "text_sha256": "831cf3e99873824eb4db9a904dface44aea19e3ce1af19c3ca37ce8839e78271",
+  "complete": true,
+  "story_time_end": 0,
+  "summary": "D0霜月初六，林杏在药房被要求签出一寿岁以支付用药。谢迟查乙四七命秤编号和昨日药价，指出本人不同意、两名见证不齐且账面已填收。庄烬用妹妹谢棠D5需要两灵铢续药施压，谢迟仍拒签。温朴将乙四七记录为暂缓未启阵，林杏当次未兑但药物尚暂存。谢迟因此被撤收契房轮值。苏见微接应林杏，谢迟经炉房罗师傅登记取得一片残页纸角，其余留待检，无法单凭纸角断定伪造。谢迟回住处和妹妹谈到代价，末尾与林杏决定从实付32铜枚开始核账。",
+  "review": {
+    "read_full_text": true,
+    "decision": "adopt",
+    "blocking_issues": [],
+    "sources_checked": [],
+    "conclusion": "作者同一上下文完整审阅；本章从胁迫到拒契、纸痕、主管施压、未启阵封存、撤牌、病患安置和家庭代价形成连续因果。林杏未兑与未获药有明确区分，纸角只作线索。没有声明独立真实读者评价。"
+  },
+  "facts": [
+    {
+      "kind": "state",
+      "key": "linxing:contract_status",
+      "value": "林杏当日乙四七被登记暂缓未启阵，实际未兑，尚未获药",
+      "holder": "linxing",
+      "valid_from": 0,
+      "valid_until": null,
+      "quote": "林杏今天这份寿契停在了未兑的位置。"
+    },
+    {
+      "kind": "state",
+      "key": "xiechi:office_access",
+      "value": "谢迟被庄烬暂撤收契房轮值，不得再接触命秤和原契",
+      "holder": "xiechi",
+      "valid_from": 0,
+      "valid_until": null,
+      "quote": "经手人谢迟，拒绝按司内调度执行，暂撤收契房轮值。内务房查明前不得再碰命秤、原契和出入账。"
+    },
+    {
+      "kind": "state",
+      "key": "xiechi:cash",
+      "value": "谢迟仍有27铜枚",
+      "holder": "xiechi",
+      "valid_from": 0,
+      "valid_until": null,
+      "quote": "他的二十七枚铜钱仍在袖里，刚好一枚也没少"
+    },
+    {
+      "kind": "state",
+      "key": "xiechi:paper_fragment",
+      "value": "谢迟取得炉房登记剪下、不能据以证明真伪的纸角，余纸留炉房",
+      "holder": "xiechi",
+      "valid_from": 0,
+      "valid_until": null,
+      "quote": "这一角不够做命砂凭证，只能认纸压痕。"
+    },
+    {
+      "kind": "belief",
+      "key": "linxing:paid32",
+      "value": "林杏称已经付32铜枚，尚需药房收据核对",
+      "holder": "林杏",
+      "valid_from": 0,
+      "valid_until": null,
+      "quote": "林婶已经付了三十二铜枚。你账上没有。"
+    },
+    {
+      "kind": "state",
+      "key": "linxing:meds_status",
+      "value": "药房药匣暂存，新增两服尚未领到",
+      "holder": "linxing",
+      "valid_from": 0,
+      "valid_until": null,
+      "quote": "那今天的药还是没有？"
+    },
+    {
+      "kind": "knowledge",
+      "key": "xiechi:uncertain_marks",
+      "value": "谢迟看见压痕异样却自知不能因此定伪",
+      "holder": "谢迟",
+      "valid_from": 0,
+      "valid_until": null,
+      "quote": "他不敢凭这点东西说有人作伪。"
+    },
+    {
+      "kind": "knowledge",
+      "key": "su:limited_account",
+      "value": "苏见微只知病案，明确不懂收契司内账",
+      "holder": "苏见微",
+      "valid_from": 0,
+      "valid_until": null,
+      "quote": "病人的事我会记，账上的事我还不清楚。"
+    },
+    {
+      "kind": "state",
+      "key": "xietang:med_due",
+      "value": "谢棠霜月十一D5需2灵铢续药，当前未付",
+      "holder": "xietang",
+      "valid_from": 0,
+      "valid_until": null,
+      "quote": "霜月十一以前，妹妹谢棠还要续药两灵铢。"
+    }
+  ],
+  "progression": {
+    "goal": "阻止林杏在自愿和见证未经核实、药价未清时仓促兑付",
+    "obstacle": "许七控制药匣，庄烬掌轮值与妹妹药费；林杏家需要实际救治",
+    "method": "核已付药费、命秤封签与见证程序，并经炉房留痕获得纸角",
+    "choice": "拒绝庄烬提出的以加急药费为交换先办契的途径",
+    "result": "林杏当次未启阵未兑；谢迟持合法记录的纸角，病患药仍需解决",
+    "consequence": "谢迟被撤轮值与权限，妹妹D5两灵铢未付，林杏病人仍需现实医治",
+    "next_options": "CH002核旧药价和补药救治、保护纸角与病人；CH003独立对照副账与原始阵砂",
+    "scene_function": "五段式由具体胁迫转为程序和道德选择，结尾外在处境实质改变。"
+  },
+  "thread_events": [
+    {
+      "id": "T03-P01",
+      "action": "plant",
+      "description": "林杏旧药价及今日暂存医药须现实核查，不能把未兑当免费给药",
+      "quote": "林杏问：“那我今天带来的十枚，也能写进去么？”"
+    },
+    {
+      "id": "T03-P02",
+      "action": "plant",
+      "description": "谢棠D5需两灵铢续药，CH005交款并CH006核实领药",
+      "quote": "霜月十一以前，妹妹谢棠还要续药两灵铢。"
+    },
+    {
+      "id": "T03-P03",
+      "action": "plant",
+      "description": "乙四七编号底痕与账本已收疑点，须用独立证物检验",
+      "quote": "不是一次落笔能有的痕迹。"
+    },
+    {
+      "id": "T03-P04",
+      "action": "plant",
+      "description": "谢迟失去收契房轮值，后续须解决生计、合法取证及离谷",
+      "quote": "暂撤收契房轮值。内务房查明前不得再碰命秤、原契和出入账。"
+    }
+  ],
+  "stage_closing": false
+}
