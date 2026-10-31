@@ -1,0 +1,21 @@
+{
+  "task_id": "a79f32b5-81fa-4d0f-b9fb-27110dfde9c1",
+  "chapter": 1,
+  "mode": "write",
+  "phase": "candidate",
+  "repairs": 1,
+  "history": [
+    {
+      "sha256": "831cf3e99873824eb4db9a904dface44aea19e3ce1af19c3ca37ce8839e78271",
+      "reason": "初稿",
+      "repairs": 0
+    },
+    {
+      "sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+      "reason": "修正时序歧义及升职错字，保持既有情节与事实不变。",
+      "repairs": 1
+    }
+  ],
+  "candidate_sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+  "candidate_path": "candidates/CH001_ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb.txt"
+}
