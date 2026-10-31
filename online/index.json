@@ -11,11 +11,11 @@
   "source": {
     "repository_url": "https://github.com/1464356758/XS3",
     "branch": "main",
-    "generated_at": "2026-10-31T03:32:54+00:00",
+    "generated_at": "2026-10-31T04:54:04.001Z",
     "state_revision": 3,
-    "workflow_revision": 5,
+    "workflow_revision": 6,
     "state_sha256": "cef7d0324516881bbc99587b7561c5c3e0eefec7a1b3f48a31b6b6ae63f0185c",
-    "workflow_sha256": "6fa9a2f88a7984a2355493400d6903796055d7a04506e622fa41d4a0e2e7b9b2",
+    "workflow_sha256": "9af0b0c6c7ef494702f7f008a087b72a6998a4f8d025b3f7f88686c3462694ba",
     "manuscript_storage": "plain_files_v1",
     "requires_reader_key": false
   },
@@ -38,12 +38,12 @@
     "release_check_required": true
   },
   "task": {
-    "phase": "PLANNING",
-    "label": "长篇规划",
+    "phase": "REVIEWING",
+    "label": "检查本章",
     "chapter": 1,
-    "detail": "T03正式选定，设定与人物知情/资源账、100章路线、前5章执行安排及规划审核已登记；正文0章。",
-    "next_action": "等待作者明确回复“开始写第一章”；授权前禁止创作、候选、定稿或发布正文。",
-    "updated_at": "2026-10-31T03:32:54+00:00"
+    "detail": "CH001《药谷收寿》完整9071汉字初稿和带原文引文的审核准备资料已保存；候选、发布前检查及正式冻结均未由Python工具完成。",
+    "next_action": "继续同一章：在可核实检出完整仓库并运行官方Python的环境进行任务书登记、候选、实际发布前审读、release-check、adopt、索引校验及远端回读，不得提前写CH002。",
+    "updated_at": "2026-10-31T04:54:04.001Z"
   },
   "chapters": [],
   "topics": [
@@ -384,6 +384,12 @@
       "phase": "PLANNING",
       "label": "长篇规划",
       "detail": "T03正式选定，设定与人物知情/资源账、100章路线、前5章执行安排及规划审核已登记；正文0章。"
+    },
+    {
+      "at": "2026-10-31T04:54:04.001Z",
+      "phase": "REVIEWING",
+      "label": "检查本章",
+      "detail": "CH001《药谷收寿》完整9071汉字初稿和带原文引文的审核准备资料已保存；候选、发布前检查及正式冻结均未由Python工具完成。"
     }
   ]
 }
