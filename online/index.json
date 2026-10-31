@@ -4,18 +4,18 @@
   "initialized": true,
   "book": {
     "id": "376cd0c1-c6be-4958-88fe-08c5f9c37598",
-    "title": "未命名新小说",
+    "title": "仙门欠我三千命",
     "platform": "17k",
-    "selected_topic_id": null
+    "selected_topic_id": "T03"
   },
   "source": {
     "repository_url": "https://github.com/1464356758/XS3",
     "branch": "main",
-    "generated_at": "2026-10-31T03:10:54+00:00",
-    "state_revision": 0,
-    "workflow_revision": 3,
-    "state_sha256": "3e1111db90bcd48d915b6913ff1ce62b2c4be141dd9d6e82f8df0f795e96f878",
-    "workflow_sha256": "830f9814db64a5d0c2f67eff7d0033937833fec02bc7db7366c885ee9ca8ecc2",
+    "generated_at": "2026-10-31T03:32:54+00:00",
+    "state_revision": 3,
+    "workflow_revision": 5,
+    "state_sha256": "cef7d0324516881bbc99587b7561c5c3e0eefec7a1b3f48a31b6b6ae63f0185c",
+    "workflow_sha256": "6fa9a2f88a7984a2355493400d6903796055d7a04506e622fa41d4a0e2e7b9b2",
     "manuscript_storage": "plain_files_v1",
     "requires_reader_key": false
   },
@@ -38,12 +38,12 @@
     "release_check_required": true
   },
   "task": {
-    "phase": "WAITING_TOPIC",
-    "label": "等待选择题材",
+    "phase": "PLANNING",
+    "label": "长篇规划",
     "chapter": 1,
-    "detail": "已准备8个原创选题，等待作者选择。",
-    "next_action": "作者选择候选编号后，进行长篇规划；当前不写正文。",
-    "updated_at": "2026-10-31T03:10:54+00:00"
+    "detail": "T03正式选定，设定与人物知情/资源账、100章路线、前5章执行安排及规划审核已登记；正文0章。",
+    "next_action": "等待作者明确回复“开始写第一章”；授权前禁止创作、候选、定稿或发布正文。",
+    "updated_at": "2026-10-31T03:32:54+00:00"
   },
   "chapters": [],
   "topics": [
@@ -372,6 +372,18 @@
       "phase": "WAITING_TOPIC",
       "label": "等待选择题材",
       "detail": "已准备8个原创选题，等待作者选择。"
+    },
+    {
+      "at": "2026-10-31T03:32:54+00:00",
+      "phase": "PLANNING",
+      "label": "长篇规划",
+      "detail": "已选定《仙门欠我三千命》，准备长篇规划。"
+    },
+    {
+      "at": "2026-10-31T03:32:54+00:00",
+      "phase": "PLANNING",
+      "label": "长篇规划",
+      "detail": "T03正式选定，设定与人物知情/资源账、100章路线、前5章执行安排及规划审核已登记；正文0章。"
     }
   ]
 }

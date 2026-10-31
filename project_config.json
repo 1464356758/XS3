@@ -1,6 +1,6 @@
 {
   "system_version": "4.3-quality",
-  "project_name": "未命名新小说",
+  "project_name": "仙门欠我三千命",
   "book_root": "book",
   "authority": {
     "mode": "github",
@@ -13,8 +13,8 @@
     "chapter_order": "serial",
     "route_window_min": 3,
     "route_window_max": 5,
-    "platform": null,
-    "genre": null
+    "platform": "17k",
+    "genre": "男频·凡人修仙/因果偿还/门派博弈"
   },
   "execution": {
     "context_character_budget": 80000,

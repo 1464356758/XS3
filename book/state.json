@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "book_id": "376cd0c1-c6be-4958-88fe-08c5f9c37598",
-  "title": "未命名新小说",
-  "revision": 0,
+  "title": "仙门欠我三千命",
+  "revision": 3,
   "config": {
     "target_chapters": 100,
     "target_han": 900000,
@@ -24,8 +24,34 @@
   "chapters": {},
   "checkpoints": [],
   "needs_revalidation": [],
-  "inputs": {},
-  "input_history": [],
+  "inputs": {
+    "canon": {
+      "kind": "canon",
+      "path": "inputs/canon_bf7007bd30947ea5654393ba4661faba9900a8569280999d265229ddb8798944.md",
+      "sha256": "bf7007bd30947ea5654393ba4661faba9900a8569280999d265229ddb8798944",
+      "reason": "作者已选定T03，建立开写前人物知情、资源账和不可修改的世界硬规则；尚未写章"
+    },
+    "roadmap": {
+      "kind": "roadmap",
+      "path": "inputs/roadmap_6520708fddf9d9af1a26e892a789b0066db99e45a39606a480503f9bd58e67a2.md",
+      "sha256": "6520708fddf9d9af1a26e892a789b0066db99e45a39606a480503f9bd58e67a2",
+      "reason": "作者已选定T03，登记100章十阶段因果路线及后续状态变化；尚未写章"
+    }
+  },
+  "input_history": [
+    {
+      "kind": "canon",
+      "path": "inputs/canon_bf7007bd30947ea5654393ba4661faba9900a8569280999d265229ddb8798944.md",
+      "sha256": "bf7007bd30947ea5654393ba4661faba9900a8569280999d265229ddb8798944",
+      "reason": "作者已选定T03，建立开写前人物知情、资源账和不可修改的世界硬规则；尚未写章"
+    },
+    {
+      "kind": "roadmap",
+      "path": "inputs/roadmap_6520708fddf9d9af1a26e892a789b0066db99e45a39606a480503f9bd58e67a2.md",
+      "sha256": "6520708fddf9d9af1a26e892a789b0066db99e45a39606a480503f9bd58e67a2",
+      "reason": "作者已选定T03，登记100章十阶段因果路线及后续状态变化；尚未写章"
+    }
+  ],
   "tasks": {},
   "completion": null,
   "serialization": {
