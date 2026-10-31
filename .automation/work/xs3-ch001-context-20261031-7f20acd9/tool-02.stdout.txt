@@ -1,0 +1,9 @@
+{
+  "index_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "indexed_records": 0,
+  "scanned_records": 0,
+  "before_chapter": 1,
+  "matching_records": 0,
+  "candidates": [],
+  "note": "只检索全书摘要与实际推进；不是语义去重或全文已读证明。未命中须换别名、办法、关系查询并回查原文。"
+}
