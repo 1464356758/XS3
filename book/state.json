@@ -90,16 +90,21 @@
       "chapter": 2,
       "mode": "write",
       "phase": "candidate",
-      "repairs": 0,
+      "repairs": 1,
       "history": [
         {
           "sha256": "9f499cd146d71c797189868d06d212a68eaed7960d87c17ee5f5aceba816e309",
           "reason": "初稿",
           "repairs": 0
+        },
+        {
+          "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+          "reason": "局部修正发热儿童对红色指印的询问，避免误写成亲眼目击D0卯时药房逼契；不改变现金、病情、药单、行动或冻结前章。",
+          "repairs": 1
         }
       ],
-      "candidate_sha256": "9f499cd146d71c797189868d06d212a68eaed7960d87c17ee5f5aceba816e309",
-      "candidate_path": "candidates/CH002_9f499cd146d71c797189868d06d212a68eaed7960d87c17ee5f5aceba816e309.txt"
+      "candidate_sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+      "candidate_path": "candidates/CH002_d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6.txt"
     }
   },
   "completion": null,
