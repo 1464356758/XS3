@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "xs3-ch002-v2report-20261101-q6ba9ed0",
-  "base_sha": "54e957c4cc8ed8ca152ea44f464b1f24fd667f55",
+  "request_id": "xs3-ch002-finalize-20261101-v3b9f721",
+  "base_sha": "b823a43d9d3f121afa3914bdde36db373c928d37",
   "book_id": "376cd0c1-c6be-4958-88fe-08c5f9c37598",
   "controller": {
     "kind": "automation",
@@ -9,34 +9,9 @@
     "session_id": "xs3-ch002-20261101-author-7a1c5e93",
     "platform_run_id": null
   },
-  "phase": "command",
+  "phase": "finalize",
   "run_id": "f45405428f0840cbb6967ee10ca49d64",
-  "commands": [
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "check-record",
-        "--text",
-        "drafts/XS3_CH002_V2.txt",
-        "--record",
-        "drafts/XS3_CH002_V2_record.json"
-      ]
-    },
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "release-request",
-        "--text",
-        "drafts/XS3_CH002_V2.txt",
-        "--record",
-        "drafts/XS3_CH002_V2_record.json",
-        "--out",
-        "drafts/XS3_CH002_V2_release_template.json"
-      ]
-    }
-  ]
+  "text": "drafts/XS3_CH002_V2.txt",
+  "record": "drafts/XS3_CH002_V2_record.json",
+  "report": "drafts/XS3_CH002_V2_release_reviewed.json"
 }
