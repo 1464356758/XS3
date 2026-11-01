@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "xs3-ch002-releaseprep-20261101-92ce0b1a",
-  "base_sha": "67772cb61d608c2774f0afd57f9aef09ccb91737",
+  "request_id": "xs3-ch002-repair-20261101-m90e67ac",
+  "base_sha": "97826e4be45d6bab36c228ab598318c0868e79e8",
   "book_id": "376cd0c1-c6be-4958-88fe-08c5f9c37598",
   "controller": {
     "kind": "automation",
@@ -17,11 +17,13 @@
       "args": [
         "--root",
         "book",
-        "check-record",
+        "repair",
+        "--chapter",
+        "2",
         "--text",
-        "drafts/XS3_CH002.txt",
-        "--record",
-        "drafts/XS3_CH002_record.json"
+        "drafts/XS3_CH002_V2.txt",
+        "--reason",
+        "局部修正发热儿童对红色指印的询问，避免误写成亲眼目击D0卯时药房逼契；不改变现金、病情、药单、行动或冻结前章。"
       ]
     },
     {
@@ -29,13 +31,13 @@
       "args": [
         "--root",
         "book",
-        "release-request",
+        "context",
+        "--profile",
+        "reader",
         "--text",
-        "drafts/XS3_CH002.txt",
-        "--record",
-        "drafts/XS3_CH002_record.json",
+        "drafts/XS3_CH002_V2.txt",
         "--out",
-        "drafts/XS3_CH002_release_template.json"
+        "drafts/XS3_CH002_reader_V2.md"
       ]
     }
   ]
