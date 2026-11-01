@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "xs3-ch002-resume-20261101-c47a6e20",
-  "base_sha": "6b097a4ca432c8cd8123794725cb5c4e085361f0",
+  "request_id": "xs3-ch002-candidate-20261101-fb19d7a4",
+  "base_sha": "ca67cd5bca262efc653bf640648def38785ca090",
   "book_id": "376cd0c1-c6be-4958-88fe-08c5f9c37598",
   "controller": {
     "kind": "automation",
@@ -9,5 +9,34 @@
     "session_id": "xs3-ch002-20261101-author-7a1c5e93",
     "platform_run_id": null
   },
-  "phase": "begin"
+  "phase": "command",
+  "run_id": "f45405428f0840cbb6967ee10ca49d64",
+  "commands": [
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "candidate",
+        "--chapter",
+        "2",
+        "--text",
+        "drafts/XS3_CH002.txt"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "context",
+        "--profile",
+        "reader",
+        "--text",
+        "drafts/XS3_CH002.txt",
+        "--out",
+        "drafts/XS3_CH002_reader_packet.md"
+      ]
+    }
+  ]
 }
