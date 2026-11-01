@@ -2,7 +2,7 @@
   "schema_version": 2,
   "book_id": "376cd0c1-c6be-4958-88fe-08c5f9c37598",
   "title": "仙门欠我三千命",
-  "revision": 4,
+  "revision": 5,
   "config": {
     "target_chapters": 100,
     "target_han": 900000,
@@ -31,6 +31,16 @@
       "record_sha256": "eb40df45bd855d6c7743ef69586172538a15ed2cde7270c9823ab122933a4270",
       "han_count": 9071,
       "adopted_at": "2026-10-31T06:34:45+00:00"
+    },
+    "2": {
+      "title": "留在纸上的手",
+      "stage": "S01",
+      "text_path": "chapters/CH002_d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6.txt",
+      "text_sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+      "record_path": "records/CH002_c35767627dfa12b9a34b5e0878192e535e158e9b0c9aec182f0714fa2d895e2d.json",
+      "record_sha256": "c35767627dfa12b9a34b5e0878192e535e158e9b0c9aec182f0714fa2d895e2d",
+      "han_count": 9572,
+      "adopted_at": "2026-11-01T05:59:42+00:00"
     }
   },
   "checkpoints": [],
@@ -89,7 +99,7 @@
       "task_id": "43f18d6f-ebc1-431a-88ce-9df2b1d01564",
       "chapter": 2,
       "mode": "write",
-      "phase": "candidate",
+      "phase": "adopted",
       "repairs": 1,
       "history": [
         {
@@ -115,6 +125,10 @@
       "1": {
         "text_sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
         "record_sha256": "eb40df45bd855d6c7743ef69586172538a15ed2cde7270c9823ab122933a4270"
+      },
+      "2": {
+        "text_sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+        "record_sha256": "c35767627dfa12b9a34b5e0878192e535e158e9b0c9aec182f0714fa2d895e2d"
       }
     },
     "published": {},
@@ -122,6 +136,11 @@
       "1": {
         "path": "releases/CH001_a8cac8063a8252521817599706237665cb548476a0f4dd29b9c1dcf5651715e0.json",
         "sha256": "a8cac8063a8252521817599706237665cb548476a0f4dd29b9c1dcf5651715e0",
+        "used": true
+      },
+      "2": {
+        "path": "releases/CH002_cf8b327f1023f22e5557872d79127b57efd56f5a1f35d5da480f49b9ff411bd4.json",
+        "sha256": "cf8b327f1023f22e5557872d79127b57efd56f5a1f35d5da480f49b9ff411bd4",
         "used": true
       }
     },
@@ -143,7 +162,7 @@
         ],
         "deadline_chapter": 3,
         "status": "open",
-        "last_reviewed_chapter": 1
+        "last_reviewed_chapter": 2
       },
       "T03-P02": {
         "history": [
@@ -162,7 +181,7 @@
         ],
         "deadline_chapter": 5,
         "status": "open",
-        "last_reviewed_chapter": 1
+        "last_reviewed_chapter": 2
       },
       "T03-P03": {
         "history": [
@@ -181,7 +200,7 @@
         ],
         "deadline_chapter": 6,
         "status": "open",
-        "last_reviewed_chapter": 1
+        "last_reviewed_chapter": 2
       },
       "T03-P04": {
         "history": [
@@ -200,7 +219,45 @@
         ],
         "deadline_chapter": 10,
         "status": "open",
-        "last_reviewed_chapter": 1
+        "last_reviewed_chapter": 2
+      },
+      "T03-P05": {
+        "history": [
+          {
+            "id": "T03-P05",
+            "action": "set",
+            "deadline_chapter": 4,
+            "reason": "公库赊药牌实际被扣，CH004前需补给或复核路径，不能自动恢复。",
+            "evidence": {
+              "chapter": 2,
+              "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+              "quote": "待查期间不供新药。"
+            },
+            "chapter": 2
+          }
+        ],
+        "deadline_chapter": 4,
+        "status": "open",
+        "last_reviewed_chapter": 2
+      },
+      "T03-P06": {
+        "history": [
+          {
+            "id": "T03-P06",
+            "action": "set",
+            "deadline_chapter": 3,
+            "reason": "阿序暂喘缓但热未全退，CH003须实际复诊与说明进一步看护。",
+            "evidence": {
+              "chapter": 2,
+              "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+              "quote": "热没有全退，胸口的起伏却不像家中那样急。"
+            },
+            "chapter": 2
+          }
+        ],
+        "deadline_chapter": 3,
+        "status": "open",
+        "last_reviewed_chapter": 2
       }
     },
     "incidents": {}

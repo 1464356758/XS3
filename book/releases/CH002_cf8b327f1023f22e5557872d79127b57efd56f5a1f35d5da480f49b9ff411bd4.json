@@ -1,0 +1,587 @@
+{
+  "schema_version": 1,
+  "book_id": "376cd0c1-c6be-4958-88fe-08c5f9c37598",
+  "chapter": 2,
+  "base_revision": 4,
+  "task_id": "43f18d6f-ebc1-431a-88ce-9df2b1d01564",
+  "repairs": 1,
+  "text_sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+  "record_sha256": "c35767627dfa12b9a34b5e0878192e535e158e9b0c9aec182f0714fa2d895e2d",
+  "canon_sha256": "bf7007bd30947ea5654393ba4661faba9900a8569280999d265229ddb8798944",
+  "roadmap_sha256": "6520708fddf9d9af1a26e892a789b0066db99e45a39606a480503f9bd58e67a2",
+  "narrative_review_version": 1,
+  "writing_brief_sha256": "9d4445c7f5c736b2f6cef27415b9359fe4579654e8995f20e8fe3a98edc550b2",
+  "decision": "release",
+  "read_full_text": true,
+  "blocking_issues": [],
+  "read_coverage": {
+    "1": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+    "2": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6"
+  },
+  "reader_reason_to_continue": "霜月初七辰初原药房出库簿与收契副账并对时，许青蘅和魏药师能够确认什么？被收赊药牌的医站如何继续救治阿序？",
+  "consequence": "谢迟出私钱4铜护送病童过桥，现金27减至23；医站实耗一份青息叶末并新增18铜未收账，公库赊药牌被取走。阿序仅暂缓喘而未退热，林杏未重新签寿契，原付32铜仍待核实。",
+  "ending_runway": "CH003依法核对药出七三/乙四七、副账空栏并复诊阿序；CH004现实救治和医站补给；CH005于D4真实付谢棠D5两灵铢，并保留借款代价及CH006真实领药。",
+  "checks": {
+    "timeline": {
+      "decision": "pass",
+      "conclusion": "D0午前医站出发、林家出诊、申初过桥、酉初留诊和日暮公告，CH003翌日辰初，时间地点连续而无瞬移。",
+      "evidence": [
+        {
+          "chapter": 2,
+          "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+          "quote": "午前的钟声还没散"
+        },
+        {
+          "chapter": 2,
+          "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+          "quote": "申初的阳光照在院中"
+        },
+        {
+          "chapter": 2,
+          "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+          "quote": "天色沉到药田尽头时"
+        }
+      ]
+    },
+    "knowledge": {
+      "decision": "pass",
+      "conclusion": "谢迟只凭包装看见药出七三，不将它升级为官方收款；林庚没亲见付款，儿童发热疑问非亲眼目击认证。",
+      "evidence": [
+        {
+          "chapter": 2,
+          "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+          "quote": "这串数是药出七三，不是乙四七。"
+        },
+        {
+          "chapter": 2,
+          "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+          "quote": "那明日问钱的时候，你就别说你亲眼见过。"
+        },
+        {
+          "chapter": 2,
+          "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+          "quote": "谢迟不能替他断定记忆从哪里来"
+        }
+      ]
+    },
+    "props_resources": {
+      "decision": "pass",
+      "conclusion": "过桥花4铜后23铜；林杏10铜仍自持，18铜药账未收；医站用掉青息叶末且赊药牌被扣，命砂/旧纸角未变。",
+      "evidence": [
+        {
+          "chapter": 2,
+          "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+          "quote": "他数给男人，留下二十三枚。"
+        },
+        {
+          "chapter": 2,
+          "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+          "quote": "青息叶末一份，计十八铜，暂未收"
+        },
+        {
+          "chapter": 2,
+          "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+          "quote": "这是我今早准备带到药房的，还没有交给谁。"
+        }
+      ]
+    },
+    "causality": {
+      "decision": "pass",
+      "conclusion": "实际患儿喘促驱动救治和转运，湿桥迫使付费、停步；苏拒虚签库存失实引发赊药牌被收，孩子有限缓解却未治愈。",
+      "evidence": [
+        {
+          "chapter": 2,
+          "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+          "quote": "桥只能容担架和一个半人的宽。"
+        },
+        {
+          "chapter": 2,
+          "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+          "quote": "待查期间不供新药。"
+        },
+        {
+          "chapter": 2,
+          "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+          "quote": "热没有全退，胸口的起伏却不像家中那样急。"
+        }
+      ]
+    },
+    "power_rules": {
+      "decision": "pass",
+      "conclusion": "谢迟仅引息初段无法凭灵力浮起担架，药师存药有限且无万能治病，寿岁不凭更改纸账自动恢复。",
+      "evidence": [
+        {
+          "chapter": 2,
+          "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+          "quote": "引息初段那点气力只能帮他勉强稳住一口气，不能让担架无重量地浮起来。"
+        },
+        {
+          "chapter": 2,
+          "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+          "quote": "青息叶末的一份用完了。"
+        }
+      ]
+    },
+    "promises": {
+      "decision": "pass",
+      "conclusion": "P01取得独立药出七三出库标记与实诊，旧付32铜仍待核；P02谢棠D5两灵铢仍缺，P03乙四七纸疑待核，P04撤职未复，另立医站断供及阿序夜看护期限。",
+      "evidence": [
+        {
+          "chapter": 2,
+          "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+          "quote": "我的三十二铜呢？"
+        },
+        {
+          "chapter": 2,
+          "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+          "quote": "用你给妹妹留的那二十三枚铜钱？"
+        },
+        {
+          "chapter": 2,
+          "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+          "quote": "我现在没权进内务库。"
+        }
+      ]
+    },
+    "anti_repeat": {
+      "decision": "pass",
+      "conclusion": "与CH001靠命秤见证封存不同，本章用孩子出诊、险桥转运和药牌实损推进；保留唯一已冻结旧章相似冲突的差别与代价。",
+      "evidence": [
+        {
+          "chapter": 2,
+          "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+          "quote": "他数给男人，留下二十三枚。"
+        },
+        {
+          "chapter": 2,
+          "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+          "quote": "苏见微把自己的药签一张张排开。"
+        }
+      ]
+    },
+    "character_agency": {
+      "decision": "pass",
+      "conclusion": "林杏自己拒签、自己留病与账条；苏拒绝不实库存签名并承受资源损失；谢迟真付4铜、保留证据且不夜闯库。",
+      "evidence": [
+        {
+          "chapter": 2,
+          "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+          "quote": "我今天不再去。"
+        },
+        {
+          "chapter": 2,
+          "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+          "quote": "我能签实际库存数，不能签你替我写好的不符。"
+        },
+        {
+          "chapter": 2,
+          "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+          "quote": "他数给男人，留下二十三枚。"
+        }
+      ]
+    }
+  },
+  "comparison": [
+    {
+      "chapter": 1,
+      "sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+      "quote": "林杏今天这份寿契停在了未兑的位置。",
+      "difference": "CH001凭识印与二证程序封住乙四七且谢迟被撤职；CH002改以苏见微实诊、4铜协助过桥、医站实际断供救活人，既有病情结果又有医站经营损失，不是再重复一张纸劝退对手。"
+    }
+  ],
+  "future_window": [
+    {
+      "chapter": 3,
+      "goal": "霜月初七辰初通过许青蘅与魏药师的合法权限对照药出七三、乙四七副账，兼核阿序夜间病情",
+      "change": "获得可再检验的独立原簿来源和缺栏事实，不把异常直接定为全宗伪造",
+      "ending_question": "秦不渡将如何封签证据，许青蘅为接触谢迟付出什么？"
+    },
+    {
+      "chapter": 4,
+      "goal": "在医站赊药牌被取走后实地救治、寻找可合法供给的药材与收入",
+      "change": "明确实耗、应收与未到账报酬，给林杏与阿序持续治疗路径",
+      "ending_question": "救治和药源真实成本会不会挤占谢棠的两灵铢？"
+    },
+    {
+      "chapter": 5,
+      "goal": "D4真实筹齐并支付谢棠D5两灵铢药费",
+      "change": "资金来源与可能借款都入账，付费凭据可查，次日领药仍待CH006",
+      "ending_question": "谢棠是否能在D5真正取得本期药？"
+    }
+  ],
+  "promise_reviews": [
+    {
+      "id": "T03-P01",
+      "action": "keep",
+      "deadline_chapter": 3,
+      "reason": "取得药出七三原包与有限实诊，却未有正式缴款簿，CH003须处理32铜及暂存药。",
+      "evidence": {
+        "chapter": 2,
+        "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+        "quote": "药出七三，霜月初五，魏经手。"
+      }
+    },
+    {
+      "id": "T03-P02",
+      "action": "keep",
+      "deadline_chapter": 5,
+      "reason": "谢迟花4铜只余23，按既有CH005期限真正筹齐并支付D5两灵铢。",
+      "evidence": {
+        "chapter": 2,
+        "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+        "quote": "用你给妹妹留的那二十三枚铜钱？"
+      }
+    },
+    {
+      "id": "T03-P03",
+      "action": "keep",
+      "deadline_chapter": 6,
+      "reason": "乙四七未启阵事实保留，但两个编号分属不同系统，CH006之前不得凭包装认定伪契。",
+      "evidence": {
+        "chapter": 2,
+        "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+        "quote": "这串数是药出七三，不是乙四七。"
+      }
+    },
+    {
+      "id": "T03-P04",
+      "action": "keep",
+      "deadline_chapter": 10,
+      "reason": "撤职仍未恢复、不能进内务库；维持CH010前向离谷与合法证据渠道。",
+      "evidence": {
+        "chapter": 2,
+        "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+        "quote": "我现在没权进内务库。"
+      }
+    },
+    {
+      "id": "T03-P05",
+      "action": "set",
+      "deadline_chapter": 4,
+      "reason": "公库赊药牌实际被扣，CH004前需补给或复核路径，不能自动恢复。",
+      "evidence": {
+        "chapter": 2,
+        "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+        "quote": "待查期间不供新药。"
+      }
+    },
+    {
+      "id": "T03-P06",
+      "action": "set",
+      "deadline_chapter": 3,
+      "reason": "阿序暂喘缓但热未全退，CH003须实际复诊与说明进一步看护。",
+      "evidence": {
+        "chapter": 2,
+        "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+        "quote": "热没有全退，胸口的起伏却不像家中那样急。"
+      }
+    }
+  ],
+  "incident_actions": [],
+  "narrative_review": {
+    "schema_version": 1,
+    "actual_scenes": [
+      {
+        "event": "苏催谢迟出诊，林家和邻人质疑阻签后没有药",
+        "choice": "谢迟先去看病人而不回到命秤争辩",
+        "change": "主线从契纸移动到七岁孩子热喘",
+        "evidence": [
+          {
+            "chapter": 2,
+            "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+            "quote": "你们两个站在这里算清三十二枚铜钱，孩子就能退热？"
+          }
+        ]
+      },
+      {
+        "event": "苏在林家诊疗并使用稀缺青息叶末",
+        "choice": "林杏知情认下18铜未付，苏说明仅缓解而非痊愈",
+        "change": "病人得到实际医护且资源成本入账",
+        "evidence": [
+          {
+            "chapter": 2,
+            "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+            "quote": "青息叶末一份，计十八铜，暂未收"
+          }
+        ]
+      },
+      {
+        "event": "林杏保存昨夜包装，谢迟识别药出七三",
+        "choice": "谢迟不把外包墨痕当正式32铜收据",
+        "change": "得到不同于乙四七的出库查证入口",
+        "evidence": [
+          {
+            "chapter": 2,
+            "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+            "quote": "这串数是药出七三，不是乙四七。"
+          }
+        ]
+      },
+      {
+        "event": "许七追废材并利用公库停供向医站施压",
+        "choice": "林杏亲口拒绝今日再签，苏照看病人",
+        "change": "主角保住纸角但医站受牵连",
+        "evidence": [
+          {
+            "chapter": 2,
+            "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+            "quote": "我今天不再去。"
+          }
+        ]
+      },
+      {
+        "event": "孩子过湿桥突喘，竹担架险滑",
+        "choice": "谢迟自付4铜请卖炭人铺板，众人停步稳住",
+        "change": "孩子到医站，谢迟现金27变23",
+        "evidence": [
+          {
+            "chapter": 2,
+            "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+            "quote": "他数给男人，留下二十三枚。"
+          }
+        ]
+      },
+      {
+        "event": "苏留诊阿序，内务吏检查医站库存",
+        "choice": "苏拒签虚假不符并保存取牌凭条",
+        "change": "孩子喘缓未愈，医站赊牌被扣",
+        "evidence": [
+          {
+            "chapter": 2,
+            "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+            "quote": "待查期间不供新药。"
+          }
+        ]
+      },
+      {
+        "event": "日暮明日辰初并账通知抵达",
+        "choice": "谢迟不夜闯药房，林杏保管原纸并决定亲自作答",
+        "change": "CH003合法副账核查机会出现，既有病人不被抛下",
+        "evidence": [
+          {
+            "chapter": 2,
+            "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+            "quote": "副账交接的账吏许青蘅。"
+          }
+        ]
+      }
+    ],
+    "plan_comparison": "写前任务书的诊疗、药出七三、许七追查、过桥、医站损失和次日两账入口均出现。比原七段预算更重转运及医站停供的现场冲突；并未虚构‘已获得第二份官方伪契证据’。一次局部返修已修正病童发热时的红印疑问，避免误作清晨目击。",
+    "reader": {
+      "mode": "same_context_approximation",
+      "limitation": "当前同一GPT知晓CANON与规划，限信息审读是same_context_approximation而非真正独立读者；已经比较CH001冻结正文和CH002修订正文。",
+      "coverage": {
+        "1": {
+          "text_sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+          "mode": "full_text"
+        },
+        "2": {
+          "text_sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+          "mode": "full_text"
+        }
+      },
+      "understanding": "阿序是林杏七岁发热喘促的孩子；乙四七未兑，药出七三属于昨夜药包出库号，欠费与账面已收须分开，药包不是32铜付款的正式凭据。",
+      "information_load": "两套编号与18铜/4铜/23铜及赊药牌略密，但各由实际药包、押钱、现场搬运和医站账体现；下一章不能继续只给新编号。",
+      "promise_delivery": "本章兑现有限医疗与自主选择，并付出实际钱/医站供给，未解决旧付款、妹妹D5药费或乙四七伪契疑点。",
+      "evidence": [
+        {
+          "chapter": 2,
+          "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+          "quote": "热没有全退，胸口的起伏却不像家中那样急。"
+        },
+        {
+          "chapter": 2,
+          "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+          "quote": "这串数是药出七三，不是乙四七。"
+        },
+        {
+          "chapter": 2,
+          "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+          "quote": "待查期间不供新药。"
+        }
+      ],
+      "issues": [
+        {
+          "severity": "suggestion",
+          "status": "open",
+          "reason": "下一章需给至少一条可核实账面答案且让许青蘅有独立选择，避免连续停在申请/等待检查。当前只是前向文学建议。",
+          "evidence": {
+            "chapter": 2,
+            "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+            "quote": "明天辰初，两本账会被人放到一处"
+          }
+        },
+        {
+          "severity": "verify",
+          "status": "resolved",
+          "reason": "已将阿序关于红印的话改成发热疑问，不再误示他亲眼目睹D0清晨合同；不将儿童回忆变为证言。",
+          "evidence": {
+            "chapter": 2,
+            "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+            "quote": "谢迟不能替他断定记忆从哪里来"
+          }
+        }
+      ]
+    },
+    "character_causality": {
+      "opposition": {
+        "status": "reviewed",
+        "conclusion": "庄烬/许七靠停公库赊药与受控库存问询实际削弱医站，不靠无条件神降。",
+        "evidence": [
+          {
+            "chapter": 2,
+            "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+            "quote": "待查期间不供新药。"
+          }
+        ]
+      },
+      "dialogue": {
+        "status": "reviewed",
+        "conclusion": "林庚关心孩子，卖炭人讨维护车轮的钱，苏不签虚账，林杏想自己决定。",
+        "evidence": [
+          {
+            "chapter": 2,
+            "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+            "quote": "我就是想让孩子活。"
+          },
+          {
+            "chapter": 2,
+            "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+            "quote": "我能签实际库存数，不能签你替我写好的不符。"
+          }
+        ]
+      },
+      "aftermath": {
+        "status": "reviewed",
+        "conclusion": "桥险后现金下降，孩子需留诊，医站确实断供，对邻人也有后果。",
+        "evidence": [
+          {
+            "chapter": 2,
+            "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+            "quote": "他数给男人，留下二十三枚。"
+          },
+          {
+            "chapter": 2,
+            "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+            "quote": "热没有全退，胸口的起伏却不像家中那样急。"
+          },
+          {
+            "chapter": 2,
+            "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+            "quote": "待查期间不供新药。"
+          }
+        ]
+      }
+    },
+    "history": {
+      "index_sha256": "ab3ff2129c44e38479dd381a12938bd026a284cd93581d5d48c37371cd668679",
+      "queries": [
+        "药谷 收契 命秤 证人",
+        "药价 林杏 许七 纸角"
+      ],
+      "comparisons": [
+        {
+          "similarity": "两章均有关林杏受逼寿契和药钱，谢迟对药谷权力处于弱势。",
+          "difference": "CH001以程序封存未兑；CH002以诊疗、转运与4铜支付实际保病人，并让医站断供，行动与代价不同。",
+          "source": {
+            "chapter": 1,
+            "sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+            "quote": "林杏今天这份寿契停在了未兑的位置。"
+          },
+          "current_evidence": {
+            "chapter": 2,
+            "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+            "quote": "他数给男人，留下二十三枚。"
+          }
+        }
+      ],
+      "no_match_reason": ""
+    },
+    "reader_updates": [
+      {
+        "kind": "observed",
+        "statement": "阿序喘有所缓却仍发热，夜间留诊，不是治愈。",
+        "evidence": [
+          {
+            "chapter": 2,
+            "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+            "quote": "热没有全退，胸口的起伏却不像家中那样急。"
+          }
+        ]
+      },
+      {
+        "kind": "observed",
+        "statement": "谢迟付4铜搬桥，余23铜。",
+        "evidence": [
+          {
+            "chapter": 2,
+            "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+            "quote": "他数给男人，留下二十三枚。"
+          }
+        ]
+      },
+      {
+        "kind": "observed",
+        "statement": "医站计18铜未收药账，公库赊药牌被扣。",
+        "evidence": [
+          {
+            "chapter": 2,
+            "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+            "quote": "青息叶末一份，计十八铜，暂未收"
+          },
+          {
+            "chapter": 2,
+            "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+            "quote": "待查期间不供新药。"
+          }
+        ]
+      },
+      {
+        "kind": "observed",
+        "statement": "旧包上见药出七三、霜月初五、魏经手，仍需官方原簿核对。",
+        "evidence": [
+          {
+            "chapter": 2,
+            "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+            "quote": "药出七三，霜月初五，魏经手。"
+          }
+        ]
+      },
+      {
+        "kind": "claim",
+        "statement": "林杏仍主张昨夜实付32铜，尚无独立收据。",
+        "evidence": [
+          {
+            "chapter": 2,
+            "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+            "quote": "我的三十二铜呢？"
+          }
+        ]
+      },
+      {
+        "kind": "uncertain",
+        "statement": "病童发热的红印疑问不能据以断言他亲见某次逼契。",
+        "evidence": [
+          {
+            "chapter": 2,
+            "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+            "quote": "谢迟不能替他断定记忆从哪里来"
+          }
+        ]
+      },
+      {
+        "kind": "observed",
+        "statement": "公告约定次日辰初两账并对，写明许青蘅，但是否有实质核对还未知。",
+        "evidence": [
+          {
+            "chapter": 2,
+            "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+            "quote": "副账交接的账吏许青蘅。"
+          }
+        ]
+      }
+    ],
+    "reader_update_note": "分开真实病情、实际费用、可见包装、当事人付款声称和病童不确切记忆；没有把未来零号事实放进本章认知。",
+    "surface_findings": []
+  }
+}

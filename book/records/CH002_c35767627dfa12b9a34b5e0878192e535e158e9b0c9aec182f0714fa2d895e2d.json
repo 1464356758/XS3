@@ -1,0 +1,221 @@
+{
+  "chapter": 2,
+  "title": "留在纸上的手",
+  "stage": "S01",
+  "base_revision": 4,
+  "canon_sha256": "bf7007bd30947ea5654393ba4661faba9900a8569280999d265229ddb8798944",
+  "text_sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+  "complete": true,
+  "story_time_end": 0,
+  "summary": "霜月初六午至酉，谢迟随苏见微和林杏返家，亲见林杏七岁儿子阿序高热喘急；苏见微用医站存有的一份青息叶末进行有限照护，林杏自愿认下18铜未付药费。林庚等对谢迟失药责备，林杏主动担责，并拿出昨日出库旧药包，发现不同于乙四七命契的‘药出七三／霜月初五／魏经手’印记，纸背收钱残痕不足证明付款。许七携内务通知要求核查废材，催签仍被林杏拒绝。谢迟出4铜请卖炭人铺板过桥，现金27→23，众人险些让担架滑落，最后平安将病童转至医站；孩子喘稍缓但热未全退。内务吏取走苏见微公库赊药牌，医站受查欠供给，三日内复核。夜前公示翌日辰初药房出入簿与收契司副账并对，列魏药师、账吏许青蘅，谢迟准备合法递交核查申请，未取到原簿或官方付款证明。",
+  "review": {
+    "read_full_text": true,
+    "decision": "adopt",
+    "blocking_issues": [],
+    "sources_checked": [
+      {
+        "chapter": 1,
+        "sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+        "quote": "林杏今天这份寿契停在了未兑的位置。"
+      },
+      {
+        "chapter": 1,
+        "sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+        "quote": "他的二十七枚铜钱仍在袖里，刚好一枚也没少"
+      },
+      {
+        "chapter": 1,
+        "sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+        "quote": "霜月十一以前，妹妹谢棠还要续药两灵铢。"
+      }
+    ],
+    "conclusion": "阅读全文与冻结CH001实读对照：D0时间顺，主人公行动从拒签转为转运护病，过桥支付4铜与医站应急用药均有实物/价格和责任方；阿序仅阶段缓解，林杏所称32铜和药包隐约收字均未提升为已证实，乙四七未兑事实仍不变。医站失公库赊牌是真实代价。审读属于同一上下文近似，非独立读者测试。 本轮已修正阿序对红印的发热疑问，不把其记忆当亲见药房卯时事件。"
+  },
+  "facts": [
+    {
+      "kind": "fact",
+      "key": "linxing:son",
+      "value": "林杏七岁小儿子名阿序，霜月初六发热伴喘，需进一步诊疗",
+      "holder": "林杏",
+      "valid_from": 0,
+      "valid_until": null,
+      "quote": "“七岁。乳名阿序。”"
+    },
+    {
+      "kind": "state",
+      "key": "xiechi:cash_after_bridge",
+      "value": "D0过桥前私有27铜，付卖炭人4铜协助搭桥后剩23铜；未给妹妹药费",
+      "holder": "谢迟",
+      "valid_from": 0,
+      "valid_until": null,
+      "quote": "他数给男人，留下二十三枚。"
+    },
+    {
+      "kind": "state",
+      "key": "linxing:remaining_ten_copper",
+      "value": "林杏今晨带出的10铜仍在本人绢袋中，未交药房或医站",
+      "holder": "林杏",
+      "valid_from": 0,
+      "valid_until": null,
+      "quote": "这是我今早准备带到药房的，还没有交给谁。"
+    },
+    {
+      "kind": "state",
+      "key": "linxing:clinic_debt",
+      "value": "阿序当日使用青息叶末一份，医站明确记18铜未收，林杏自愿认账",
+      "holder": "林杏",
+      "valid_from": 0,
+      "valid_until": null,
+      "quote": "青息叶末一份，计十八铜，暂未收"
+    },
+    {
+      "kind": "state",
+      "key": "asequence:son_health_evening",
+      "value": "阿序喘息暂缓、能认人，但热未全退，夜间必须在医站留诊持续观察",
+      "holder": "阿序",
+      "valid_from": 0,
+      "valid_until": null,
+      "quote": "热没有全退，胸口的起伏却不像家中那样急。"
+    },
+    {
+      "kind": "state",
+      "key": "sujianwei:clinic_drug_credit",
+      "value": "内务吏取走医站当月赊药牌，复核期间公库不供新药，三日内答复",
+      "holder": "苏见微",
+      "valid_from": 0,
+      "valid_until": null,
+      "quote": "待查期间不供新药。"
+    },
+    {
+      "kind": "state",
+      "key": "sujianwei:remaining_low_grade",
+      "value": "当日青息叶末已耗尽，医站仍有三份不同缓喘草料，不能等同替代青息叶末",
+      "holder": "苏见微",
+      "valid_from": 0,
+      "valid_until": null,
+      "quote": "我箱子里还剩三份别的缓喘草料，都是医站原有的，但没有能替代青息叶末的。"
+    },
+    {
+      "kind": "knowledge",
+      "key": "xiechi:outgoing_packet_number",
+      "value": "谢迟观察旧药纸写‘药出七三，霜月初五，魏经手’，是药包出库标识而非正式缴款收据，尚无原出库簿核对",
+      "holder": "谢迟",
+      "valid_from": 0,
+      "valid_until": null,
+      "quote": "药出七三，霜月初五，魏经手。"
+    },
+    {
+      "kind": "knowledge",
+      "key": "xiechi:packet_not_contract",
+      "value": "药出七三属药房出库，乙四七属收契司命契，二者不是同一编号系统",
+      "holder": "谢迟",
+      "valid_from": 0,
+      "valid_until": null,
+      "quote": "这串数是药出七三，不是乙四七。"
+    },
+    {
+      "kind": "belief",
+      "key": "linxing:32copper_recheck",
+      "value": "林杏坚持昨日实际交付32铜，当前只有外纸残墨，独立缴款簿未核，不能记作已证实支付",
+      "holder": "林杏",
+      "valid_from": 0,
+      "valid_until": null,
+      "quote": "我的三十二铜呢？"
+    },
+    {
+      "kind": "state",
+      "key": "linxing:paper_hand_print",
+      "value": "阿序碰到旧包纸留下浅朱手痕，这只是家庭记忆，不是法定识印或付款证明",
+      "holder": "林杏",
+      "valid_from": 0,
+      "valid_until": null,
+      "quote": "把一小片尚未干透的朱印蹭出五道细细的痕。"
+    },
+    {
+      "kind": "knowledge",
+      "key": "xiechi:tomorrow_account_alignment",
+      "value": "谢迟得知霜月初七辰初药房与收契司副账并对，表上列魏药师和账吏许青蘅，但他没有档案阅览权",
+      "holder": "谢迟",
+      "valid_from": 0,
+      "valid_until": null,
+      "quote": "副账交接的账吏许青蘅。"
+    },
+    {
+      "kind": "state",
+      "key": "xiechi:access_unrestored",
+      "value": "谢迟仍不能进内务库查账；准备请求合法核查而非盗取原簿",
+      "holder": "谢迟",
+      "valid_from": 0,
+      "valid_until": null,
+      "quote": "我现在没权进内务库。"
+    },
+    {
+      "kind": "state",
+      "key": "linxing:refuses_2nd_contract",
+      "value": "林杏自行声明今日不重新办理寿契，亲自参与明日核账",
+      "holder": "林杏",
+      "valid_from": 0,
+      "valid_until": null,
+      "quote": "我今天不再去。"
+    },
+    {
+      "kind": "state",
+      "key": "lin_family:stretcher_support",
+      "value": "林庚与卖炭人等用旧竹担架与木板协力过桥，有现实转运风险",
+      "holder": "林庚",
+      "valid_from": 0,
+      "valid_until": null,
+      "quote": "桥只能容担架和一个半人的宽。"
+    }
+  ],
+  "progression": {
+    "goal": "让林杏患热喘的小儿子获得实际医护，保护母子不被再次以药逼签，同时保存可核对的出库标记",
+    "obstacle": "病童喘促与湿桥转运风险、林家怀疑、缺药、许七追废材及医站被停止公库赊药",
+    "method": "苏见微实诊用仅存青息叶末，谢迟出4铜求铺桥板、协助抬运；林杏保管药出七三包纸并自己同意留诊，众人各留签证",
+    "choice": "谢迟优先护送活人而非偷原簿；林杏自行拒绝二次契，苏见微拒签笼统库存失实，承担药牌被收",
+    "result": "阿序到医站并获得阶段喘缓；得药出七三独立药包标记和霜月初七辰初两账合法并对机会；暂未证实林杏实付32铜",
+    "consequence": "谢迟现金23铜，医站形成18铜应收且被停公库赊药；阿序仍发热需观察，谢棠D5两灵铢未付",
+    "next_options": "CH003参与限权限副账对照，与许青蘅交涉并受秦不渡程序封查；复核病童夜间安危与药钱；不得将残纸指为完整原契",
+    "scene_function": "医者实诊→外包纸查标→催契人追查→危桥实地转运与四铜成本→有限留诊→医站赊药牌损失→次日合法双账核验机会，方法和代价区别CH001辩规矩封秤"
+  },
+  "thread_events": [
+    {
+      "id": "T03-P01",
+      "action": "partial",
+      "description": "旧付32铜仍未独立核实，但得到药出七三原包标记、医站真实应急护理和林杏自主保留证物；CH003继续实查付款、药价、暂存药",
+      "quote": "药出七三，霜月初五，魏经手。"
+    },
+    {
+      "id": "T03-P02",
+      "action": "develop",
+      "description": "谢迟付4铜转运后仅余23铜，妹妹D5的两灵铢尚未支付，仍应CH005兑现并CH006领药",
+      "quote": "用你给妹妹留的那二十三枚铜钱？"
+    },
+    {
+      "id": "T03-P03",
+      "action": "develop",
+      "description": "乙四七疑点未定论，但发现与药房出库系统不同的‘药出七三’供CH003/006跨账验证",
+      "quote": "这串数是药出七三，不是乙四七。"
+    },
+    {
+      "id": "T03-P04",
+      "action": "develop",
+      "description": "主角持续无权进内务库，明日需委有权限者按程序核验，原身份未恢复",
+      "quote": "我现在没权进内务库。"
+    },
+    {
+      "id": "T03-P05",
+      "action": "plant",
+      "description": "医站赊药牌被收，三日内复核且短期不得公库领药，需在CH004找到可持续替代补给或合法复核通道",
+      "quote": "待查期间不供新药。"
+    },
+    {
+      "id": "T03-P06",
+      "action": "plant",
+      "description": "阿序暂时喘缓但热未全退，今夜必须有人持续照护；CH003至少给实际病情复查和下一步去向",
+      "quote": "热没有全退，胸口的起伏却不像家中那样急。"
+    }
+  ],
+  "stage_closing": false,
+  "measured_han": 9572
+}
