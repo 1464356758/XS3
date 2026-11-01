@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "xs3-20261102-begin-2a83c19f",
-  "base_sha": "9691224052dae461bf990b6dab2408c9aab24262",
+  "request_id": "xs3-20261102-block-6e19b7c4",
+  "base_sha": "f42a7ca6fd1f701b7a125ecdb710005ca3c1b4ac",
   "book_id": "376cd0c1-c6be-4958-88fe-08c5f9c37598",
   "controller": {
     "kind": "automation",
@@ -9,5 +9,7 @@
     "session_id": "xs3-20261102-0232-6d8b91c4",
     "platform_run_id": null
   },
-  "phase": "begin"
+  "phase": "block",
+  "run_id": "6a92fcd8c6ae4c41b19c2300e4584b5a",
+  "reason": "本轮执行窗口已不足以完成CH003的8000-10000汉字、文学审核及冻结；工作稿与续写任务书已保存于drafts，未提交candidate或finalize。保留原章目标与锁，等待依stopped_evidence协议合法恢复。"
 }
