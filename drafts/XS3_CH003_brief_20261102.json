@@ -1,0 +1,41 @@
+{
+  "chapter": 3,
+  "title": "副账与空格",
+  "status": "in_progress",
+  "run_id": "6a92fcd8c6ae4c41b19c2300e4584b5a",
+  "controller_session": "xs3-20261102-0232-6d8b91c4",
+  "review_mode": "same_context_approximation",
+  "target_han": 9000,
+  "scenes": [
+    {
+      "name": "医站清晨与林杏自主作证",
+      "budget": 1300
+    },
+    {
+      "name": "并账现场核实范围与空受益栏",
+      "budget": 2300
+    },
+    {
+      "name": "秦不渡封查及对手设局",
+      "budget": 2200
+    },
+    {
+      "name": "分离药钱与寿契两条证据链",
+      "budget": 1800
+    },
+    {
+      "name": "证物保全的有价选择和下一章风险",
+      "budget": 1400
+    }
+  ],
+  "constraints": [
+    "D1辰初",
+    "谢迟23铜",
+    "阿序未痊愈",
+    "医站赊药牌已扣",
+    "乙四七未启阵",
+    "三十二铜未核实",
+    "不提前揭露零号"
+  ],
+  "notes": "当前仅工作稿，不得candidate或finalize；继续完成后须核字数、实质审读和release-check。"
+}
