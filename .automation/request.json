@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "xs3-ch002-author-20261101-v6b281af",
-  "base_sha": "17b15274f86d9df85f1e586c7f91173e28d00fd4",
+  "request_id": "xs3-ch002-brief-20261101-h86c29b0",
+  "base_sha": "b40853e251c6e3d40f36e05589225b81b7597988",
   "book_id": "376cd0c1-c6be-4958-88fe-08c5f9c37598",
   "controller": {
     "kind": "automation",
@@ -17,9 +17,9 @@
       "args": [
         "--root",
         "book",
-        "brief-request",
-        "--out",
-        "drafts/XS3_CH002_brief_template.json"
+        "brief-check",
+        "--file",
+        "drafts/XS3_CH002_brief.json"
       ]
     },
     {
@@ -29,7 +29,7 @@
         "book",
         "history-search",
         "--query",
-        "病人 药价 收契 命秤 证据"
+        "药价 林杏 许七 纸角"
       ]
     },
     {
@@ -39,11 +39,9 @@
         "book",
         "context",
         "--profile",
-        "author",
-        "--query",
-        "谢迟 林杏 苏见微 谢棠 甲七三",
+        "writer",
         "--out",
-        "drafts/XS3_CH002_author_packet.md"
+        "drafts/XS3_CH002_writer_packet.md"
       ]
     }
   ]
