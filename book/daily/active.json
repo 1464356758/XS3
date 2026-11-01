@@ -7,7 +7,7 @@
   "start_date": "2026-11-02",
   "started_at": "2026-11-01T18:34:23+00:00",
   "chapter": 3,
-  "status": "running",
+  "status": "blocked",
   "baseline_count": 2,
   "baseline_fingerprint": "ddf40729ba0e41f57d4b27b7e21e9228b7c9ec18517db1dfb21e836c6727c643",
   "attempts": [],
@@ -18,9 +18,11 @@
     "platform_run_id": null
   },
   "executor_checkpoint": {
-    "request_id": "xs3-20261102-begin-2a83c19f",
-    "phase": "begin",
-    "at": "2026-11-01T18:34:23+00:00",
-    "github_run_id": "41337305620"
-  }
+    "request_id": "xs3-20261102-block-6e19b7c4",
+    "phase": "block",
+    "at": "2026-11-01T18:35:51+00:00",
+    "github_run_id": "41337430621"
+  },
+  "reason": "本轮执行窗口已不足以完成CH003的8000-10000汉字、文学审核及冻结；工作稿与续写任务书已保存于drafts，未提交candidate或finalize。保留原章目标与锁，等待依stopped_evidence协议合法恢复。",
+  "blocked_at": "2026-11-01T18:35:51+00:00"
 }
