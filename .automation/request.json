@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "xs3-ch002-brief-20261101-h86c29b0",
-  "base_sha": "b40853e251c6e3d40f36e05589225b81b7597988",
+  "request_id": "xs3-ch002-candidate-20261101-k4f95a22",
+  "base_sha": "ddcc0c1abacd57738de99d8e821954da2330a6f5",
   "book_id": "376cd0c1-c6be-4958-88fe-08c5f9c37598",
   "controller": {
     "kind": "automation",
@@ -17,9 +17,8 @@
       "args": [
         "--root",
         "book",
-        "brief-check",
-        "--file",
-        "drafts/XS3_CH002_brief.json"
+        "count",
+        "drafts/XS3_CH002.txt"
       ]
     },
     {
@@ -27,9 +26,11 @@
       "args": [
         "--root",
         "book",
-        "history-search",
-        "--query",
-        "药价 林杏 许七 纸角"
+        "candidate",
+        "--chapter",
+        "2",
+        "--text",
+        "drafts/XS3_CH002.txt"
       ]
     },
     {
@@ -39,9 +40,11 @@
         "book",
         "context",
         "--profile",
-        "writer",
+        "reader",
+        "--text",
+        "drafts/XS3_CH002.txt",
         "--out",
-        "drafts/XS3_CH002_writer_packet.md"
+        "drafts/XS3_CH002_reader_packet.md"
       ]
     }
   ]
