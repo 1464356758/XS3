@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "type": "novel-operator-recovery-v1",
+  "operation": "revoke_and_resume_same_chapter",
+  "authorization_basis": "explicit_author_repair_request",
+  "author_instruction": "用户在得知“下一步需要明确授权修复旧执行锁”后，明确回复：“继续执行，直到完成为止”。授权为接续XS3《仙门欠我三千命》CH003所必需的旧锁写入权限撤销，不宣称原聊天运行中或改写旧章。",
+  "old_runtime_status": "unverified",
+  "repository": "1464356758/XS3",
+  "book_id": "376cd0c1-c6be-4958-88fe-08c5f9c37598",
+  "automation_id": "6ae577a132a08191a716b3efbca6cec5",
+  "reviewed_head": "5df9006ad8a70cf0ead4807e451a87fca0668de4",
+  "old_run_id": "6a92fcd8c6ae4c41b19c2300e4584b5a",
+  "chapter": 3,
+  "baseline_count": 2,
+  "baseline_fingerprint": "ddf40729ba0e41f57d4b27b7e21e9228b7c9ec18517db1dfb21e836c6727c643",
+  "expected_active_sha256": "62e500c0847bc49f3f5ad6ae5e103118775b5acabbac5089e73d42ef13def5e2",
+  "expected_state_sha256": "1e8d3dca59507c57df4be2029970e06f36083495878a5dd070a0b75f9ee006bc",
+  "executor_evidence": {
+    "source": "github_actions_api",
+    "all_jobs_terminal": true,
+    "observed_at": "2026-11-02T01:17:40.176Z",
+    "runs": [
+      {
+        "id": 41337264511,
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 41337305620,
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 41337430621,
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ],
+    "pending_writing_runs": 0
+  }
+}
