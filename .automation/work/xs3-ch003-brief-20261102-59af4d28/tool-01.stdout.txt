@@ -1,0 +1,6 @@
+{
+  "path": "briefs/CH003_318b75b33fe399a629a2200e22a6ab396fdce461b01a7feaad1cce32bd12966d.json",
+  "sha256": "318b75b33fe399a629a2200e22a6ab396fdce461b01a7feaad1cce32bd12966d",
+  "valid_mechanically": true,
+  "note": "不改变候选、修订次数或冻结事实；不证明任务书已完整提取语义约束。"
+}

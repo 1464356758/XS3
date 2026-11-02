@@ -270,6 +270,10 @@
     "2": {
       "path": "briefs/CH002_9d4445c7f5c736b2f6cef27415b9359fe4579654e8995f20e8fe3a98edc550b2.json",
       "sha256": "9d4445c7f5c736b2f6cef27415b9359fe4579654e8995f20e8fe3a98edc550b2"
+    },
+    "3": {
+      "path": "briefs/CH003_318b75b33fe399a629a2200e22a6ab396fdce461b01a7feaad1cce32bd12966d.json",
+      "sha256": "318b75b33fe399a629a2200e22a6ab396fdce461b01a7feaad1cce32bd12966d"
     }
   }
 }
