@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "xs3-manual-ch004-record-20261102-743db6ac",
-  "base_sha": "5f9de723fda3c94703a117c029f85d6687819526",
+  "request_id": "xs3-manual-ch004-record-20261102-b83da6e4",
+  "base_sha": "aeb6a8f77b82348d18fb94ea83b9be9fd0e89965",
   "book_id": "376cd0c1-c6be-4958-88fe-08c5f9c37598",
   "controller": {
     "kind": "manual",
