@@ -1,0 +1,222 @@
+{
+  "chapter": 3,
+  "title": "副账与空格",
+  "stage": "S01",
+  "base_revision": 5,
+  "canon_sha256": "bf7007bd30947ea5654393ba4661faba9900a8569280999d265229ddb8798944",
+  "text_sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+  "complete": true,
+  "story_time_end": 1,
+  "summary": "D1霜月初七，谢迟和林杏辰初到药谷并账现场，许青蘅确认乙四七受寿栏和阵脚号空白，与预填已收不一致；秦不渡依法限页封账，不宣布已经完成命息转移。钱吏郭满当场展示临收副底、临收号丙一八，连同林杏本人及药出七三核出已临收32铜，旧药折价46铜余14暂核；钱尚未转回药房实收簿，新药两服仍未发。林杏10铜自持，谢迟仍余23铜，医站另欠18铜，妹D5两灵铢未筹。许青蘅因署名和接触副账交出钥匙、谢迟失下次旁听。回医站苏见微对阿序复诊，喘暂缓但仍发热需守夜，医站赊药仍限。谷北草架事故有伤者和两名受困者，谢迟准备参加安全搬运，所称报酬尚未实收。",
+  "review": {
+    "read_full_text": true,
+    "decision": "adopt",
+    "blocking_issues": [],
+    "sources_checked": [
+      {
+        "chapter": 1,
+        "sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+        "quote": "林杏今天这份寿契停在了未兑的位置。"
+      },
+      {
+        "chapter": 2,
+        "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+        "quote": "他数给男人，留下二十三枚。"
+      },
+      {
+        "chapter": 2,
+        "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+        "quote": "热没有全退，胸口的起伏却不像家中那样急。"
+      }
+    ],
+    "conclusion": "实读CH003全文并对照CH001、CH002冻结正文：D1因果与权限接续，旧款核验/乙四七未兑分层，林杏新药仍未发，23/10/18铜独立守账，许青蘅和谢迟被限制阅账，阿序仅有限缓解，尚未收取工伤报酬。审读限信息方式同上下文近似，不冒充独立读者。"
+  },
+  "facts": [
+    {
+      "kind": "state",
+      "key": "linxing:payment_32",
+      "value": "D1钱吏郭满临收副底丙一八核实昨日林杏32铜已临收，药房尚未完成转账入明账",
+      "valid_from": 1,
+      "valid_until": null,
+      "quote": "代办药出七三，临收号丙一八。"
+    },
+    {
+      "kind": "state",
+      "key": "linxing:old_balance_14",
+      "value": "药出七三旧药折价46铜，核实临收32铜，旧药待付14铜；不含未发新药或医站费用",
+      "valid_from": 1,
+      "valid_until": null,
+      "quote": "欠资先按十四铜列暂核"
+    },
+    {
+      "kind": "state",
+      "key": "linxing:new_medication_pending",
+      "value": "昨日应领两服新药仍未定价且未发，不能把新药视作已收或已用",
+      "valid_from": 1,
+      "valid_until": null,
+      "quote": "今日仍不得放行。"
+    },
+    {
+      "kind": "state",
+      "key": "xiechi:coins_23",
+      "value": "谢迟私钱仍23铜，未替林杏交旧账和医站账，也未付妹D5两灵铢",
+      "valid_from": 1,
+      "valid_until": null,
+      "quote": "他袖里的二十三枚铜钱还没变成两灵铢"
+    },
+    {
+      "kind": "state",
+      "key": "linxing:coins_10",
+      "value": "林杏自带10铜仍未交付，不得核成药房已收或医站18铜已付",
+      "valid_from": 1,
+      "valid_until": null,
+      "quote": "我那十铜现在没有交给谁。"
+    },
+    {
+      "kind": "state",
+      "key": "linxing:clinic_debt_18",
+      "value": "林杏医站应急护理18铜欠款独立存在，旧药14铜另算",
+      "valid_from": 1,
+      "valid_until": null,
+      "quote": "那十八铜医站的药账又怎么办？"
+    },
+    {
+      "kind": "state",
+      "key": "asequence:health_D1",
+      "value": "阿序D1喘息仍反复但发作缩短，热未退，能饮水且需夜间看护",
+      "valid_from": 1,
+      "valid_until": null,
+      "quote": "今日又喘过一回。"
+    },
+    {
+      "kind": "state",
+      "key": "sujianwei:medicine_stock",
+      "value": "青息叶末D0用尽且普通草料不等效，医站公库赊药尚未恢复",
+      "valid_from": 1,
+      "valid_until": null,
+      "quote": "青息叶末昨日用尽了"
+    },
+    {
+      "kind": "knowledge",
+      "key": "xiechi:contract_blank",
+      "value": "谢迟仅获当场记载乙四七受寿栏空白、阵脚未记且原件封存，不证明已经兑命或伪契终局",
+      "valid_from": 1,
+      "valid_until": null,
+      "quote": "受寿栏空白，阵脚号未记，原件封存，未判兑付",
+      "holder": "谢迟"
+    },
+    {
+      "kind": "state",
+      "key": "qinbudu:sealed_originals",
+      "value": "秦不渡执律堂依法封存原簿，仅留下限字段结论，谢迟不取得整页影抄",
+      "valid_from": 1,
+      "valid_until": null,
+      "quote": "原件如今在执律堂保全。"
+    },
+    {
+      "kind": "state",
+      "key": "xuqingheng:access_suspended",
+      "value": "许青蘅署实见字段后被暂时收回副账房钥匙，本案期间不得独自调旧契",
+      "valid_from": 1,
+      "valid_until": null,
+      "quote": "明日起，副账房的钥匙先交回内务房。"
+    },
+    {
+      "kind": "state",
+      "key": "xiechi:hearing_suspended",
+      "value": "谢迟已无法继续旁听并账，非拥有完整账房调查权",
+      "valid_from": 1,
+      "valid_until": null,
+      "quote": "现在连旁听并账也停了。"
+    },
+    {
+      "kind": "knowledge",
+      "key": "linxing:separate_receipts",
+      "value": "林杏持旧药临收更正、新药暂存、医站18铜未收三张凭条且自己要求复核",
+      "valid_from": 1,
+      "valid_until": null,
+      "quote": "旧药暂收更正条、今日新药仍暂存的条、医站十八铜未收副条",
+      "holder": "林杏"
+    },
+    {
+      "kind": "state",
+      "key": "north_valley:rescue_event",
+      "value": "D1傍晚谷北草架倒塌，伤者送医另两人受困，声称报酬尚未支付",
+      "valid_from": 1,
+      "valid_until": null,
+      "quote": "谷北还压着两个人，能动的人都来抬了。"
+    },
+    {
+      "kind": "state",
+      "key": "xiechi:rescue_boundary",
+      "value": "谢迟决定去帮忙搬运，但明确仅会绑担架而不冒称专业医术",
+      "valid_from": 1,
+      "valid_until": null,
+      "quote": "会绑担架，不敢说会救命。"
+    },
+    {
+      "kind": "knowledge",
+      "key": "xiechi:past_contract",
+      "value": "谢迟记得两年前真实亲自执行过另一寿契，未向众人透露具体蔡婆旧案",
+      "valid_from": 1,
+      "valid_until": null,
+      "quote": "他想起两年前亲手签下的那一笔命契。",
+      "holder": "谢迟"
+    }
+  ],
+  "progression": {
+    "goal": "核实林杏旧药32铜真实付款，区分命契副账已收与实际兑付，并复诊阿序",
+    "obstacle": "钱柜实收簿与药房出入簿分处、副账原件限阅且交接到期、内务房意图提前写欠账、医站仍缺药",
+    "method": "有限字段誊录、执律封签、林杏与钱吏郭满当面对证临收副底/药包标记、苏见微当日复诊",
+    "choice": "谢迟不闯库、不替林杏付款；林杏主动要求核款；许青蘅署名留证承担暂失钥匙，秦不渡按现权限保全不贸然定罪",
+    "result": "旧药款临收32获证实，旧欠14，新药未给；乙四七受寿和阵脚空格正式记录；阿序得到复诊但未治愈",
+    "consequence": "谢迟失下次旁听资格，许青蘅暂失副账房钥匙，医站药源仍受限；谷北出现新的紧急救援和收入可能但未到账",
+    "next_options": "CH004真救工伤者、核药与可支付报酬；CH005必须实际付2灵铢，CH006核乙四七阵砂和次日领药",
+    "scene_function": "限权并账→凭独立副底兑现旧款查证→保全空白并承担失权→医站实诊→新工伤救援入口，区别CH001拒签和CH002危桥护送"
+  },
+  "thread_events": [
+    {
+      "id": "T03-P01",
+      "action": "payoff",
+      "description": "林杏32铜临收经郭满/副底/药出七三独立确认；旧药欠14铜，新药仍未发，完成旧款与暂存状态核验，不等于领药。",
+      "quote": "可以记作昨日实收三十二铜。"
+    },
+    {
+      "id": "T03-P02",
+      "action": "develop",
+      "description": "谢迟仍有23铜，妹妹D5续药两灵铢须CH005 D4真实交付，绝非已经获得。",
+      "quote": "他袖里的二十三枚铜钱还没变成两灵铢"
+    },
+    {
+      "id": "T03-P03",
+      "action": "partial",
+      "description": "乙四七受寿栏与阵脚号空白得到保全，CH006仍须核阵砂，未判定全宗伪造。",
+      "quote": "受寿栏空白，阵脚号未记，原件封存，未判兑付"
+    },
+    {
+      "id": "T03-P04",
+      "action": "develop",
+      "description": "谢迟失下一次旁听和原簿资格，CH010依旧需建立合法取证和生计通道。",
+      "quote": "现在连旁听并账也停了。"
+    },
+    {
+      "id": "T03-P05",
+      "action": "develop",
+      "description": "医站赊药牌未返，只取得急症申请路径，CH004需实际获药或明确替代方案。",
+      "quote": "能不能领新药，要等真拿到药才算。"
+    },
+    {
+      "id": "T03-P06",
+      "action": "payoff",
+      "description": "苏见微实际二次复诊，喘仍复发但较短、热未退，明确夜间照护和求外医条件，兑现复诊不等于痊愈。",
+      "quote": "今日又喘过一回。"
+    },
+    {
+      "id": "T03-P07",
+      "action": "plant",
+      "description": "谷北草架事故两人受困，本人仅协助搬运，工头所称报酬材料未实际到手，CH004兑现安全救援。",
+      "quote": "谷北还压着两个人，能动的人都来抬了。"
+    }
+  ],
+  "stage_closing": false
+}
