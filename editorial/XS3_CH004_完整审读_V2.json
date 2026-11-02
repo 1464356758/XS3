@@ -1,0 +1,192 @@
+{
+  "report_type": "CH004_pre_release_human_editorial_review",
+  "schema_version": 1,
+  "book_id": "376cd0c1-c6be-4958-88fe-08c5f9c37598",
+  "chapter": 4,
+  "title": "拿药来换命",
+  "reviewed_draft": "drafts/XS3_CH004_审核定稿候选_V2.txt",
+  "text_sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+  "measured_han": 9501,
+  "baseline_state_revision": 6,
+  "editorial_disposition": "recommended_for_formal_release_check",
+  "official_freeze_status": "NOT_LOCKED",
+  "tool_check_record": "NOT_RUN",
+  "tool_release_check": "NOT_RUN",
+  "tool_adopt": "NOT_RUN",
+  "tool_daily_finish": "NOT_RUN",
+  "reason": "2026-11-02北京时间已存在CH003有效完成回执；受保护的daily begin实际返回already_completed。不可越过每日唯一回执给CH004另造run_id。",
+  "reading_coverage": {
+    "full_chapter_4": true,
+    "frozen_previous_chapters": [
+      1,
+      2,
+      3
+    ],
+    "canon": true,
+    "roadmap": true
+  },
+  "same_context_reader_mode": "same_context_approximation",
+  "checks": [
+    {
+      "name": "timeline",
+      "status": "PASS",
+      "conclusion": "D1傍晚草架二次塌落、戌初救回医站，霜月初八D2早晨东家来、午后购药、晚间确认妹妹代领限制。日期跨夜明确。",
+      "evidence_quotes": [
+        "回到医站已过戌初。",
+        "霜月初八的第一场雾落在药谷瓦檐时"
+      ]
+    },
+    {
+      "name": "knowledge",
+      "status": "PASS",
+      "conclusion": "谢迟没有凭空知道东家与庄烬关系；先听祝仲衡传言，再去药房窗口核盖章黄签。主角不以药童身份调原簿。",
+      "evidence_quotes": [
+        "我只听见风声。你要找凭据，就去问配药窗口。",
+        "签发人是庄烬，霜月初七夜。"
+      ]
+    },
+    {
+      "name": "props_resources",
+      "status": "PASS",
+      "conclusion": "货款56铜专项+24铜急症捐药均由祝家向商人付，工人工资252铜各收，谢迟只收130铜；余额23+130=153，200−153=47。林杏欠14铜与医站欠18铜未抵消。",
+      "evidence_quotes": [
+        "医站收到可用五项，供本次三名工伤者使用",
+        "二十四铜等值药材，实际收到三包",
+        "三人的旧薪先真正交清。",
+        "还差四十七。"
+      ]
+    },
+    {
+      "name": "causality",
+      "status": "PASS",
+      "conclusion": "先减重、双缆稳梁再接骨师指导移梁；商人以工伤风险买药，实物验收拒受潮材；报酬旧工价用泛黄条据补强解释。",
+      "evidence_quotes": [
+        "要不我们又得救你们。",
+        "不能用于干净包扎",
+        "领头人的险工钱照旧例是一灵铢三十铜"
+      ]
+    },
+    {
+      "name": "power_rules",
+      "status": "PASS",
+      "conclusion": "谢迟仍是引息初段药童，只会绑扎、识药和现场协调；柳师傅在场专业判断，未御物抬梁、灵药治愈或越级击败庄烬。",
+      "evidence_quotes": [
+        "接下来听我喊停就是停。",
+        "两个都出来了。"
+      ]
+    },
+    {
+      "name": "promises",
+      "status": "PASS",
+      "conclusion": "P07两名受困者实际救出且仍需治疗；P05三包合格急症周转药真正入柜，公库赊牌未恢复。P02妹妹D5两灵铢仍差47，另立D4申初代领资格期限；P03/P04保留。",
+      "evidence_quotes": [
+        "两个都出来了。",
+        "二十四铜等值药材，实际收到三包",
+        "最迟霜月初十申初之前递入复核。"
+      ]
+    },
+    {
+      "name": "anti_repeat",
+      "status": "PASS",
+      "conclusion": "CH001拒签封秤、CH002危桥照护、CH003证据核款；CH004以坍塌救援、医学分诊、商人采购及现场验收与真实工资结算形成不同事件和状态变化。",
+      "evidence_quotes": [
+        "第二条麻缆终于收紧时",
+        "他翻出账册夹着的一张旧工价条"
+      ]
+    },
+    {
+      "name": "character_agency",
+      "status": "PASS",
+      "conclusion": "谢迟不闯险棚、不私交纸角；程栎收斧避免二次事故；费老四自己陈述日薪；苏见微拒假药；祝家真付费用；谢棠有独立道德意愿。",
+      "evidence_quotes": [
+        "程栎终于把斧头交了出去。",
+        "一天十二铜",
+        "我不想要别人的伤。"
+      ]
+    }
+  ],
+  "local_revision": {
+    "count": 1,
+    "scope": "为异常偏高的1灵铢30铜救援报酬补充药栈旧工价条、所避免的进一步货损和不抵工人工资的付款依据",
+    "financial_amounts_unchanged": true
+  },
+  "scene_reverse_outline": [
+    {
+      "event": "草架二次倾倒",
+      "choice": "谢迟制止盲冲，先点名卸上层湿藤",
+      "change": "确认两人在内、没有新增被压救援者"
+    },
+    {
+      "event": "程栎试图持斧破梁",
+      "choice": "谢迟阻止，并让两条麻缆独立稳固",
+      "change": "避免再一次坍塌"
+    },
+    {
+      "event": "柳师傅带队救援",
+      "choice": "谢迟服从专业技术与限定身份",
+      "change": "程野、费老四实际脱困"
+    },
+    {
+      "event": "三名工伤者在医站分诊",
+      "choice": "苏拒未经验材湿草抵诊",
+      "change": "形成真实医疗需求与独立伤单"
+    },
+    {
+      "event": "药栈提出以买药换纸",
+      "choice": "谢迟拒绝私交无砂证据",
+      "change": "商人需按工伤义务另行选择"
+    },
+    {
+      "event": "外购药品入柜",
+      "choice": "苏逐包验收并退湿材",
+      "change": "56铜专项五项、24铜周转三包真实收到"
+    },
+    {
+      "event": "薪钱与救援劳务结算",
+      "choice": "伤者自核工资、谢迟核旧工价再领",
+      "change": "252铜旧工资付清、谢迟实收130，病伤仍未治好"
+    },
+    {
+      "event": "药房核黄签",
+      "choice": "谢迟核实传闻而不信商人断言",
+      "change": "D4申初代领资格新增期限"
+    },
+    {
+      "event": "谢棠表明意愿",
+      "choice": "兄妹核出只差47铜，但不得为钱牺牲患者",
+      "change": "CH005需付药费并处理资格双门槛"
+    }
+  ],
+  "continuity": {
+    "story_time": "D1夜到D2晚",
+    "money": {
+      "xiechi_before_copper": 23,
+      "xiechi_rescue_income_copper": 130,
+      "xiechi_after_copper": 153,
+      "xietang_fee_due_copper": 200,
+      "shortfall_copper": 47,
+      "workers_old_wages_copper": 252,
+      "employer_purchase_injury_supplies_copper": 56,
+      "employer_donation_copper": 24
+    },
+    "medicine": "三名工伤专项药与医站周转药真实入柜，公库赊药牌未归还；妹妹本期药仍未付、未领",
+    "ethical_limits": "工钱不抵伤者医费，拒以命契和证据交换药"
+  },
+  "forward_constraints": [
+    "CH005必须在D4申初前办理谢迟代领资格复核；不能把递交申请写成已经自动通过",
+    "CH005按承诺须真实筹齐并支付200铜，缺口47铜必须真实到账，回执可验",
+    "CH006 D5实际领药，结算不等于领药",
+    "公库赊药牌尚未恢复，三包应急捐药不能等同长期稳定供给",
+    "之前冻结的CH001—003正文及事实账永不修改"
+  ],
+  "nonblocking_literary_findings": [
+    {
+      "kind": "continuation",
+      "finding": "本章救援具动作性，后半段又有较多账务对白；第五章须出现真正兑现与主动受阻，避免继续大量解释制度。"
+    },
+    {
+      "kind": "resource_plausibility",
+      "finding": "一灵铢30铜相对工人日薪12铜较高，已在V2加入旧险工价条和保货保人动机作因果补强。"
+    }
+  ]
+}
