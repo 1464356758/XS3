@@ -1,0 +1,5 @@
+{
+  "path": "/tmp/novel-tool-batch-lthimk61/project/drafts/XS3_CH004_release_template_manual.json",
+  "decision": "pending",
+  "note": "必须实际阅读全文并填写证据；模板不是通过报告。"
+}
