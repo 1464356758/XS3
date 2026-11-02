@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "type": "novel-manual-task-v1",
+  "book_id": "376cd0c1-c6be-4958-88fe-08c5f9c37598",
+  "status": "running",
+  "chapter": 4,
+  "run_id": "50365acaa1434e98ab45b3278e660c51",
+  "started_at": "2026-11-02T10:07:22+00:00",
+  "controller": {
+    "kind": "manual",
+    "session_id": "xs3-ch004-manual-20261102-58ebf7b4"
+  },
+  "baseline_count": 3,
+  "baseline_fingerprint": "e26513b3d10601a8bf8bd95c298e4755629e3f0c1746944c9aa30b4b957c5cbf",
+  "authorization": "explicit-author-request-to-complete-this-chapter",
+  "attempts": []
+}

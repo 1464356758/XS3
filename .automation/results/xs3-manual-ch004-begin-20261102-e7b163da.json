@@ -1,0 +1,24 @@
+{
+  "protocol": "novel-task-executor-v1",
+  "request_id": "xs3-manual-ch004-begin-20261102-e7b163da",
+  "request_sha256": "a8ea5daf21b9864818a1ef9028dd815fc1ae92828cfdfdd17f5c6ce24e3c60bc",
+  "source_sha": "98922cbc7038a7f8b28652bacba96e164fd8f528",
+  "base_sha": "ec646ec9d81467242d86aa37ba2853e2b2a80787",
+  "book_id": "376cd0c1-c6be-4958-88fe-08c5f9c37598",
+  "controller": {
+    "kind": "manual",
+    "session_id": "xs3-ch004-manual-20261102-58ebf7b4"
+  },
+  "phase": "manual-begin",
+  "executed_at": "2026-11-02T10:07:22+00:00",
+  "executor_status": "ok",
+  "github_run_id": "41426140926",
+  "business_status": "started",
+  "mode": "manual",
+  "run_id": "50365acaa1434e98ab45b3278e660c51",
+  "chapter": 4,
+  "changed_paths": [
+    "book/manual/active.json",
+    "online/index.json"
+  ]
+}
