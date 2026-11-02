@@ -1,42 +1,17 @@
 {
   "schema_version": 1,
-  "request_id": "xs3-manual-ch004-record-20261102-b83da6e4",
-  "base_sha": "aeb6a8f77b82348d18fb94ea83b9be9fd0e89965",
+  "request_id": "xs3-manual-ch004-finalize-20261102-4bc290e7",
+  "base_sha": "396cd70d0cb6b765b19cbf199029649b98049123",
   "book_id": "376cd0c1-c6be-4958-88fe-08c5f9c37598",
   "controller": {
     "kind": "manual",
     "session_id": "xs3-ch004-manual-20261102-58ebf7b4"
   },
   "author_directed": true,
-  "phase": "manual-command",
+  "phase": "manual-finalize",
   "chapter": 4,
   "run_id": "50365acaa1434e98ab45b3278e660c51",
-  "commands": [
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "check-record",
-        "--text",
-        "drafts/XS3_CH004_审核定稿候选_V2.txt",
-        "--record",
-        "drafts/XS3_CH004_候选事实账_V3.json"
-      ]
-    },
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "release-request",
-        "--text",
-        "drafts/XS3_CH004_审核定稿候选_V2.txt",
-        "--record",
-        "drafts/XS3_CH004_候选事实账_V3.json",
-        "--out",
-        "drafts/XS3_CH004_release_template_manual.json"
-      ]
-    }
-  ]
+  "text": "drafts/XS3_CH004_审核定稿候选_V2.txt",
+  "record": "drafts/XS3_CH004_候选事实账_V3.json",
+  "report": "drafts/XS3_CH004_release_reviewed_manual.json"
 }
