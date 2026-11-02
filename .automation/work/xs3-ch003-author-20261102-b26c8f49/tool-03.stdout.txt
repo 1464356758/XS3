@@ -1,0 +1,4 @@
+{
+  "path": "/tmp/novel-tool-batch-xmequ19l/project/drafts/XS3_CH003_author_packet.md",
+  "characters": 43021
+}
