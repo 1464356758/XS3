@@ -350,7 +350,8 @@ def check_source(project, request, event_sha, branch):
     require(git(project, "rev-parse", "HEAD") == event_sha, "工作目录与触发提交不符。")
     require(len(git(project, "rev-list", "--parents", "-n", "1", "HEAD").split()) == 2, "请求提交必须只有一个父提交。")
     require(git(project, "rev-parse", "HEAD^") == request["base_sha"], "请求基础提交不是触发提交的单一父版本。")
-    changes = git(project, "diff", "--name-only", request["base_sha"], event_sha).splitlines()
+    # Git quotes non-ASCII filenames by default; compare actual paths, not C-escaped names.
+    changes = git(project, "-c", "core.quotePath=false", "diff", "--name-only", request["base_sha"], event_sha).splitlines()
     require(all(p == ".automation/request.json" or p.startswith(("drafts/", "editorial/")) for p in changes),
             "请求提交只能包含请求和待审资料，不能直接改正式状态、正文或系统代码。")
     subprocess.run(["git", "fetch", "--quiet", "origin", branch], cwd=project, check=True, timeout=60)
