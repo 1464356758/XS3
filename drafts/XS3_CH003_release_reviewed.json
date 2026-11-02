@@ -1,0 +1,638 @@
+{
+  "schema_version": 1,
+  "book_id": "376cd0c1-c6be-4958-88fe-08c5f9c37598",
+  "chapter": 3,
+  "base_revision": 5,
+  "task_id": "02c24085-604c-474c-a19b-c57fcc104ccc",
+  "repairs": 0,
+  "text_sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+  "record_sha256": "a26f9989f33db272d50b6c753d45676ef3fc533b0388c69ce6896b9442f87eb5",
+  "canon_sha256": "bf7007bd30947ea5654393ba4661faba9900a8569280999d265229ddb8798944",
+  "roadmap_sha256": "6520708fddf9d9af1a26e892a789b0066db99e45a39606a480503f9bd58e67a2",
+  "narrative_review_version": 1,
+  "writing_brief_sha256": "318b75b33fe399a629a2200e22a6ab396fdce461b01a7feaad1cce32bd12966d",
+  "decision": "release",
+  "read_full_text": true,
+  "blocking_issues": [],
+  "read_coverage": {
+    "1": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+    "2": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+    "3": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538"
+  },
+  "reader_reason_to_continue": "临收32铜有了多源核验但尚有14铜旧债、18铜医站债及未发的新药；许青蘅失副账房钥匙，谢迟失旁听资格。谷北草架有人受困，下一章能否实救并核报酬？",
+  "consequence": "林杏旧药暂收32核实，旧欠14未清、新药仍未发；阿序复诊仍热喘；许青蘅被停阅副账、谢迟失去下一次旁听；医站仍断公库赊药且妹妹D5两灵铢未付。",
+  "ending_runway": "CH004必须实际救援谷北工伤与医站取得合法补给路径，工钱未到账不能先支；CH005 D4必须实际支付妹妹D5续药两灵铢并记清新债；CH006 D5按凭据真正领药并继续核阵脚原件。",
+  "checks": {
+    "timeline": {
+      "decision": "pass",
+      "conclusion": "D1辰初到午后并账、午后铜房押来副底、下午回医站，未跨日未瞬移。",
+      "evidence": [
+        {
+          "chapter": 3,
+          "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+          "quote": "霜月初七辰初，药谷的钟比昨日敲得短。"
+        },
+        {
+          "chapter": 3,
+          "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+          "quote": "午后未久，谷南铜房来了一辆小车。"
+        },
+        {
+          "chapter": 3,
+          "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+          "quote": "谢迟离开旧炉院时，日头已偏西。"
+        }
+      ]
+    },
+    "knowledge": {
+      "decision": "pass",
+      "conclusion": "钱吏副底证明临收，未证明全额归账；乙四七空受寿和空阵脚无法证明已转命，审证权受限，主角未得知后期真相。",
+      "evidence": [
+        {
+          "chapter": 3,
+          "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+          "quote": "代办药出七三，临收号丙一八。"
+        },
+        {
+          "chapter": 3,
+          "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+          "quote": "受寿栏空白，阵脚号未记，原件封存，未判兑付"
+        },
+        {
+          "chapter": 3,
+          "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+          "quote": "已收到与已归账，是两回事。"
+        }
+      ]
+    },
+    "props_resources": {
+      "decision": "pass",
+      "conclusion": "谢迟23铜、林杏10铜仍自持，旧药46−32=14，医站另18铜，新药未发，妹妹两灵铢未付。",
+      "evidence": [
+        {
+          "chapter": 3,
+          "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+          "quote": "他袖里的二十三枚铜钱还没变成两灵铢"
+        },
+        {
+          "chapter": 3,
+          "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+          "quote": "我那十铜现在没有交给谁。"
+        },
+        {
+          "chapter": 3,
+          "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+          "quote": "总共欠的是十四加十八"
+        }
+      ]
+    },
+    "causality": {
+      "decision": "pass",
+      "conclusion": "当事人亲认郭满与副底/出库簿交叉核旧款，证据保全限制参与人；许青蘅署名并交钥匙，病童有实际复诊。",
+      "evidence": [
+        {
+          "chapter": 3,
+          "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+          "quote": "可以记作昨日实收三十二铜。"
+        },
+        {
+          "chapter": 3,
+          "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+          "quote": "她把钥匙放进指定的木盒。"
+        },
+        {
+          "chapter": 3,
+          "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+          "quote": "今日又喘过一回。"
+        }
+      ]
+    },
+    "power_rules": {
+      "decision": "pass",
+      "conclusion": "谢迟只获陈述权限不得阅原簿，秦不渡只能有限封签，医站不能凭空治好患儿或补回药。",
+      "evidence": [
+        {
+          "chapter": 3,
+          "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+          "quote": "你昨日被撤了轮值。今日可以作为相关经手人说明，不得碰原簿。"
+        },
+        {
+          "chapter": 3,
+          "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+          "quote": "这不是我保证他会好。"
+        }
+      ]
+    },
+    "promises": {
+      "decision": "pass",
+      "conclusion": "P01旧款和暂存状态真正核查、P06复诊兑现，其余期限保留，P07新救援CH004要兑现。",
+      "evidence": [
+        {
+          "chapter": 3,
+          "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+          "quote": "可以记作昨日实收三十二铜。"
+        },
+        {
+          "chapter": 3,
+          "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+          "quote": "今日又喘过一回。"
+        },
+        {
+          "chapter": 3,
+          "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+          "quote": "能不能领新药，要等真拿到药才算。"
+        }
+      ]
+    },
+    "anti_repeat": {
+      "decision": "pass",
+      "conclusion": "区别CH001封秤拒签和CH002铺桥实救，本章以多源核旧款/限字段誊录/封原簿换人物失权；非重演同一胜利。",
+      "evidence": [
+        {
+          "chapter": 3,
+          "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+          "quote": "郭满承认当窗收了你三十二铜"
+        },
+        {
+          "chapter": 3,
+          "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+          "quote": "她把钥匙放进指定的木盒。"
+        }
+      ]
+    },
+    "character_agency": {
+      "decision": "pass",
+      "conclusion": "林杏亲自核款不让人替答，许青蘅明知失钥匙仍签实见字段，谢迟不动妹妹现金帮别人做主。",
+      "evidence": [
+        {
+          "chapter": 3,
+          "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+          "quote": "这一回，我自己去。"
+        },
+        {
+          "chapter": 3,
+          "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+          "quote": "我不是为你签的。我签的是我今天实际看过的东西。"
+        },
+        {
+          "chapter": 3,
+          "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+          "quote": "这回他什么都没给"
+        }
+      ]
+    }
+  },
+  "comparison": [
+    {
+      "chapter": 1,
+      "sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+      "quote": "林杏今天这份寿契停在了未兑的位置。",
+      "difference": "CH001是按双见证封住乙四七并失收契轮值；CH003靠郭满副底、药出七三、权限定页审账证实实收32，以停阅副账为代价，法则重复但行动和结果不同。"
+    },
+    {
+      "chapter": 2,
+      "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+      "quote": "他数给男人，留下二十三枚。",
+      "difference": "CH002花4铜解决湿桥风险、病童得到初次护理并令医站断赊药；CH003与执律/钱柜交涉核款并保全有限副账，复诊已护理患儿，新的代价是接触者被停权。"
+    }
+  ],
+  "future_window": [
+    {
+      "chapter": 4,
+      "goal": "安全实救谷北草架两名受困采药工并处理已送来的外伤，核合法急症药源",
+      "change": "实际救援和药材耗用入账；工头承诺的报酬须拿到或登记实际应收与债主，不提前入手",
+      "ending_question": "劳务与救治报酬能否为D5妹妹药费提供现实资金？"
+    },
+    {
+      "chapter": 5,
+      "goal": "D4按期限实际筹付谢棠D5两灵铢并取次日领药凭据",
+      "change": "合法报酬和必要借款真实到账并付款，记录到期和代价",
+      "ending_question": "已付药费能否在D5换得真正可用的续药？"
+    },
+    {
+      "chapter": 6,
+      "goal": "D5领药照护谢棠，同时查乙四七阵砂底簿、保全边界",
+      "change": "真正取得续药并记录可独立核验的阵脚/证据缺口，不公开越权结论",
+      "ending_question": "失去账房权限之后，谁愿意依程序提供下一条证据链？"
+    }
+  ],
+  "promise_reviews": [
+    {
+      "id": "T03-P01",
+      "action": "complete",
+      "deadline_chapter": 3,
+      "reason": "郭满临收32与药出七三折价确认，旧药余欠14，新药仍未发，兑现付款核验和暂存实查而非药物交付。",
+      "evidence": {
+        "chapter": 3,
+        "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+        "quote": "可以记作昨日实收三十二铜。"
+      }
+    },
+    {
+      "id": "T03-P02",
+      "action": "keep",
+      "deadline_chapter": 5,
+      "reason": "谢迟剩23铜，妹妹D5两灵铢尚未筹付，CH005 D4必须实付。",
+      "evidence": {
+        "chapter": 3,
+        "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+        "quote": "他袖里的二十三枚铜钱还没变成两灵铢"
+      }
+    },
+    {
+      "id": "T03-P03",
+      "action": "keep",
+      "deadline_chapter": 6,
+      "reason": "乙四七空栏封存，原阵砂缺口仍需CH006核实。",
+      "evidence": {
+        "chapter": 3,
+        "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+        "quote": "受寿栏空白，阵脚号未记，原件封存，未判兑付"
+      }
+    },
+    {
+      "id": "T03-P04",
+      "action": "keep",
+      "deadline_chapter": 10,
+      "reason": "主角失再旁听资格，至CH010仍需找合法证据来源。",
+      "evidence": {
+        "chapter": 3,
+        "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+        "quote": "现在连旁听并账也停了。"
+      }
+    },
+    {
+      "id": "T03-P05",
+      "action": "keep",
+      "deadline_chapter": 4,
+      "reason": "医站赊药牌仍未还，急症申请不等于领药，CH004真实补给。",
+      "evidence": {
+        "chapter": 3,
+        "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+        "quote": "能不能领新药，要等真拿到药才算。"
+      }
+    },
+    {
+      "id": "T03-P06",
+      "action": "complete",
+      "deadline_chapter": 3,
+      "reason": "苏见微实诊阿序，喘有反复热未退并嘱留夜观护，复诊兑现而非治愈。",
+      "evidence": {
+        "chapter": 3,
+        "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+        "quote": "今日又喘过一回。"
+      }
+    },
+    {
+      "id": "T03-P07",
+      "action": "set",
+      "deadline_chapter": 4,
+      "reason": "谷北草架还有两名受困者，救援才启动、工钱未交，须在CH004真正解决。",
+      "evidence": {
+        "chapter": 3,
+        "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+        "quote": "谷北还压着两个人，能动的人都来抬了。"
+      }
+    }
+  ],
+  "incident_actions": [],
+  "narrative_review": {
+    "schema_version": 1,
+    "actual_scenes": [
+      {
+        "event": "医站凌晨病儿仍喘，林杏坚持亲自参与核钱",
+        "choice": "谢迟尊重当事人自己陈述，不借保护名义禁止她出门",
+        "change": "受害者从被代言转为自己持证参加",
+        "evidence": [
+          {
+            "chapter": 3,
+            "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+            "quote": "那三十二枚是我自己交出去的。"
+          }
+        ]
+      },
+      {
+        "event": "辰初两簿没有钱柜实收簿，许青蘅指乙四七阵脚/受寿空栏",
+        "choice": "许青蘅据实记录查证范围，拒绝在未查钱前写零收",
+        "change": "空白和钱款分两条可核来源而不是一张纸证明全部",
+        "evidence": [
+          {
+            "chapter": 3,
+            "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+            "quote": "那实收簿在哪里？"
+          }
+        ]
+      },
+      {
+        "event": "秦不渡按权限封账，许青蘅限字段誊录",
+        "choice": "许青蘅拒绝整册私抄，坚持仅留授权材料",
+        "change": "证据可保全但不让主角无代价取得整本档案",
+        "evidence": [
+          {
+            "chapter": 3,
+            "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+            "quote": "那我只抄这些。"
+          }
+        ]
+      },
+      {
+        "event": "郭满携临收副底，林杏本人/药出七三/钱吏印记三源核旧药",
+        "choice": "林杏主动当面问款，秦不渡限定‘已收’与‘已归账’的区别",
+        "change": "旧药实收32获证，旧欠14，今日新药仍被扣",
+        "evidence": [
+          {
+            "chapter": 3,
+            "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+            "quote": "可以记作昨日实收三十二铜。"
+          }
+        ]
+      },
+      {
+        "event": "账匣交接危险与限页封存，许青蘅署名",
+        "choice": "她选择不偷簿而把自己实名记进查证单",
+        "change": "她被暂收副账房钥匙、谢迟失旁听，真实人员代价落地",
+        "evidence": [
+          {
+            "chapter": 3,
+            "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+            "quote": "她把钥匙放进指定的木盒。"
+          }
+        ]
+      },
+      {
+        "event": "回医站苏见微亲自复诊，林杏自己核三笔债",
+        "choice": "苏不乱用剩余草料并安排夜间观护",
+        "change": "阿序仍热喘，旧药欠14/医站18与未付10不混账",
+        "evidence": [
+          {
+            "chapter": 3,
+            "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+            "quote": "今日又喘过一回。"
+          }
+        ]
+      },
+      {
+        "event": "谷北草架压伤多人，工头称有工钱材料",
+        "choice": "谢迟只做会的安全搬运，苏先诊伤且记明谁承诺给付",
+        "change": "CH004紧迫实救，不把虚诺写成已得药费",
+        "evidence": [
+          {
+            "chapter": 3,
+            "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+            "quote": "会绑担架，不敢说会救命。"
+          }
+        ]
+      }
+    ],
+    "plan_comparison": "写前任务书的七个功能场景均有实事结果，重心由限制接触的账房冲突转到钱吏临收独立核验，最终落地阿序复诊与谷北即刻救援。D1之内完成两条到期承诺，受寿栏空白只证明当次未证实兑付，且因封账失权、诊治缺药持续产生代价。未重写旧冻结章节；当前草稿0轮候选修订。",
+    "reader": {
+      "mode": "same_context_approximation",
+      "limitation": "同一个GPT上下文同时知晓作者CANON与CH001—CH003，reader资料仅用于限制为故事内已出现信息的近似复读，不代表独立模型、真实陌生读者或无偏盲测。",
+      "coverage": {
+        "1": {
+          "text_sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+          "mode": "full_text"
+        },
+        "2": {
+          "text_sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+          "mode": "full_text"
+        },
+        "3": {
+          "text_sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+          "mode": "full_text"
+        }
+      },
+      "understanding": "明白CH001封乙四七未兑、CH002阿序首次诊疗、CH003经钱吏临收核实32铜与旧药欠14；新药仍未发，乙四七受寿栏空不等于已查到伪契主谋。",
+      "information_load": "钱柜临收、药房折价、副账受寿、执律封签与医站欠账多套概念集中，人物动作和临收号把结论落到看得见的纸与钱；下一章必须以谷北实救减少连续账务讨论。",
+      "promise_delivery": "到期旧药实收核验和阿序复诊已兑现；谢棠D5实际付款、医站赊药恢复、命砂原簿深查仍需按各自期限兑现。",
+      "evidence": [
+        {
+          "chapter": 3,
+          "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+          "quote": "可以记作昨日实收三十二铜。"
+        },
+        {
+          "chapter": 3,
+          "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+          "quote": "受寿栏空白，阵脚号未记，原件封存，未判兑付"
+        },
+        {
+          "chapter": 3,
+          "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+          "quote": "今日又喘过一回。"
+        }
+      ],
+      "issues": [
+        {
+          "severity": "suggestion",
+          "status": "open",
+          "reason": "连续两章对话多、专业名词密，第三章读者已获旧药32铜实质结果，CH004须更多救援行动及可核工钱，避免只加新表单。文学建议不构成CH003硬错误。",
+          "evidence": {
+            "chapter": 3,
+            "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+            "quote": "我去抬人。"
+          }
+        },
+        {
+          "severity": "verify",
+          "status": "resolved",
+          "reason": "临收32不是钱已正式归药房账，末尾仍欠14及另18铜；正文已以经手人、副底、出库簿三源和‘已收与已归账’明确区分。",
+          "evidence": {
+            "chapter": 3,
+            "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+            "quote": "已收到与已归账，是两回事。"
+          }
+        }
+      ]
+    },
+    "character_causality": {
+      "opposition": {
+        "status": "reviewed",
+        "conclusion": "顾典事以预拟欠资草条、交接时限与钥匙停权施压；许七反问谢迟旧契责任，反派并未因一次核钱立刻消失。",
+        "evidence": [
+          {
+            "chapter": 3,
+            "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+            "quote": "未见现金，欠资转契。"
+          },
+          {
+            "chapter": 3,
+            "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+            "quote": "你在药谷抄账三年，经手多少人？"
+          }
+        ]
+      },
+      "dialogue": {
+        "status": "reviewed",
+        "conclusion": "林杏问的是自己和儿子的生计，钱吏郭满说当窗事实，秦不渡划出权限，许青蘅署名是对自己所见负责，苏见微按症候看病；各人利益与认知有边界。",
+        "evidence": [
+          {
+            "chapter": 3,
+            "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+            "quote": "我只想问，他认不认得这包药，认不认得交钱的人。"
+          },
+          {
+            "chapter": 3,
+            "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+            "quote": "我不是为你签的。我签的是我今天实际看过的东西。"
+          }
+        ]
+      },
+      "aftermath": {
+        "status": "reviewed",
+        "conclusion": "32铜临收有实证但新药未领，许青蘅失钥匙、谢迟失旁听；阿序需继续守夜，谷北两人仍受困，无全胜清空代价。",
+        "evidence": [
+          {
+            "chapter": 3,
+            "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+            "quote": "今日仍不得放行。"
+          },
+          {
+            "chapter": 3,
+            "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+            "quote": "她把钥匙放进指定的木盒。"
+          },
+          {
+            "chapter": 3,
+            "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+            "quote": "谷北还压着两个人，能动的人都来抬了。"
+          }
+        ]
+      }
+    },
+    "history": {
+      "index_sha256": "afaa4f3723eec287b609784a3502c23b22697cd4b6549e634e60ac645fbf8862",
+      "queries": [
+        "药价 命秤 乙四七 受寿人",
+        "药出七三 林杏 32铜 阿序 医站"
+      ],
+      "comparisons": [
+        {
+          "similarity": "CH001同为林杏寿契、乙四七文书与药资危机，沿同一条主线。",
+          "difference": "CH001靠缺二证停秤并被撤轮职；CH003靠铜房临收、药出七三与限页封账取得32铜实证，付出查账权限损失。",
+          "source": {
+            "chapter": 1,
+            "sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+            "quote": "林杏今天这份寿契停在了未兑的位置。"
+          },
+          "current_evidence": {
+            "chapter": 3,
+            "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+            "quote": "可以记作昨日实收三十二铜。"
+          }
+        },
+        {
+          "similarity": "CH002包含阿序医护、钱与药包出库标记，CH003继续关联。",
+          "difference": "CH002危桥支付4铜让病童先受照护；CH003是D1二次复诊和钱柜凭据、账吏失权；既没有再次过桥也没有重复取同一张纸。",
+          "source": {
+            "chapter": 2,
+            "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+            "quote": "他数给男人，留下二十三枚。"
+          },
+          "current_evidence": {
+            "chapter": 3,
+            "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+            "quote": "她把钥匙放进指定的木盒。"
+          }
+        }
+      ],
+      "no_match_reason": ""
+    },
+    "reader_updates": [
+      {
+        "kind": "observed",
+        "statement": "林杏旧药临收32铜经钱吏副底、药出七三确认；已临收尚非钱柜转到药房明账。",
+        "evidence": [
+          {
+            "chapter": 3,
+            "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+            "quote": "可以记作昨日实收三十二铜。"
+          }
+        ]
+      },
+      {
+        "kind": "observed",
+        "statement": "旧药折价46铜实收32余欠14；新药两服仍未发，医站另欠18。",
+        "evidence": [
+          {
+            "chapter": 3,
+            "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+            "quote": "欠资先按十四铜列暂核"
+          },
+          {
+            "chapter": 3,
+            "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+            "quote": "今日仍不得放行。"
+          }
+        ]
+      },
+      {
+        "kind": "observed",
+        "statement": "乙四七受寿栏/阵脚号空白由执律保全，并未证明实兑。",
+        "evidence": [
+          {
+            "chapter": 3,
+            "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+            "quote": "受寿栏空白，阵脚号未记，原件封存，未判兑付"
+          }
+        ]
+      },
+      {
+        "kind": "observed",
+        "statement": "许青蘅被暂时收钥匙，谢迟失去之后旁听，钱柜正式转账仍待处理。",
+        "evidence": [
+          {
+            "chapter": 3,
+            "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+            "quote": "明日起，副账房的钥匙先交回内务房。"
+          },
+          {
+            "chapter": 3,
+            "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+            "quote": "现在连旁听并账也停了。"
+          }
+        ]
+      },
+      {
+        "kind": "observed",
+        "statement": "阿序D1实际复诊仍喘热，医站青息叶末用尽且不给未经核的药。",
+        "evidence": [
+          {
+            "chapter": 3,
+            "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+            "quote": "今日又喘过一回。"
+          },
+          {
+            "chapter": 3,
+            "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+            "quote": "青息叶末昨日用尽了"
+          }
+        ]
+      },
+      {
+        "kind": "claim",
+        "statement": "谷北工头说有救助工钱药材，尚未支付，不能记为主角已得现金。",
+        "evidence": [
+          {
+            "chapter": 3,
+            "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+            "quote": "我们有工钱，也有药材，可先救人！"
+          }
+        ]
+      },
+      {
+        "kind": "uncertain",
+        "statement": "副账受寿栏空可能为漏填、滞后或其他异常，仍未有证据证成全宗主谋。",
+        "evidence": [
+          {
+            "chapter": 3,
+            "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+            "quote": "空着也许是漏填。"
+          }
+        ]
+      }
+    ],
+    "reader_update_note": "区分可观察到的临收单据/空栏/失权/复诊、工头未兑现的薪酬声称以及副账空白原因未知；不将未来母亲零号或三千名单写进D1人物的认知。",
+    "surface_findings": []
+  }
+}
