@@ -1,0 +1,35 @@
+{
+  "protocol": "novel-task-executor-v1",
+  "request_id": "xs3-ch003-recover-20261102-e4fc2017",
+  "request_sha256": "ed37e12dd962c159d395852e68602c6f16c45d81dee20f1c51d99539cc19d5e7",
+  "source_sha": "8fcecc683927f8740ccee8bcfae36e6979d348f4",
+  "base_sha": "f11e6765194846a5d978e7605405e4e74b9b30a0",
+  "book_id": "376cd0c1-c6be-4958-88fe-08c5f9c37598",
+  "controller": {
+    "kind": "maintenance",
+    "session_id": "xs3-ch3-maintenance-20261102-a4c91e5f"
+  },
+  "phase": "recover",
+  "executed_at": "2026-11-02T01:19:28+00:00",
+  "executor_status": "ok",
+  "github_run_id": "41371883227",
+  "business_status": "recovery_ready",
+  "chapter": 3,
+  "run_id": "d54e6eae34794c318a2ff69044498a3f",
+  "revoked_run_id": "6a92fcd8c6ae4c41b19c2300e4584b5a",
+  "audit_path": "book/daily/recoveries/xs3-ch003-author-repair-20261102-c91e6f.json",
+  "executor_check": {
+    "fresh_github_check": true,
+    "github_run_id": "41371883227",
+    "ignored_readonly_validation": [
+      41371883228,
+      41371842803
+    ],
+    "at": "2026-11-02T01:19:30+00:00"
+  },
+  "changed_paths": [
+    "book/daily/active.json",
+    "book/daily/recoveries/xs3-ch003-author-repair-20261102-c91e6f.json",
+    "online/index.json"
+  ]
+}
