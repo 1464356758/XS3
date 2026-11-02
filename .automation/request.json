@@ -1,15 +1,12 @@
 {
   "schema_version": 1,
-  "request_id": "xs3-20261102-block-6e19b7c4",
-  "base_sha": "f42a7ca6fd1f701b7a125ecdb710005ca3c1b4ac",
+  "request_id": "xs3-ch003-recover-20261102-e4fc2017",
+  "base_sha": "f11e6765194846a5d978e7605405e4e74b9b30a0",
   "book_id": "376cd0c1-c6be-4958-88fe-08c5f9c37598",
   "controller": {
-    "kind": "automation",
-    "automation_id": "6ae577a132a08191a716b3efbca6cec5",
-    "session_id": "xs3-20261102-0232-6d8b91c4",
-    "platform_run_id": null
+    "kind": "maintenance",
+    "session_id": "xs3-ch3-maintenance-20261102-a4c91e5f"
   },
-  "phase": "block",
-  "run_id": "6a92fcd8c6ae4c41b19c2300e4584b5a",
-  "reason": "本轮执行窗口已不足以完成CH003的8000-10000汉字、文学审核及冻结；工作稿与续写任务书已保存于drafts，未提交candidate或finalize。保留原章目标与锁，等待依stopped_evidence协议合法恢复。"
+  "phase": "recover",
+  "recovery_grant": ".automation/recoveries/xs3-ch003-author-repair-20261102-c91e6f.json"
 }
