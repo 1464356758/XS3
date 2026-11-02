@@ -2,7 +2,7 @@
   "schema_version": 2,
   "book_id": "376cd0c1-c6be-4958-88fe-08c5f9c37598",
   "title": "仙门欠我三千命",
-  "revision": 5,
+  "revision": 6,
   "config": {
     "target_chapters": 100,
     "target_han": 900000,
@@ -41,6 +41,16 @@
       "record_sha256": "c35767627dfa12b9a34b5e0878192e535e158e9b0c9aec182f0714fa2d895e2d",
       "han_count": 9572,
       "adopted_at": "2026-11-01T05:59:42+00:00"
+    },
+    "3": {
+      "title": "副账与空格",
+      "stage": "S01",
+      "text_path": "chapters/CH003_37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538.txt",
+      "text_sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+      "record_path": "records/CH003_a26f9989f33db272d50b6c753d45676ef3fc533b0388c69ce6896b9442f87eb5.json",
+      "record_sha256": "a26f9989f33db272d50b6c753d45676ef3fc533b0388c69ce6896b9442f87eb5",
+      "han_count": 9642,
+      "adopted_at": "2026-11-02T01:40:17+00:00"
     }
   },
   "checkpoints": [],
@@ -120,7 +130,7 @@
       "task_id": "02c24085-604c-474c-a19b-c57fcc104ccc",
       "chapter": 3,
       "mode": "write",
-      "phase": "candidate",
+      "phase": "adopted",
       "repairs": 0,
       "history": [
         {
@@ -145,6 +155,10 @@
       "2": {
         "text_sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
         "record_sha256": "c35767627dfa12b9a34b5e0878192e535e158e9b0c9aec182f0714fa2d895e2d"
+      },
+      "3": {
+        "text_sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+        "record_sha256": "a26f9989f33db272d50b6c753d45676ef3fc533b0388c69ce6896b9442f87eb5"
       }
     },
     "published": {},
@@ -157,6 +171,11 @@
       "2": {
         "path": "releases/CH002_cf8b327f1023f22e5557872d79127b57efd56f5a1f35d5da480f49b9ff411bd4.json",
         "sha256": "cf8b327f1023f22e5557872d79127b57efd56f5a1f35d5da480f49b9ff411bd4",
+        "used": true
+      },
+      "3": {
+        "path": "releases/CH003_fa363652f76601b2dc75d7da4ea4ab540b19aeb8dc6bd9c303adf37ac038df59.json",
+        "sha256": "fa363652f76601b2dc75d7da4ea4ab540b19aeb8dc6bd9c303adf37ac038df59",
         "used": true
       }
     },
@@ -174,11 +193,23 @@
               "quote": "林杏问：“那我今天带来的十枚，也能写进去么？”"
             },
             "chapter": 1
+          },
+          {
+            "id": "T03-P01",
+            "action": "complete",
+            "deadline_chapter": 3,
+            "reason": "郭满临收32与药出七三折价确认，旧药余欠14，新药仍未发，兑现付款核验和暂存实查而非药物交付。",
+            "evidence": {
+              "chapter": 3,
+              "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+              "quote": "可以记作昨日实收三十二铜。"
+            },
+            "chapter": 3
           }
         ],
         "deadline_chapter": 3,
-        "status": "open",
-        "last_reviewed_chapter": 2
+        "status": "closed",
+        "last_reviewed_chapter": 3
       },
       "T03-P02": {
         "history": [
@@ -197,7 +228,7 @@
         ],
         "deadline_chapter": 5,
         "status": "open",
-        "last_reviewed_chapter": 2
+        "last_reviewed_chapter": 3
       },
       "T03-P03": {
         "history": [
@@ -216,7 +247,7 @@
         ],
         "deadline_chapter": 6,
         "status": "open",
-        "last_reviewed_chapter": 2
+        "last_reviewed_chapter": 3
       },
       "T03-P04": {
         "history": [
@@ -235,7 +266,7 @@
         ],
         "deadline_chapter": 10,
         "status": "open",
-        "last_reviewed_chapter": 2
+        "last_reviewed_chapter": 3
       },
       "T03-P05": {
         "history": [
@@ -254,7 +285,7 @@
         ],
         "deadline_chapter": 4,
         "status": "open",
-        "last_reviewed_chapter": 2
+        "last_reviewed_chapter": 3
       },
       "T03-P06": {
         "history": [
@@ -269,11 +300,42 @@
               "quote": "热没有全退，胸口的起伏却不像家中那样急。"
             },
             "chapter": 2
+          },
+          {
+            "id": "T03-P06",
+            "action": "complete",
+            "deadline_chapter": 3,
+            "reason": "苏见微实诊阿序，喘有反复热未退并嘱留夜观护，复诊兑现而非治愈。",
+            "evidence": {
+              "chapter": 3,
+              "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+              "quote": "今日又喘过一回。"
+            },
+            "chapter": 3
           }
         ],
         "deadline_chapter": 3,
+        "status": "closed",
+        "last_reviewed_chapter": 3
+      },
+      "T03-P07": {
+        "history": [
+          {
+            "id": "T03-P07",
+            "action": "set",
+            "deadline_chapter": 4,
+            "reason": "谷北草架还有两名受困者，救援才启动、工钱未交，须在CH004真正解决。",
+            "evidence": {
+              "chapter": 3,
+              "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+              "quote": "谷北还压着两个人，能动的人都来抬了。"
+            },
+            "chapter": 3
+          }
+        ],
+        "deadline_chapter": 4,
         "status": "open",
-        "last_reviewed_chapter": 2
+        "last_reviewed_chapter": 3
       }
     },
     "incidents": {}

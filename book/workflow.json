@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": 8,
+  "revision": 9,
   "book_id": "376cd0c1-c6be-4958-88fe-08c5f9c37598",
   "phase": "WAITING_NEXT",
   "platform": "17k",
@@ -22,7 +22,7 @@
   },
   "research_path": "research/platform_dbbac70c7f7b04c48f6d37e5a16795aa8986cde56ecfb228a5c8ade573f634a9.json",
   "topics_path": "research/topics_db812f8a69861b61c5bf9ae41bbd26cf395cb5561d306f816afc0f3c8d01841e.json",
-  "chapter": 3,
+  "chapter": 4,
   "history": [
     {
       "at": "2026-10-31T03:04:07+00:00",
@@ -77,9 +77,15 @@
       "phase": "WAITING_NEXT",
       "label": "等待下一章",
       "detail": "第2章已采用并冻结；平台发布另凭真实回执登记。"
+    },
+    {
+      "at": "2026-11-02T01:40:17+00:00",
+      "phase": "WAITING_NEXT",
+      "label": "等待下一章",
+      "detail": "第3章已采用并冻结；平台发布另凭真实回执登记。"
     }
   ],
-  "detail": "第2章已采用并冻结；平台发布另凭真实回执登记。",
+  "detail": "第3章已采用并冻结；平台发布另凭真实回执登记。",
   "next_action": "读取正式状态后，由下一次日更处理下一章。",
-  "updated_at": "2026-11-01T05:59:42+00:00"
+  "updated_at": "2026-11-02T01:40:17+00:00"
 }
