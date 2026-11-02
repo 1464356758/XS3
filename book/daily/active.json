@@ -2,12 +2,12 @@
   "schema_version": 1,
   "type": "novel-daily-task-v1",
   "book_id": "376cd0c1-c6be-4958-88fe-08c5f9c37598",
-  "run_id": "d54e6eae34794c318a2ff69044498a3f",
+  "run_id": "f82c5d0506ba4a1496d1f9c703bbd3f1",
   "work_id": "376cd0c1-c6be-4958-88fe-08c5f9c37598:2026-11-02:3",
   "start_date": "2026-11-02",
   "started_at": "2026-11-01T18:34:23+00:00",
   "chapter": 3,
-  "status": "blocked",
+  "status": "running",
   "baseline_count": 2,
   "baseline_fingerprint": "ddf40729ba0e41f57d4b27b7e21e9228b7c9ec18517db1dfb21e836c6727c643",
   "attempts": [
@@ -16,18 +16,43 @@
       "status": "authorization_revoked",
       "authorization_revoked_at": "2026-11-02T01:19:30+00:00",
       "audit_path": "daily/recoveries/xs3-ch003-author-repair-20261102-c91e6f.json"
+    },
+    {
+      "run_id": "d54e6eae34794c318a2ff69044498a3f",
+      "status": "recovery_ready",
+      "claimed_at": "2026-11-02T01:22:47+00:00"
     }
   ],
-  "reason": "作者授权撤销旧执行；已准备接续同一目标，等待既有每日任务。",
+  "reason": "",
   "blocked_at": "2026-11-01T18:35:51+00:00",
   "operator_recovery": {
-    "status": "ready",
+    "status": "claimed",
     "grant_path": ".automation/recoveries/xs3-ch003-author-repair-20261102-c91e6f.json",
     "grant_sha256": "32afb6491223a726155f5639c1217dab4f885671eb6e940b30541237aa519e09",
     "audit_path": "daily/recoveries/xs3-ch003-author-repair-20261102-c91e6f.json",
     "audit_sha256": "62be4fa6e1d49bd28ac0070caeb529c34fa4b66612e15a553a87c475f597c663",
     "old_run_id": "6a92fcd8c6ae4c41b19c2300e4584b5a",
     "ready_run_id": "d54e6eae34794c318a2ff69044498a3f",
-    "expected_state_sha256": "1e8d3dca59507c57df4be2029970e06f36083495878a5dd070a0b75f9ee006bc"
+    "expected_state_sha256": "1e8d3dca59507c57df4be2029970e06f36083495878a5dd070a0b75f9ee006bc",
+    "claimed_at": "2026-11-02T01:22:47+00:00",
+    "claimed_by": {
+      "kind": "automation",
+      "automation_id": "6ae577a132a08191a716b3efbca6cec5",
+      "session_id": "xs3-ch003-20261102-manual-d9b8ac71",
+      "platform_run_id": null
+    }
+  },
+  "controller": {
+    "kind": "automation",
+    "automation_id": "6ae577a132a08191a716b3efbca6cec5",
+    "session_id": "xs3-ch003-20261102-manual-d9b8ac71",
+    "platform_run_id": null
+  },
+  "resumed_at": "2026-11-02T01:22:47+00:00",
+  "executor_checkpoint": {
+    "request_id": "xs3-ch003-resume-20261102-3f57c2db",
+    "phase": "begin",
+    "at": "2026-11-02T01:22:47+00:00",
+    "github_run_id": "41372177788"
   }
 }
