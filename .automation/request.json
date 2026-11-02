@@ -1,13 +1,90 @@
 {
   "schema_version": 1,
-  "request_id": "xs3-manual-ch004-begin-20261102-e7b163da",
-  "base_sha": "ec646ec9d81467242d86aa37ba2853e2b2a80787",
+  "request_id": "xs3-manual-ch004-prep-20261102-8d4b1ca9",
+  "base_sha": "9587c2e4cc5e83f85e9c9df56bd149fa366b37dc",
   "book_id": "376cd0c1-c6be-4958-88fe-08c5f9c37598",
   "controller": {
     "kind": "manual",
     "session_id": "xs3-ch004-manual-20261102-58ebf7b4"
   },
   "author_directed": true,
-  "phase": "manual-begin",
-  "chapter": 4
+  "phase": "manual-command",
+  "chapter": 4,
+  "run_id": "50365acaa1434e98ab45b3278e660c51",
+  "commands": [
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "brief-check",
+        "--file",
+        "drafts/XS3_CH004_brief_ready_manual.json"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "context",
+        "--profile",
+        "writer",
+        "--out",
+        "drafts/XS3_CH004_writer_manual.md"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "candidate",
+        "--chapter",
+        "4",
+        "--text",
+        "drafts/XS3_CH004_审核定稿候选_V2.txt"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "context",
+        "--profile",
+        "reader",
+        "--text",
+        "drafts/XS3_CH004_审核定稿候选_V2.txt",
+        "--out",
+        "drafts/XS3_CH004_reader_manual.md"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "check-record",
+        "--text",
+        "drafts/XS3_CH004_审核定稿候选_V2.txt",
+        "--record",
+        "drafts/XS3_CH004_候选事实账_V2.json"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "release-request",
+        "--text",
+        "drafts/XS3_CH004_审核定稿候选_V2.txt",
+        "--record",
+        "drafts/XS3_CH004_候选事实账_V2.json",
+        "--out",
+        "drafts/XS3_CH004_release_template_manual.json"
+      ]
+    }
+  ]
 }
