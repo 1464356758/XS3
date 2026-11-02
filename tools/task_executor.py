@@ -21,6 +21,7 @@ import daily_update as daily
 import novel_state as ns
 import online_state as online
 import operator_recovery
+import manual_update
 
 PROTOCOL = "novel-task-executor-v1"
 ID = re.compile(r"[A-Za-z0-9_-]{8,100}")
@@ -58,11 +59,17 @@ def validate_request(project, request):
     require(isinstance(request, dict) and request.get("schema_version") == 1, "执行请求格式无效。")
     require(isinstance(request.get("request_id"), str) and bool(ID.fullmatch(request["request_id"])), "request_id须为8—100位独立请求编号。")
     require(isinstance(request.get("base_sha"), str) and bool(re.fullmatch(r"[0-9a-f]{40}", request["base_sha"])), "请求必须绑定实际基础提交。")
-    require(request.get("phase") in ("preflight", "recover", "begin", "command", "finalize", "block"), "执行阶段无效。")
+    require(request.get("phase") in ("preflight", "recover", "begin", "command", "finalize", "block", "manual-begin", "manual-command", "manual-finalize"), "执行阶段无效。")
     owner = request.get("controller", {})
     require(isinstance(owner, dict), "缺少执行控制者。")
     if request["phase"] in ("preflight", "recover") and owner.get("kind") == "maintenance":
         require(bool(ID.fullmatch(owner.get("session_id", ""))), "维护预检须有独立会话编号。")
+    elif request["phase"].startswith("manual-"):
+        require(owner.get("kind") == "manual" and
+                isinstance(owner.get("session_id"), str) and
+                bool(ID.fullmatch(owner["session_id"])) and
+                request.get("author_directed") is True,
+                "手动章节须绑定独立会话与本次作者明确续写授权，不能冒充自动日更。")
     else:
         require(owner.get("kind") == "automation" and
                 all(isinstance(owner.get(k), str) and ID.fullmatch(owner[k]) for k in ("automation_id", "session_id")),
@@ -79,6 +86,10 @@ def validate_request(project, request):
     if request["phase"] == "recover":
         require(owner.get("kind") == "maintenance", "撤销旧执行只接受作者授权的维护请求。")
         operator_recovery.read_grant(project, request.get("recovery_grant"))
+    elif request["phase"].startswith("manual-"):
+        require(request.get("chapter") is None or
+                request.get("chapter") == len(state["chapters"]) + 1,
+                "手动章节必须是正式状态的下一章；不得越章或改写旧章。")
     elif request["phase"] != "preflight":
         require(config_path.is_file(), "先登记本书实际唯一任务绑定，不在运行时猜测。")
         cfg = ns.read_json(config_path)
@@ -183,7 +194,7 @@ def guard_after(project, before, phase):
     for path, data in before["files"].items():
         require((Path(project) / "book" / path).read_bytes() == data, "不能改写既有正文或事实文件。")
     delta = len(state["chapters"]) - len(old["chapters"])
-    require(delta == (1 if phase == "finalize" else 0), "每轮只允许finalize采用原目标的一章。")
+    require(delta == (1 if phase in ("finalize", "manual-finalize") else 0), "每轮只允许finalize采用原目标的一章。")
     for n, task in old["tasks"].items():
         if task["phase"] == "candidate":
             current = state["tasks"].get(n, {})
@@ -214,8 +225,15 @@ def _run(project, request, result):
                       run_id=action.get("run_id"), chapter=action.get("chapter"))
         if action.get("recovery_mode"):
             result.update(recovery_mode=action["recovery_mode"], revoked_run_id=action["revoked_run_id"])
-    elif phase == "command":
-        assert_owner(project, request)
+    elif phase == "manual-begin":
+        action = manual_update.begin(project, request["controller"])
+        result.update(business_status=action["action"], mode="manual",
+                      run_id=action.get("run_id"), chapter=action.get("chapter"))
+    elif phase in ("command", "manual-command"):
+        if phase == "manual-command":
+            manual_update.assert_owner(project, request)
+        else:
+            assert_owner(project, request)
         commands = request.get("commands")
         require(isinstance(commands, list) and 1 <= len(commands) <= 6, "每批工具命令须为1—6条。")
         for i, command in enumerate(commands):
@@ -231,20 +249,26 @@ def _run(project, request, result):
             result.setdefault("tools", []).append({"script": command["script"], "args": command["args"], "exit_code": done.returncode, "outputs": outputs})
             require(done.returncode == 0, f"工具第{i + 1}步失败；完整输出保存在本轮work目录。")
         result.update(business_status="tools_completed", run_id=request["run_id"])
-    elif phase == "finalize":
-        active = assert_owner(project, request)
+    elif phase in ("finalize", "manual-finalize"):
+        active = manual_update.assert_owner(project, request) if phase == "manual-finalize" else assert_owner(project, request)
         paths = [safe_path(project, request.get(key)) for key in ("text", "record", "report")]
         ns.serial_module().check(root, *paths, ns.serial_api())
         ns.adopt(root, paths[0], paths[1])
-        receipt = daily.finish(project, request["run_id"])
+        if phase == "manual-finalize":
+            receipt = manual_update.finish(project, request)
+            receipt_path = receipt["receipt_path"]
+        else:
+            receipt = daily.finish(project, request["run_id"])
+            receipt_path = "book/daily/" + receipt["date"] + ".json"
         workflow = online.load_workflow(project)
         online.write_workflow(project, workflow, phase="WAITING_NEXT",
                               detail=f"第{active['chapter']}章已采用并冻结；平台发布另凭真实回执登记。",
-                              next_action="读取正式状态后，由下一次日更处理下一章。")
+                              next_action="读取正式状态后，由下一次执行处理下一章。")
         workflow = online.load_workflow(project); workflow["chapter"] = active["chapter"] + 1
         ns.atomic_json(Path(project) / "book/workflow.json", workflow)
         result.update(business_status="chapter_completed", run_id=receipt["run_id"], chapter=receipt["chapter"],
-                      body_sha256=receipt["body_sha256"], receipt_path="book/daily/" + receipt["date"] + ".json")
+                      mode="manual" if phase == "manual-finalize" else "daily",
+                      body_sha256=receipt["body_sha256"], receipt_path=receipt_path)
     else:
         assert_owner(project, request)
         daily.block(project, request["run_id"], request.get("reason", ""))
@@ -294,7 +318,7 @@ def apply_request(project, request, source_sha):
         except (ns.WorkspaceError, ValueError, KeyError, OSError, subprocess.SubprocessError) as exc:
             error = re.sub(r"(?:github_pat_|gh[pousr]_)[A-Za-z0-9_]+", "[凭证已隐去]", str(exc))[:2000]
             # A failed finalize must never save an adopted chapter without its receipt.
-            preserve = request["phase"] == "command"
+            preserve = request["phase"] in ("command", "manual-command")
             if preserve:
                 try: guard_after(work, before, "command")
                 except (ns.WorkspaceError, OSError, KeyError): preserve = False
