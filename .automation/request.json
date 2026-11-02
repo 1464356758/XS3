@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "request_id": "xs3-ch004-begin-20261102-1c8fa6b9",
-  "base_sha": "9a6ed0fc9f141dfe1ec8dd321b4db6f7db6f5ad0",
+  "request_id": "xs3-manual-ch004-begin-20261102-e7b163da",
+  "base_sha": "ec646ec9d81467242d86aa37ba2853e2b2a80787",
   "book_id": "376cd0c1-c6be-4958-88fe-08c5f9c37598",
   "controller": {
-    "kind": "automation",
-    "automation_id": "6ae577a132a08191a716b3efbca6cec5",
-    "session_id": "xs3-ch004-20261102-manual-74b8a3c1",
-    "platform_run_id": null
+    "kind": "manual",
+    "session_id": "xs3-ch004-manual-20261102-58ebf7b4"
   },
-  "phase": "begin"
+  "author_directed": true,
+  "phase": "manual-begin",
+  "chapter": 4
 }
