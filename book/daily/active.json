@@ -50,9 +50,9 @@
   },
   "resumed_at": "2026-11-02T01:22:47+00:00",
   "executor_checkpoint": {
-    "request_id": "xs3-ch003-candidate-20261102-a07f5c8d",
+    "request_id": "xs3-ch003-releaseprep-20261102-c72bf830",
     "phase": "command",
-    "at": "2026-11-02T01:28:41+00:00",
-    "github_run_id": "41372673390"
+    "at": "2026-11-02T01:33:17+00:00",
+    "github_run_id": "41373072413"
   }
 }
