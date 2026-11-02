@@ -2,7 +2,7 @@
   "schema_version": 2,
   "book_id": "376cd0c1-c6be-4958-88fe-08c5f9c37598",
   "title": "仙门欠我三千命",
-  "revision": 6,
+  "revision": 7,
   "config": {
     "target_chapters": 100,
     "target_han": 900000,
@@ -51,6 +51,16 @@
       "record_sha256": "a26f9989f33db272d50b6c753d45676ef3fc533b0388c69ce6896b9442f87eb5",
       "han_count": 9642,
       "adopted_at": "2026-11-02T01:40:17+00:00"
+    },
+    "4": {
+      "title": "拿药来换命",
+      "stage": "S01",
+      "text_path": "chapters/CH004_6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13.txt",
+      "text_sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+      "record_path": "records/CH004_a87dd5868c0761d88a7d6a9f00cca3200d7b144cf86f3941d0799a1d901c6099.json",
+      "record_sha256": "a87dd5868c0761d88a7d6a9f00cca3200d7b144cf86f3941d0799a1d901c6099",
+      "han_count": 9501,
+      "adopted_at": "2026-11-02T10:19:21+00:00"
     }
   },
   "checkpoints": [],
@@ -146,7 +156,7 @@
       "task_id": "de525365-f825-428d-81dd-ba7425becffb",
       "chapter": 4,
       "mode": "write",
-      "phase": "candidate",
+      "phase": "adopted",
       "repairs": 0,
       "history": [
         {
@@ -175,6 +185,10 @@
       "3": {
         "text_sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
         "record_sha256": "a26f9989f33db272d50b6c753d45676ef3fc533b0388c69ce6896b9442f87eb5"
+      },
+      "4": {
+        "text_sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+        "record_sha256": "a87dd5868c0761d88a7d6a9f00cca3200d7b144cf86f3941d0799a1d901c6099"
       }
     },
     "published": {},
@@ -192,6 +206,11 @@
       "3": {
         "path": "releases/CH003_fa363652f76601b2dc75d7da4ea4ab540b19aeb8dc6bd9c303adf37ac038df59.json",
         "sha256": "fa363652f76601b2dc75d7da4ea4ab540b19aeb8dc6bd9c303adf37ac038df59",
+        "used": true
+      },
+      "4": {
+        "path": "releases/CH004_e62a41dd87c1f0d2c1cf9c3985fea6153985178201c525cd20a3104f8975bef5.json",
+        "sha256": "e62a41dd87c1f0d2c1cf9c3985fea6153985178201c525cd20a3104f8975bef5",
         "used": true
       }
     },
@@ -244,7 +263,7 @@
         ],
         "deadline_chapter": 5,
         "status": "open",
-        "last_reviewed_chapter": 3
+        "last_reviewed_chapter": 4
       },
       "T03-P03": {
         "history": [
@@ -263,7 +282,7 @@
         ],
         "deadline_chapter": 6,
         "status": "open",
-        "last_reviewed_chapter": 3
+        "last_reviewed_chapter": 4
       },
       "T03-P04": {
         "history": [
@@ -282,7 +301,7 @@
         ],
         "deadline_chapter": 10,
         "status": "open",
-        "last_reviewed_chapter": 3
+        "last_reviewed_chapter": 4
       },
       "T03-P05": {
         "history": [
@@ -297,11 +316,23 @@
               "quote": "待查期间不供新药。"
             },
             "chapter": 2
+          },
+          {
+            "id": "T03-P05",
+            "action": "complete",
+            "deadline_chapter": 4,
+            "reason": "医站实际收五项工伤用品及三包急症周转药，阶段性的供给兑现，但公库赊药牌并未恢复。",
+            "evidence": {
+              "chapter": 4,
+              "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+              "quote": "二十四铜等值药材，实际收到三包"
+            },
+            "chapter": 4
           }
         ],
         "deadline_chapter": 4,
-        "status": "open",
-        "last_reviewed_chapter": 3
+        "status": "closed",
+        "last_reviewed_chapter": 4
       },
       "T03-P06": {
         "history": [
@@ -347,11 +378,42 @@
               "quote": "谷北还压着两个人，能动的人都来抬了。"
             },
             "chapter": 3
+          },
+          {
+            "id": "T03-P07",
+            "action": "complete",
+            "deadline_chapter": 4,
+            "reason": "程野与费老四两名被困者已救出转医，尚有真实医疗和工伤后续。",
+            "evidence": {
+              "chapter": 4,
+              "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+              "quote": "两个都出来了。"
+            },
+            "chapter": 4
           }
         ],
         "deadline_chapter": 4,
+        "status": "closed",
+        "last_reviewed_chapter": 4
+      },
+      "T03-P08": {
+        "history": [
+          {
+            "id": "T03-P08",
+            "action": "set",
+            "deadline_chapter": 5,
+            "reason": "庄烬正式通知代领资格复核需在D4申初前办结，CH005必须处理。",
+            "evidence": {
+              "chapter": 4,
+              "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+              "quote": "最迟霜月初十申初之前递入复核。"
+            },
+            "chapter": 4
+          }
+        ],
+        "deadline_chapter": 5,
         "status": "open",
-        "last_reviewed_chapter": 3
+        "last_reviewed_chapter": 4
       }
     },
     "incidents": {}

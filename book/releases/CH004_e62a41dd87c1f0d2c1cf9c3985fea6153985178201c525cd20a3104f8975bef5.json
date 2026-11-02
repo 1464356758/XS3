@@ -1,0 +1,682 @@
+{
+  "schema_version": 1,
+  "book_id": "376cd0c1-c6be-4958-88fe-08c5f9c37598",
+  "chapter": 4,
+  "base_revision": 6,
+  "task_id": "de525365-f825-428d-81dd-ba7425becffb",
+  "repairs": 0,
+  "text_sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+  "record_sha256": "a87dd5868c0761d88a7d6a9f00cca3200d7b144cf86f3941d0799a1d901c6099",
+  "canon_sha256": "bf7007bd30947ea5654393ba4661faba9900a8569280999d265229ddb8798944",
+  "roadmap_sha256": "6520708fddf9d9af1a26e892a789b0066db99e45a39606a480503f9bd58e67a2",
+  "narrative_review_version": 1,
+  "writing_brief_sha256": "8c305ceb2c7a4a7f59bbcdd3a04ebf3c16b60389d82b7aadd033293b9248263d",
+  "decision": "release",
+  "read_full_text": true,
+  "blocking_issues": [],
+  "read_coverage": {
+    "1": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+    "2": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+    "3": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+    "4": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13"
+  },
+  "reader_reason_to_continue": "谷北工伤者得救、医站获得实药后，谢迟仍缺47铜且必须在霜月初十申初之前通过身份复核；钱足但资格被卡时，他如何让妹妹如期领药？",
+  "consequence": "实救草架两受困者而非痊愈；祝家实际购工伤五项（56铜）及另购急症三包（24铜），医站公库赊牌仍未恢复。三名工人另取旧薪252铜而工伤赔付续存；谢迟本人领130铜合旧23得153铜，距谢棠D5药费200铜仍差47，D4申初前代领资格又遭复核。",
+  "ending_runway": "CH005必须通过合法工钱或借贷真实筹47铜、D4实际缴200铜并交代领复核申请及结果；CH006 D5必须真的领药交谢棠并继续核乙四七阵砂；CH007延续医站药源可持续供给而不视一次捐助为永恒。",
+  "checks": {
+    "timeline": {
+      "decision": "pass",
+      "conclusion": "D1傍晚草架二次塌落、戌初救回医站，霜月初八D2早晨东家来、午后购药、晚间确认妹妹代领限制。日期跨夜明确。",
+      "evidence": [
+        {
+          "chapter": 4,
+          "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+          "quote": "回到医站已过戌初。"
+        },
+        {
+          "chapter": 4,
+          "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+          "quote": "霜月初八的第一场雾落在药谷瓦檐时"
+        }
+      ]
+    },
+    "knowledge": {
+      "decision": "pass",
+      "conclusion": "谢迟没有凭空知道东家与庄烬关系；先听祝仲衡传言，再去药房窗口核盖章黄签。主角不以药童身份调原簿。",
+      "evidence": [
+        {
+          "chapter": 4,
+          "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+          "quote": "我只听见风声。你要找凭据，就去问配药窗口。"
+        },
+        {
+          "chapter": 4,
+          "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+          "quote": "签发人是庄烬，霜月初七夜。"
+        }
+      ]
+    },
+    "props_resources": {
+      "decision": "pass",
+      "conclusion": "货款56铜专项+24铜急症捐药均由祝家向商人付，工人工资252铜各收，谢迟只收130铜；余额23+130=153，200−153=47。林杏欠14铜与医站欠18铜未抵消。",
+      "evidence": [
+        {
+          "chapter": 4,
+          "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+          "quote": "医站收到可用五项，供本次三名工伤者使用"
+        },
+        {
+          "chapter": 4,
+          "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+          "quote": "二十四铜等值药材，实际收到三包"
+        },
+        {
+          "chapter": 4,
+          "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+          "quote": "三人的旧薪先真正交清。"
+        },
+        {
+          "chapter": 4,
+          "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+          "quote": "还差四十七。"
+        }
+      ]
+    },
+    "causality": {
+      "decision": "pass",
+      "conclusion": "先减重、双缆稳梁再接骨师指导移梁；商人以工伤风险买药，实物验收拒受潮材；报酬旧工价用泛黄条据补强解释。",
+      "evidence": [
+        {
+          "chapter": 4,
+          "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+          "quote": "要不我们又得救你们。"
+        },
+        {
+          "chapter": 4,
+          "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+          "quote": "不能用于干净包扎"
+        },
+        {
+          "chapter": 4,
+          "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+          "quote": "领头人的险工钱照旧例是一灵铢三十铜"
+        }
+      ]
+    },
+    "power_rules": {
+      "decision": "pass",
+      "conclusion": "谢迟仍是引息初段药童，只会绑扎、识药和现场协调；柳师傅在场专业判断，未御物抬梁、灵药治愈或越级击败庄烬。",
+      "evidence": [
+        {
+          "chapter": 4,
+          "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+          "quote": "接下来听我喊停就是停。"
+        },
+        {
+          "chapter": 4,
+          "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+          "quote": "两个都出来了。"
+        }
+      ]
+    },
+    "promises": {
+      "decision": "pass",
+      "conclusion": "P07两名受困者实际救出且仍需治疗；P05三包合格急症周转药真正入柜，公库赊牌未恢复。P02妹妹D5两灵铢仍差47，另立D4申初代领资格期限；P03/P04保留。",
+      "evidence": [
+        {
+          "chapter": 4,
+          "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+          "quote": "两个都出来了。"
+        },
+        {
+          "chapter": 4,
+          "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+          "quote": "二十四铜等值药材，实际收到三包"
+        },
+        {
+          "chapter": 4,
+          "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+          "quote": "最迟霜月初十申初之前递入复核。"
+        }
+      ]
+    },
+    "anti_repeat": {
+      "decision": "pass",
+      "conclusion": "CH001拒签封秤、CH002危桥照护、CH003证据核款；CH004以坍塌救援、医学分诊、商人采购及现场验收与真实工资结算形成不同事件和状态变化。",
+      "evidence": [
+        {
+          "chapter": 4,
+          "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+          "quote": "第二条麻缆终于收紧时"
+        },
+        {
+          "chapter": 4,
+          "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+          "quote": "他翻出账册夹着的一张旧工价条"
+        }
+      ]
+    },
+    "character_agency": {
+      "decision": "pass",
+      "conclusion": "谢迟不闯险棚、不私交纸角；程栎收斧避免二次事故；费老四自己陈述日薪；苏见微拒假药；祝家真付费用；谢棠有独立道德意愿。",
+      "evidence": [
+        {
+          "chapter": 4,
+          "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+          "quote": "程栎终于把斧头交了出去。"
+        },
+        {
+          "chapter": 4,
+          "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+          "quote": "一天十二铜"
+        },
+        {
+          "chapter": 4,
+          "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+          "quote": "我不想要别人的伤。"
+        }
+      ]
+    }
+  },
+  "comparison": [
+    {
+      "chapter": 1,
+      "sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+      "quote": "林杏今天这份寿契停在了未兑的位置。",
+      "difference": "第一章通过见证程序使乙四七不能兑付而损失收契轮值；第四章靠卸载支撑、专业接骨、药栈采购及实际报酬推进，并未重用命秤封存的胜法。"
+    },
+    {
+      "chapter": 2,
+      "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+      "quote": "他数给男人，留下二十三枚。",
+      "difference": "第二章花四铜买桥板安全转运阿序，医站因赊牌被收而缺药；第四章在灾难中真救两人且采购8项物资入柜，谢迟个人实际获得救援工钱，资源状态逆转。"
+    },
+    {
+      "chapter": 3,
+      "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+      "quote": "谷北还压着两个人，能动的人都来抬了。",
+      "difference": "第三章以合法并账确认旧药32铜和乙四七空栏，末尾才闻谷北压人；第四章真正赴现场救援、安置患者及核实雇工薪钱与药栈支付能力，新增妹妹代领资格危机。"
+    }
+  ],
+  "future_window": [
+    {
+      "chapter": 5,
+      "goal": "D4前从正当工作或合法借款筹到剩余47铜并实付谢棠续药费，办理最迟D4申初的代领复核",
+      "change": "药费实付200铜并产生真收据，真实完成身份复核程序或记录受阻责任，药物仍待D5实际交付",
+      "ending_question": "付款后代领资格能否赶上妹妹D5用药？"
+    },
+    {
+      "chapter": 6,
+      "goal": "D5取得妹妹当期续药并实际交到她手中，同时依法核乙四七阵砂缺口",
+      "change": "药真实出柜及健康后果有记录，无法领到则不得假报；保留命契证物边界",
+      "ending_question": "下一批被迫借命的病户如何获得有效救治？"
+    },
+    {
+      "chapter": 7,
+      "goal": "延续工伤伤员诊疗并建立可持续药源与证人保护",
+      "change": "有真实耗材、收入和人情代价，拒绝把祝家一次捐药当长期渠道",
+      "ending_question": "庄烬将利用哪个制度入口继续施压？"
+    }
+  ],
+  "promise_reviews": [
+    {
+      "id": "T03-P02",
+      "action": "keep",
+      "deadline_chapter": 5,
+      "reason": "谢迟实收130铜加23铜共153铜，距D5两灵铢仍差47铜，CH005必须实付。",
+      "evidence": {
+        "chapter": 4,
+        "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+        "quote": "还差四十七。"
+      }
+    },
+    {
+      "id": "T03-P03",
+      "action": "keep",
+      "deadline_chapter": 6,
+      "reason": "无砂废纸角不能代替原阵砂证据，CH006仍须依法核验。",
+      "evidence": {
+        "chapter": 4,
+        "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+        "quote": "无砂废纸角"
+      }
+    },
+    {
+      "id": "T03-P04",
+      "action": "keep",
+      "deadline_chapter": 10,
+      "reason": "谢迟仍无权进入原契档房，拒绝私交废纸角，后续合法取证与离谷约束不变。",
+      "evidence": {
+        "chapter": 4,
+        "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+        "quote": "我不会为了领药把它私下交给你。"
+      }
+    },
+    {
+      "id": "T03-P05",
+      "action": "complete",
+      "deadline_chapter": 4,
+      "reason": "医站实际收五项工伤用品及三包急症周转药，阶段性的供给兑现，但公库赊药牌并未恢复。",
+      "evidence": {
+        "chapter": 4,
+        "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+        "quote": "二十四铜等值药材，实际收到三包"
+      }
+    },
+    {
+      "id": "T03-P07",
+      "action": "complete",
+      "deadline_chapter": 4,
+      "reason": "程野与费老四两名被困者已救出转医，尚有真实医疗和工伤后续。",
+      "evidence": {
+        "chapter": 4,
+        "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+        "quote": "两个都出来了。"
+      }
+    },
+    {
+      "id": "T03-P08",
+      "action": "set",
+      "deadline_chapter": 5,
+      "reason": "庄烬正式通知代领资格复核需在D4申初前办结，CH005必须处理。",
+      "evidence": {
+        "chapter": 4,
+        "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+        "quote": "最迟霜月初十申初之前递入复核。"
+      }
+    }
+  ],
+  "incident_actions": [],
+  "narrative_review": {
+    "schema_version": 1,
+    "actual_scenes": [
+      {
+        "event": "草架二次倾倒",
+        "choice": "谢迟制止盲冲，先点名卸上层湿藤",
+        "change": "明确两人仍受困且草架二次坍塌，停止盲目钻入",
+        "evidence": [
+          {
+            "chapter": 4,
+            "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+            "quote": "“不要靠近！”他吼了一声。"
+          }
+        ]
+      },
+      {
+        "event": "程栎试图持斧破梁",
+        "choice": "谢迟阻止，并让两条麻缆独立稳固",
+        "change": "防止持斧直接毁承重柱造成再压伤",
+        "evidence": [
+          {
+            "chapter": 4,
+            "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+            "quote": "程栎终于把斧头交了出去。"
+          }
+        ]
+      },
+      {
+        "event": "柳师傅带队救援",
+        "choice": "谢迟服从专业技术与限定身份",
+        "change": "柳师傅主导解除压人，三伤者转医且未痊愈",
+        "evidence": [
+          {
+            "chapter": 4,
+            "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+            "quote": "两个都出来了。"
+          }
+        ]
+      },
+      {
+        "event": "三名工伤者在医站分诊",
+        "choice": "苏拒未经验材湿草抵诊",
+        "change": "苏医者拒湿草抵医，分列伤情与药材",
+        "evidence": [
+          {
+            "chapter": 4,
+            "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+            "quote": "能卖钱不等于今晚能治伤。"
+          }
+        ]
+      },
+      {
+        "event": "药栈提出以买药换纸",
+        "choice": "谢迟拒绝私交无砂证据",
+        "change": "药栈要证据与救命药捆绑，谢迟坚持合法交接",
+        "evidence": [
+          {
+            "chapter": 4,
+            "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+            "quote": "我不会为了领药把它私下交给你。"
+          }
+        ]
+      },
+      {
+        "event": "外购药品入柜",
+        "choice": "苏逐包验收并退湿材",
+        "change": "有资格验收的专项五项及三包急症周转实药入柜",
+        "evidence": [
+          {
+            "chapter": 4,
+            "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+            "quote": "二十四铜等值药材，实际收到三包"
+          }
+        ]
+      },
+      {
+        "event": "薪钱与救援劳务结算",
+        "choice": "伤者自核工资、谢迟核旧工价再领",
+        "change": "工资252铜与谢迟真实救援钱130铜分开落地",
+        "evidence": [
+          {
+            "chapter": 4,
+            "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+            "quote": "三人的旧薪先真正交清。"
+          }
+        ]
+      },
+      {
+        "event": "药房核黄签",
+        "choice": "谢迟核实传闻而不信商人断言",
+        "change": "确认庄烬以黄签新增代领资格期限，不只是商人口风",
+        "evidence": [
+          {
+            "chapter": 4,
+            "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+            "quote": "最迟霜月初十申初之前递入复核。"
+          }
+        ]
+      },
+      {
+        "event": "谢棠表明意愿",
+        "choice": "兄妹核出只差47铜，但不得为钱牺牲患者",
+        "change": "与妹妹核现金153仍差47，谢棠拒靠他人伤势换药",
+        "evidence": [
+          {
+            "chapter": 4,
+            "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+            "quote": "还差四十七。"
+          }
+        ]
+      }
+    ],
+    "plan_comparison": "依据已锁前三章与本章全文反提九个场景，均实际改变救援现场、医站药材、工钱及谢棠资格。与预设计划相比，危棚救援和医站实物验收加重了现场动作，后半账务稍密但确实发生工资和报酬转移；补写旧险工价条解决原稿较高报酬动机欠充分的问题。",
+    "reader": {
+      "mode": "same_context_approximation",
+      "limitation": "本轮是同一模型上下文中阅读CH001—CH003冻结正文及CH004全文的近似读者审读，不具有真正盲测隔离或真实读者反馈。",
+      "coverage": {
+        "1": {
+          "text_sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+          "mode": "full_text"
+        },
+        "2": {
+          "text_sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+          "mode": "full_text"
+        },
+        "3": {
+          "text_sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+          "mode": "full_text"
+        },
+        "4": {
+          "text_sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+          "mode": "full_text"
+        }
+      },
+      "understanding": "救援与诊治须专业人士参与；医站从祝家得到真实药材但公库停赊仍在；谢迟实际得到130铜，合原钱只有153铜，妹妹药费200铜仍差47铜，庄烬又加入代领身份复核。",
+      "information_load": "后半部分涉及56铜医药、24铜捐药、252铜工人工资、130铜个人救援劳务等多类别账目，已有独立主体与凭据帮助理解；下章应减少多线账务交代、专注真付药费和代领资格。",
+      "promise_delivery": "P05急症周转实物入柜、P07两个工人获救均兑现；D5续药费及D4代领资格双门槛仍未兑现。",
+      "evidence": [
+        {
+          "chapter": 4,
+          "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+          "quote": "两个都出来了。"
+        },
+        {
+          "chapter": 4,
+          "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+          "quote": "二十四铜等值药材，实际收到三包"
+        },
+        {
+          "chapter": 4,
+          "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+          "quote": "还差四十七。"
+        }
+      ],
+      "issues": [
+        {
+          "severity": "suggestion",
+          "status": "open",
+          "reason": "账务精细提高了真实性但对白数据偏密，CH005要强化主动筹47铜、办理资格和实际付费而不是重复等手续。",
+          "evidence": {
+            "chapter": 4,
+            "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+            "quote": "三人的旧薪先真正交清。"
+          }
+        },
+        {
+          "severity": "verify",
+          "status": "resolved",
+          "reason": "原救援报酬较高缺依据，V2新增旧险工价条、保人保货动机后已明确为药栈现付报酬，不抵工人工资。",
+          "evidence": {
+            "chapter": 4,
+            "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+            "quote": "他翻出账册夹着的一张旧工价条"
+          }
+        }
+      ]
+    },
+    "character_causality": {
+      "opposition": {
+        "status": "reviewed",
+        "conclusion": "工头试以湿草抵治疗费、掌柜欲从工资扣工伤、东家试以药换无砂纸角；庄烬经真实黄签卡代领资格，阻力来自权利和经营利益。",
+        "evidence": [
+          {
+            "chapter": 4,
+            "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+            "quote": "苏见微没有伸手接。"
+          },
+          {
+            "chapter": 4,
+            "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+            "quote": "我不会为了领药把它私下交给你。"
+          },
+          {
+            "chapter": 4,
+            "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+            "quote": "签发人是庄烬，霜月初七夜。"
+          }
+        ]
+      },
+      "dialogue": {
+        "status": "reviewed",
+        "conclusion": "程栎急于救弟愿砍梁、费老四自己核8天工资、苏坚持医药分账、谢棠不愿他人受伤才能换药；人物判断与主角不一致。",
+        "evidence": [
+          {
+            "chapter": 4,
+            "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+            "quote": "你们只知道说别动！我弟要死了！"
+          },
+          {
+            "chapter": 4,
+            "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+            "quote": "我做了八天工，一天十二铜。"
+          },
+          {
+            "chapter": 4,
+            "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+            "quote": "我不想要别人的伤。"
+          }
+        ]
+      },
+      "aftermath": {
+        "status": "reviewed",
+        "conclusion": "受困者获救但未来康复不定，医站真有外供药却未拿回公库赊牌，谢迟拿到钱仍差47且资格未核。",
+        "evidence": [
+          {
+            "chapter": 4,
+            "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+            "quote": "谁也还不知道，这三个人明日能否起床。"
+          },
+          {
+            "chapter": 4,
+            "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+            "quote": "不是公库赊药牌恢复"
+          },
+          {
+            "chapter": 4,
+            "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+            "quote": "还差四十七。"
+          }
+        ]
+      }
+    },
+    "history": {
+      "index_sha256": "71b92ae88aecd42908558520106ebb6fcd610b800b042991f7ffc9ee340a6a47",
+      "queries": [
+        "谷北 草架 受困 医站",
+        "谢迟 纸角 药源",
+        "谢棠 代领 期限"
+      ],
+      "comparisons": [
+        {
+          "similarity": "同一药谷人物与医药／生命代价主线，可能造成读者似曾相识。",
+          "difference": "第一章通过见证程序使乙四七不能兑付而损失收契轮值；第四章靠卸载支撑、专业接骨、药栈采购及实际报酬推进，并未重用命秤封存的胜法。",
+          "source": {
+            "chapter": 1,
+            "sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+            "quote": "林杏今天这份寿契停在了未兑的位置。"
+          },
+          "current_evidence": {
+            "chapter": 4,
+            "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+            "quote": "两个都出来了。"
+          }
+        },
+        {
+          "similarity": "同一药谷人物与医药／生命代价主线，可能造成读者似曾相识。",
+          "difference": "第二章花四铜买桥板安全转运阿序，医站因赊牌被收而缺药；第四章在灾难中真救两人且采购8项物资入柜，谢迟个人实际获得救援工钱，资源状态逆转。",
+          "source": {
+            "chapter": 2,
+            "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+            "quote": "他数给男人，留下二十三枚。"
+          },
+          "current_evidence": {
+            "chapter": 4,
+            "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+            "quote": "二十四铜等值药材，实际收到三包"
+          }
+        },
+        {
+          "similarity": "同一药谷人物与医药／生命代价主线，可能造成读者似曾相识。",
+          "difference": "第三章以合法并账确认旧药32铜和乙四七空栏，末尾才闻谷北压人；第四章真正赴现场救援、安置患者及核实雇工薪钱与药栈支付能力，新增妹妹代领资格危机。",
+          "source": {
+            "chapter": 3,
+            "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+            "quote": "谷北还压着两个人，能动的人都来抬了。"
+          },
+          "current_evidence": {
+            "chapter": 4,
+            "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+            "quote": "谢迟实际收到一灵铢三十铜"
+          }
+        }
+      ],
+      "no_match_reason": ""
+    },
+    "reader_updates": [
+      {
+        "kind": "observed",
+        "statement": "程野、费老四被救出并送医，连程苗一起仍需后续治疗，没有治愈声明。",
+        "evidence": [
+          {
+            "chapter": 4,
+            "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+            "quote": "两个都出来了。"
+          }
+        ]
+      },
+      {
+        "kind": "observed",
+        "statement": "祝家实际外购五项工伤物资和三包医站急症药，公库赊牌未恢复。",
+        "evidence": [
+          {
+            "chapter": 4,
+            "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+            "quote": "医站收到可用五项，供本次三名工伤者使用"
+          },
+          {
+            "chapter": 4,
+            "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+            "quote": "二十四铜等值药材，实际收到三包"
+          }
+        ]
+      },
+      {
+        "kind": "observed",
+        "statement": "三工人旧薪实际交付，谢迟另得真实险工劳务130铜。",
+        "evidence": [
+          {
+            "chapter": 4,
+            "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+            "quote": "三人的旧薪先真正交清。"
+          },
+          {
+            "chapter": 4,
+            "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+            "quote": "谢迟实际收到一灵铢三十铜"
+          }
+        ]
+      },
+      {
+        "kind": "observed",
+        "statement": "谢迟持有153铜，距妹妹200铜仍缺47，没有把报酬事先算作付款。",
+        "evidence": [
+          {
+            "chapter": 4,
+            "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+            "quote": "还差四十七。"
+          }
+        ]
+      },
+      {
+        "kind": "observed",
+        "statement": "庄烬黄签要求谢迟D4申初前复核代领身份，谢棠原药名额仍在。",
+        "evidence": [
+          {
+            "chapter": 4,
+            "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+            "quote": "签发人是庄烬，霜月初七夜。"
+          },
+          {
+            "chapter": 4,
+            "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+            "quote": "名额没注销，方也没改。"
+          }
+        ]
+      },
+      {
+        "kind": "claim",
+        "statement": "祝家东家暗示交回无砂废纸可加快公库补给，但没有官方保证、谢迟未交。",
+        "evidence": [
+          {
+            "chapter": 4,
+            "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+            "quote": "你交回去，药谷那边的供药手续也许就能快些。"
+          }
+        ]
+      },
+      {
+        "kind": "uncertain",
+        "statement": "费老四压伤恢复与长期公库药源仍未知，三人实际未痊愈。",
+        "evidence": [
+          {
+            "chapter": 4,
+            "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+            "quote": "谁也还不知道，这三个人明日能否起床。"
+          }
+        ]
+      }
+    ],
+    "reader_update_note": "只把救援、采购验收、工资及个人报酬作为observed，把商人暗示视为claim，把未来医疗效果归uncertain，不把作者后期零号与三千人设定提前写入角色知情。",
+    "surface_findings": []
+  }
+}
