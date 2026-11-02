@@ -1,12 +1,13 @@
 {
   "schema_version": 1,
-  "request_id": "xs3-ch003-recover-20261102-e4fc2017",
-  "base_sha": "f11e6765194846a5d978e7605405e4e74b9b30a0",
+  "request_id": "xs3-ch003-preflight-20261102-a17d8ce4",
+  "base_sha": "257001af73c71bbec05a4e55aacbc3e704ca3788",
   "book_id": "376cd0c1-c6be-4958-88fe-08c5f9c37598",
   "controller": {
-    "kind": "maintenance",
-    "session_id": "xs3-ch3-maintenance-20261102-a4c91e5f"
+    "kind": "automation",
+    "automation_id": "6ae577a132a08191a716b3efbca6cec5",
+    "session_id": "xs3-ch003-20261102-manual-d9b8ac71",
+    "platform_run_id": null
   },
-  "phase": "recover",
-  "recovery_grant": ".automation/recoveries/xs3-ch003-author-repair-20261102-c91e6f.json"
+  "phase": "preflight"
 }
