@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "xs3-ch003-author-20261102-b26c8f49",
-  "base_sha": "7acacfae2ee40c2029fd6af3756f798ce96c66f9",
+  "request_id": "xs3-ch003-brief-20261102-59af4d28",
+  "base_sha": "161145118847faf195e6eef96b0bd6e5b2436ad2",
   "book_id": "376cd0c1-c6be-4958-88fe-08c5f9c37598",
   "controller": {
     "kind": "automation",
@@ -17,9 +17,9 @@
       "args": [
         "--root",
         "book",
-        "brief-request",
-        "--out",
-        "drafts/XS3_CH003_brief_template.json"
+        "brief-check",
+        "--file",
+        "drafts/XS3_CH003_brief_ready.json"
       ]
     },
     {
@@ -29,7 +29,7 @@
         "book",
         "history-search",
         "--query",
-        "收契 乙四七 药房实收账 证据"
+        "药出七三 林杏 32铜 阿序 医站"
       ]
     },
     {
@@ -39,11 +39,9 @@
         "book",
         "context",
         "--profile",
-        "author",
-        "--query",
-        "许青蘅 秦不渡 谢迟 林杏 阿序 甲乙药钱",
+        "writer",
         "--out",
-        "drafts/XS3_CH003_author_packet.md"
+        "drafts/XS3_CH003_writer_packet.md"
       ]
     }
   ]
