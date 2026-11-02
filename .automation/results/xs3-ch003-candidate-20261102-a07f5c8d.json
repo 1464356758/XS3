@@ -1,0 +1,85 @@
+{
+  "protocol": "novel-task-executor-v1",
+  "request_id": "xs3-ch003-candidate-20261102-a07f5c8d",
+  "request_sha256": "f2f8acbb53540291a9550dd3edf726542e4e3289dd883e5d4350b8d1c8b73cb4",
+  "source_sha": "8672ff7bbd1d8582bccc52d04c1d08f50a6821fc",
+  "base_sha": "ab465f6afa22fccd1e90d1c2eb7c8dc1a8c42ee0",
+  "book_id": "376cd0c1-c6be-4958-88fe-08c5f9c37598",
+  "controller": {
+    "kind": "automation",
+    "automation_id": "6ae577a132a08191a716b3efbca6cec5",
+    "session_id": "xs3-ch003-20261102-manual-d9b8ac71",
+    "platform_run_id": null
+  },
+  "phase": "command",
+  "executed_at": "2026-11-02T01:28:41+00:00",
+  "executor_status": "ok",
+  "github_run_id": "41372673390",
+  "tools": [
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "candidate",
+        "--chapter",
+        "3",
+        "--text",
+        "drafts/XS3_CH003_full_20261102.txt"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/xs3-ch003-candidate-20261102-a07f5c8d/tool-01.stdout.txt",
+          "sha256": "b585368b9cc0ca0cb76e3208940104d89814bfcfce3492d0d4b6e0ae6ba3639f",
+          "bytes": 491
+        },
+        "stderr": {
+          "path": ".automation/work/xs3-ch003-candidate-20261102-a07f5c8d/tool-01.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "context",
+        "--profile",
+        "reader",
+        "--text",
+        "drafts/XS3_CH003_full_20261102.txt",
+        "--out",
+        "drafts/XS3_CH003_reader_packet.md"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/xs3-ch003-candidate-20261102-a07f5c8d/tool-02.stdout.txt",
+          "sha256": "6e23786786294e3ebe0594e5ea0af5904215b9781a9e8b4a5d56c3a0886e6a9a",
+          "bytes": 112
+        },
+        "stderr": {
+          "path": ".automation/work/xs3-ch003-candidate-20261102-a07f5c8d/tool-02.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    }
+  ],
+  "business_status": "tools_completed",
+  "run_id": "f82c5d0506ba4a1496d1f9c703bbd3f1",
+  "changed_paths": [
+    ".automation/work/xs3-ch003-candidate-20261102-a07f5c8d/tool-01.stderr.txt",
+    ".automation/work/xs3-ch003-candidate-20261102-a07f5c8d/tool-01.stdout.txt",
+    ".automation/work/xs3-ch003-candidate-20261102-a07f5c8d/tool-02.stderr.txt",
+    ".automation/work/xs3-ch003-candidate-20261102-a07f5c8d/tool-02.stdout.txt",
+    "book/candidates/CH003_37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538.txt",
+    "book/daily/active.json",
+    "book/state.json",
+    "drafts/XS3_CH003_reader_packet.md",
+    "online/index.json"
+  ]
+}
