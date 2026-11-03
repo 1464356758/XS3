@@ -1,13 +1,48 @@
 {
   "schema_version": 1,
-  "request_id": "xs3-manual-ch005-begin-20261103-4dc829fa",
-  "base_sha": "43662245b8cb7d3ae29c5769b94da32500c7a0ca",
+  "request_id": "xs3-manual-ch005-brief-20261103-193ac8b2",
+  "base_sha": "3d2adc59eb741f41d7e30dd1ad13868d9b3cf5cb",
   "book_id": "376cd0c1-c6be-4958-88fe-08c5f9c37598",
   "controller": {
     "kind": "manual",
     "session_id": "xs3-ch005-manual-20261103-26a7e05b"
   },
   "author_directed": true,
-  "phase": "manual-begin",
-  "chapter": 5
+  "phase": "manual-command",
+  "chapter": 5,
+  "run_id": "8289bc4fb4ef491ea7bba47f5a71456d",
+  "commands": [
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "brief-check",
+        "--file",
+        "drafts/XS3_CH005_brief_ready.json"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "history-search",
+        "--query",
+        "谢棠 两灵铢 代领 温朴 乙四七"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "context",
+        "--profile",
+        "writer",
+        "--out",
+        "drafts/XS3_CH005_writer.md"
+      ]
+    }
+  ]
 }
