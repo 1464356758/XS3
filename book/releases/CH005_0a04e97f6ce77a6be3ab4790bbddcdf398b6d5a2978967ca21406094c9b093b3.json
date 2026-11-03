@@ -1,0 +1,697 @@
+{
+  "schema_version": 1,
+  "book_id": "376cd0c1-c6be-4958-88fe-08c5f9c37598",
+  "chapter": 5,
+  "base_revision": 7,
+  "task_id": "f87441a1-171d-42d9-98b8-ac71f7290743",
+  "repairs": 0,
+  "text_sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+  "record_sha256": "5548369827be082d9486d3d334fd59c70c3b097e080ad1f90b2fc83c417315db",
+  "canon_sha256": "bf7007bd30947ea5654393ba4661faba9900a8569280999d265229ddb8798944",
+  "roadmap_sha256": "6520708fddf9d9af1a26e892a789b0066db99e45a39606a480503f9bd58e67a2",
+  "narrative_review_version": 1,
+  "writing_brief_sha256": "29217aeef7ba18f0e4784be95f1b58cc184c89d4119b1d568c0e42a7ea739293",
+  "decision": "release",
+  "read_full_text": true,
+  "blocking_issues": [],
+  "read_coverage": {
+    "2": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+    "3": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+    "4": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+    "5": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8"
+  },
+  "reader_reason_to_continue": "谢迟靠修炉和雨夜搬药把153铜变成200铜，当日真缴足谢棠药费，家属代领授权在申初前生效，但药直到D5才能出柜；温朴愿意实名申请说明乙四七未启阵，原阵砂仍未知。下一章能否真正取药，又会遇到哪种原始证据？",
+  "consequence": "D3谢迟用3铜材料赚30铜、夜间搬运赚20铜，D4把153+30−3+20=200铜全数实缴药房，现金归零、手指裂口与脚泡未消。谢棠D4申初前由本人选择兄长为本期代领人，药房真实批准，旧药童代理废止；本期未领未服。温朴只提交独立实名陈述请求且获收件戳，乙四七阵砂未查，医站公库赊牌未恢复。",
+  "ending_runway": "CH006 D5必须以付款联及资格副签真正领出谢棠续药、由医者指导实际用药并观察副作用，同时寻独立阵砂与封存链证；CH007庄烬可用假认罪书和证人压力反击，秦不渡应查真实见证；CH008证据和证人不可兼顾时，谢迟优先保人但承担失去原契机会。",
+  "checks": {
+    "timeline": {
+      "decision": "pass",
+      "conclusion": "正文D3霜月初九清晨至夜工、D4霜月初十卯时诊见及申初前资格核准、傍晚回屋；D5霜月十一续药尚未来临，无跳日与提前领药。",
+      "evidence": [
+        {
+          "chapter": 5,
+          "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+          "quote": "一灵铢五十三铜，摆在桌上"
+        },
+        {
+          "chapter": 5,
+          "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+          "quote": "子时前，余见山带伙计到高棚逐篓复核。"
+        },
+        {
+          "chapter": 5,
+          "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+          "quote": "漏刻尚未落到申初"
+        }
+      ]
+    },
+    "knowledge": {
+      "decision": "pass",
+      "conclusion": "谢迟只查自己经手的修炉、运货、药房签证；温朴明确区分亲眼见未启阵和听说换班次，不提前知晓主谋与零号底押。",
+      "evidence": [
+        {
+          "chapter": 5,
+          "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+          "quote": "没看见。听见有人这样说，不是看见他已经做了。"
+        },
+        {
+          "chapter": 5,
+          "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+          "quote": "不作证成事实。"
+        }
+      ]
+    },
+    "props_resources": {
+      "decision": "pass",
+      "conclusion": "谢迟D3持153铜，购料支3得150，修炉实收30得180，雨夜转运实收20得200；D4一灵铢+100铜实缴200归零。旧林杏14铜、医站18铜欠额与公库赊牌不因此清结。",
+      "evidence": [
+        {
+          "chapter": 5,
+          "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+          "quote": "共三铜。"
+        },
+        {
+          "chapter": 5,
+          "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+          "quote": "将此前约好的三十枚铜钱倒进桌面的小浅盘"
+        },
+        {
+          "chapter": 5,
+          "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+          "quote": "谢迟另从铜盘里数出二十枚。"
+        },
+        {
+          "chapter": 5,
+          "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+          "quote": "本期实收两灵铢。"
+        },
+        {
+          "chapter": 5,
+          "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+          "quote": "空的。"
+        }
+      ]
+    },
+    "causality": {
+      "decision": "pass",
+      "conclusion": "余见山定价30铜但待停炉清灰、补泥、空火及试盘合格才付款；夜运46篓含重新封验后才结20铜；病户真实授权由穆吏多源核验后核准。",
+      "evidence": [
+        {
+          "chapter": 5,
+          "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+          "quote": "已验空火、试盘合格"
+        },
+        {
+          "chapter": 5,
+          "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+          "quote": "谢迟另从铜盘里数出二十枚。"
+        },
+        {
+          "chapter": 5,
+          "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+          "quote": "复核通过，资格生效。"
+        }
+      ]
+    },
+    "power_rules": {
+      "decision": "pass",
+      "conclusion": "主角以药炉经验与谨慎劳动修炉而非高级修为创造灵铢；穆吏审的是家属代领，不因此恢复收契司权限；苏见微只核诊见证不能代病户同意。",
+      "evidence": [
+        {
+          "chapter": 5,
+          "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+          "quote": "不是以收契司药童身份领。"
+        },
+        {
+          "chapter": 5,
+          "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+          "quote": "不能替她说‘我愿意’。"
+        }
+      ]
+    },
+    "promises": {
+      "decision": "pass",
+      "conclusion": "P02按CH005期限真正缴足两灵铢，P08在D4申初前真实通过本期代领复核。P03乙四七阵砂仍待CH006，P04查证渠道仍受限；新P09设CH006实际领药期限。",
+      "evidence": [
+        {
+          "chapter": 5,
+          "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+          "quote": "本期实收两灵铢。"
+        },
+        {
+          "chapter": 5,
+          "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+          "quote": "复核通过，资格生效。"
+        },
+        {
+          "chapter": 5,
+          "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+          "quote": "今日缴费，不算已发药。"
+        }
+      ]
+    },
+    "anti_repeat": {
+      "decision": "pass",
+      "conclusion": "CH002护送过桥消耗4铜、CH003限权核实32铜、CH004草架实救与报酬130铜；CH005靠日常技术劳作、熬夜运货、妹妹自愿授权和实付200铜完成不同状态变化。",
+      "evidence": [
+        {
+          "chapter": 5,
+          "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+          "quote": "炉修好了，我的货才有出去的路。"
+        },
+        {
+          "chapter": 5,
+          "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+          "quote": "本期实收两灵铢。"
+        }
+      ]
+    },
+    "character_agency": {
+      "decision": "pass",
+      "conclusion": "谢棠亲自选择本期家属代领、拒绝病情被挟；谢迟拒不停火抢修及以受伤者工钱筹资；余见山验货再付款，穆吏有权且按规复核，温朴主动决定实名提交。",
+      "evidence": [
+        {
+          "chapter": 5,
+          "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+          "quote": "我今天选你，不代表以后任何人都能拿我的病来叫你办别的事。"
+        },
+        {
+          "chapter": 5,
+          "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+          "quote": "我不会为了帮你，把这两句变成一句。"
+        }
+      ]
+    }
+  },
+  "comparison": [
+    {
+      "chapter": 2,
+      "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+      "quote": "他数给男人，留下二十三枚。",
+      "difference": "CH002为护送阿序付4铜、医站缺药持续恶化；CH005独立修炉与46篓夜工实际净赚47铜并向妹妹实缴200，未重复护桥或抢救同一伤者。"
+    },
+    {
+      "chapter": 3,
+      "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+      "quote": "可以记作昨日实收三十二铜。",
+      "difference": "CH003核心是多人核林杏旧药临收32铜、依法保全空受寿栏且许青蘅失权；CH005以病户本人家属授权争独立资格并付妹妹药费，不再靠翻乙四七旧账推进。"
+    },
+    {
+      "chapter": 4,
+      "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+      "quote": "还差四十七。",
+      "difference": "CH004的130铜源于谷北工伤救援，医站获外购药；CH005凭实物维修与转运挣足剩余47，明确自付3铜材料后真实交清并新增温朴本人见证意愿，非再次受难得钱。"
+    }
+  ],
+  "future_window": [
+    {
+      "chapter": 6,
+      "goal": "D5按真实收款联和本期资格副签领出谢棠裂脉症续药，核药品、交付及用后观察，并循合法渠道核乙四七阵砂去向",
+      "change": "药物从药房真实出柜交到谢棠手中，医者观察副作用和风险；温朴证词经合法记录但不自动等于全宗伪造事实",
+      "ending_question": "若命砂记录与温朴未启阵记录冲突，谁有责任提供原件？"
+    },
+    {
+      "chapter": 7,
+      "goal": "庄烬以假认罪材料要挟主角，主角通过独立见证纠正、守住合法听证且维护谢棠的自主权",
+      "change": "取得一天公开听证窗口，同时失去谷口住处或其他真实代价，不靠境界越级击败高层",
+      "ending_question": "听证机会能否让证人的话被作为独立来源而非串供？"
+    },
+    {
+      "chapter": 8,
+      "goal": "护送证人与尝试取得原契之间出现真实只能二择的窗口",
+      "change": "选择先保全活人，错失一条便捷取原契路径，但保留下一阶段可核证人名单",
+      "ending_question": "没有原契、只有见证与封签，怎样在离谷后继续合法核查？"
+    }
+  ],
+  "promise_reviews": [
+    {
+      "id": "T03-P02",
+      "action": "complete",
+      "deadline_chapter": 5,
+      "reason": "153铜起步，花3铜补炉、实收30铜修炉及20铜夜间运货后为200铜，D4实缴2灵铢并有收据；不是已领药。",
+      "evidence": {
+        "chapter": 5,
+        "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+        "quote": "本期实收两灵铢。"
+      }
+    },
+    {
+      "id": "T03-P03",
+      "action": "keep",
+      "deadline_chapter": 6,
+      "reason": "温朴依法实名递交本人亲见未启阵的陈述请求，传闻独立标注，阵砂尚未核，保留CH006核证期限。",
+      "evidence": {
+        "chapter": 5,
+        "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+        "quote": "将一枚收件戳盖在请求纸的角上"
+      }
+    },
+    {
+      "id": "T03-P04",
+      "action": "keep",
+      "deadline_chapter": 10,
+      "reason": "收契轮值仍被撤，谢迟只能以病户家属合法代领，不得越权查原契与原阵砂，CH010约束不变。",
+      "evidence": {
+        "chapter": 5,
+        "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+        "quote": "不是以收契司药童身份领。"
+      }
+    },
+    {
+      "id": "T03-P08",
+      "action": "complete",
+      "deadline_chapter": 5,
+      "reason": "谢棠本人限定当期授权，苏医者仅诊见，穆审领吏在D4申初前正式核准家属本期代领，旧代理废止。",
+      "evidence": {
+        "chapter": 5,
+        "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+        "quote": "复核通过，资格生效。"
+      }
+    },
+    {
+      "id": "T03-P09",
+      "action": "set",
+      "deadline_chapter": 6,
+      "reason": "新增CH006 D5必须真正出柜、交付妹妹与观察用药后果，不能凭D4付款和资格通过提前记领药。",
+      "evidence": {
+        "chapter": 5,
+        "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+        "quote": "今日缴费，不算已发药。"
+      }
+    }
+  ],
+  "incident_actions": [],
+  "checkpoint": {
+    "kind": "window",
+    "from": 1,
+    "to": 5,
+    "base_revision": 7,
+    "canon_sha256": "bf7007bd30947ea5654393ba4661faba9900a8569280999d265229ddb8798944",
+    "read_mode": "full_text_batches",
+    "decision": "continue",
+    "coverage": {
+      "1": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+      "2": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+      "3": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+      "4": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+      "5": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8"
+    },
+    "record_coverage": {
+      "1": "eb40df45bd855d6c7743ef69586172538a15ed2cde7270c9823ab122933a4270",
+      "2": "c35767627dfa12b9a34b5e0878192e535e158e9b0c9aec182f0714fa2d895e2d",
+      "3": "a26f9989f33db272d50b6c753d45676ef3fc533b0388c69ce6896b9442f87eb5",
+      "4": "a87dd5868c0761d88a7d6a9f00cca3200d7b144cf86f3941d0799a1d901c6099",
+      "5": "5548369827be082d9486d3d334fd59c70c3b097e080ad1f90b2fc83c417315db"
+    },
+    "findings": [],
+    "conclusion": "已逐项回看CH001—CH004冻结正文及CH005当前完整候选：拒收寿契→护送患儿→核临收款与空栏→草架救援/实获130铜→技术修炉与夜运净补47铜、药房实缴200及合法家属代领。五章关键物资、人物、时间和权限顺承，无需更改既定冻结章。",
+    "causal_progress": "CH001谢迟拒签失牌；CH002为救阿序耗4铜、医站停赊；CH003林杏本人核实32铜、许青蘅失钥匙；CH004真救工伤并获130铜，公库赊药未恢复；CH005独立用劳务补缺和获病户授权，付钱归零而仍待D5出药。",
+    "repetition_comparison": "前五章虽均围绕药费/证据，但分别采用见证停秤、危桥护送、并账追款、塌架协作救人、修炉/转运/药房资格审领五种实际办法；最接近重复的是多次核纸与逐铜计数，本章凭最终缴费和身体劳作兑现，不在待办中打转。",
+    "character_changes": "谢迟从拒绝收寿的失权药童变成愿真实劳作和公开凭票付费的哥哥，同时有身体代价且现金归零；谢棠首次实际决定谁只在当期代领，不再仅作为药费目标；温朴主动实名留证而非帮助主角全知。",
+    "promise_payoffs": "P02第五章按期两灵铢200铜实际实缴；P08本期代领资格获正式批准；新增P09第六章真实领药；P03乙四七原阵砂第六章继续检验，P04长期失权未消除。",
+    "ending_runway": "第六章必须是真实拿药和原阵砂独立核查的双实事，第七章面对庄烬假认罪打压与公开听证，第八章在保原契与保护人证之间付选择代价；不得把第五章收款签变为已领药签。",
+    "next_action": "沿用本次完整报告通过release-check后按manual-finalize原子冻结CH005；下章CH006从D5真正出柜与温朴自愿陈述流程起，不改前五章。"
+  },
+  "narrative_review": {
+    "schema_version": 1,
+    "actual_scenes": [
+      {
+        "event": "D3清晨兄妹盘点仍差47铜，谢棠拒做他人命契交换物",
+        "choice": "谢迟决定靠实际劳动补不足，谢棠仅愿在自愿前提下授权",
+        "change": "明确钱与人身选择不能混为同一笔借命",
+        "evidence": [
+          {
+            "chapter": 5,
+            "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+            "quote": "一灵铢五十三铜，摆在桌上"
+          }
+        ]
+      },
+      {
+        "event": "谢迟到行脚药商余见山的损炉现场，商谈价30铜",
+        "choice": "谢迟不许炉子冒烟时伸手抢修，先停火验炉",
+        "change": "按可核工价订活，救急也不以肉体赌火伤",
+        "evidence": [
+          {
+            "chapter": 5,
+            "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+            "quote": "三十铜照给"
+          }
+        ]
+      },
+      {
+        "event": "炉冷后谢迟购3铜辅料修烟道补泥并空火试盘",
+        "choice": "自己掏材料钱，未验修成前不记报酬",
+        "change": "炉具通过实操验收，谢迟当面拿30铜",
+        "evidence": [
+          {
+            "chapter": 5,
+            "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+            "quote": "已验空火、试盘合格"
+          }
+        ]
+      },
+      {
+        "event": "D3夜山雨起，药商要将46篓库存迁至高棚",
+        "choice": "谢迟负责逐篓核封与搬运，保持独立工价，暴雨中不冒填封数",
+        "change": "货实际到高棚，谢迟当场再拿20铜，累计200铜",
+        "evidence": [
+          {
+            "chapter": 5,
+            "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+            "quote": "谢迟另从铜盘里数出二十枚。"
+          }
+        ]
+      },
+      {
+        "event": "D4苏见微与林庚在谢棠床前核自愿代领意愿",
+        "choice": "谢棠亲口选择只授权哥哥这一期领药，医师不替她作意愿",
+        "change": "病户从被照护对象变成能限定自身权利的决定者",
+        "evidence": [
+          {
+            "chapter": 5,
+            "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+            "quote": "我今天选你，不代表以后任何人都能拿我的病来叫你办别的事。"
+          }
+        ]
+      },
+      {
+        "event": "药房穆吏审病户自愿签与病历，许七借庄烬黄签阻断",
+        "choice": "谢迟不靠撤销的药童身份，要求真实书面理由，穆吏依法两人复审",
+        "change": "D4申初前本期家属代领资格真正生效",
+        "evidence": [
+          {
+            "chapter": 5,
+            "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+            "quote": "复核通过，资格生效。"
+          }
+        ]
+      },
+      {
+        "event": "谢迟携资格副签到收钱窗当场缴药费",
+        "choice": "他交灵铢1枚、铜100并核双联钱簿",
+        "change": "实缴200，现金归零，明确药还未出柜",
+        "evidence": [
+          {
+            "chapter": 5,
+            "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+            "quote": "本期实收两灵铢。"
+          }
+        ]
+      },
+      {
+        "event": "温朴独自出现表达亲见与传闻分层",
+        "choice": "不让主角代签，温朴自己向执律堂登记门提交补充说明请求",
+        "change": "本人实名请求取得收件戳，阵砂真伪仍待核查",
+        "evidence": [
+          {
+            "chapter": 5,
+            "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+            "quote": "将一枚收件戳盖在请求纸的角上"
+          }
+        ]
+      },
+      {
+        "event": "D4夜回屋给妹妹看两份凭据，讨论体力与下一期风险",
+        "choice": "谢棠看清权利由自己选择且明白D5未领药",
+        "change": "两大期限兑现但生活并未永久解决，第六章必须取药",
+        "evidence": [
+          {
+            "chapter": 5,
+            "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+            "quote": "这里写我愿意。"
+          }
+        ]
+      }
+    ],
+    "plan_comparison": "计划九场与实际九场大体一致，真实技工修炉、雨夜验封转运占足够篇幅，修炉先停火再用3铜材料试盘合格才领30，夜运逐篓结20；D4资格有实际盖印、药费有实际现金交接，温朴只申请本人补证，非已证成伪契。连续纸面程序出现在后段但兑现真实状态，不是围绕同一张废纸原地打转。",
+    "reader": {
+      "mode": "same_context_approximation",
+      "limitation": "审读者与作者共享同一模型上下文，并读过设定和冻结正文，因此这是同上下文限信息近似审读，不冒称独立盲测或真人试读；reader资料只用于限制本次理解判断的证据范围。",
+      "coverage": {
+        "1": {
+          "text_sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+          "mode": "reader_recap",
+          "release_sha256": "a8cac8063a8252521817599706237665cb548476a0f4dd29b9c1dcf5651715e0"
+        },
+        "2": {
+          "text_sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+          "mode": "full_text"
+        },
+        "3": {
+          "text_sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+          "mode": "full_text"
+        },
+        "4": {
+          "text_sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+          "mode": "full_text"
+        },
+        "5": {
+          "text_sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+          "mode": "full_text"
+        }
+      },
+      "understanding": "谢迟最初153铜，为修炉支3、修成实收30、运46篓实收20，至D4得200并当场全额缴药费；妹妹亲口授权本期家属代领且药房盖章批准，但药D5才会发；温朴自己愿实名说明未启阵，却没有亲眼见到有人造假。",
+      "information_load": "前段劳动目标明确、过程与到账均有物理动作，数字153、−3、+30、+20、200可跟踪；中段病户、药童、亲属代理权存在制度名词负担，但以谢棠本人识印和药房复核出结果，读者不必理解更深法律条文也能知道资格生效。",
+      "promise_delivery": "两灵铢缴费P02兑现；D4申初前资格复核P08兑现；P09真实D5领药仍未兑现。原命秤乙四七无砂纸角与未启阵见证进一步增加可核证人，但真伪仍须CH006查阵砂。",
+      "evidence": [
+        {
+          "chapter": 5,
+          "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+          "quote": "谢迟另从铜盘里数出二十枚。"
+        },
+        {
+          "chapter": 5,
+          "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+          "quote": "复核通过，资格生效。"
+        },
+        {
+          "chapter": 5,
+          "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+          "quote": "本期实收两灵铢。"
+        }
+      ],
+      "issues": [
+        {
+          "severity": "suggestion",
+          "status": "open",
+          "reason": "作为连续第五章，仍有病户资格核签、钱房逐铜清点等程序性对白，后续第六章宜转向实际取药、用药与封存砂证物的冲突，减少再次同构审账。",
+          "evidence": {
+            "chapter": 5,
+            "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+            "quote": "本期实收两灵铢。"
+          }
+        },
+        {
+          "severity": "verify",
+          "status": "resolved",
+          "reason": "钱到账与领药不同，正文收据明确‘今日缴费，不算已发药’，仍应由第六章单独真实兑现。",
+          "evidence": {
+            "chapter": 5,
+            "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+            "quote": "今日缴费，不算已发药。"
+          }
+        }
+      ]
+    },
+    "character_causality": {
+      "opposition": {
+        "status": "reviewed",
+        "conclusion": "余见山不肯为未验炉预付钱、雨夜药材必须复核后结账、许七想借庄烬旧药童身份审查拖过申初；穆吏将黄签界定为需核资格而非停病户药，冲突不靠反派智力突然下降。",
+        "evidence": [
+          {
+            "chapter": 5,
+            "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+            "quote": "我不能让你一边添柴一边叫我伸手进去。"
+          },
+          {
+            "chapter": 5,
+            "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+            "quote": "复核通过，资格生效。"
+          }
+        ]
+      },
+      "dialogue": {
+        "status": "reviewed",
+        "conclusion": "谢棠亲口限定代理授权，余见山先考虑货物验收再付工价，温朴明知风险选择自愿留名，谢迟不替温朴陈述或替妹妹同意。",
+        "evidence": [
+          {
+            "chapter": 5,
+            "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+            "quote": "我今天选你，不代表以后任何人都能拿我的病来叫你办别的事。"
+          },
+          {
+            "chapter": 5,
+            "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+            "quote": "没看见。听见有人这样说，不是看见他已经做了。"
+          }
+        ]
+      },
+      "aftermath": {
+        "status": "reviewed",
+        "conclusion": "钱袋归零、谢迟身体磨损且下一期暂无来源；病药仍在药房，温朴申请只是收讫非全部证据认证，庄烬代领限制的当前执行被合法解释而非上层失权。",
+        "evidence": [
+          {
+            "chapter": 5,
+            "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+            "quote": "空的。"
+          },
+          {
+            "chapter": 5,
+            "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+            "quote": "今日缴费，不算已发药。"
+          },
+          {
+            "chapter": 5,
+            "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+            "quote": "将一枚收件戳盖在请求纸的角上"
+          }
+        ]
+      }
+    },
+    "history": {
+      "index_sha256": "a76afd2d0afd338206528be2eb4f53b9190c6508e689aea70a1f698570cbb700",
+      "queries": [
+        "谢棠 两灵铢 代领 身份",
+        "谢迟 炉房 罗师傅 炉火",
+        "温朴 乙四七 暂缓未启阵",
+        "工钱 钱 铜枚 危机"
+      ],
+      "comparisons": [
+        {
+          "similarity": "CH001曾用药费倒计时与是否以寿息交换生命建立冲突。",
+          "difference": "CH001只是拒当次签契导致失牌，CH005依技术劳动真正筹钱和盖章领药资格，均用妹妹医药线但兑现方式和结果有明显进步。",
+          "source": {
+            "chapter": 1,
+            "sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+            "quote": "霜月十一以前，妹妹谢棠还要续药两灵铢。"
+          },
+          "current_evidence": {
+            "chapter": 5,
+            "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+            "quote": "本期实收两灵铢。"
+          }
+        },
+        {
+          "similarity": "CH003与CH005均有登记、独立见证和钱款票据。",
+          "difference": "CH003是林杏旧款32铜历史复核和乙四七空栏，CH005是自己付妹妹200铜、当期有限代领资格实际获准及温朴主动递件，没有再审林杏的付款。",
+          "source": {
+            "chapter": 3,
+            "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+            "quote": "可以记作昨日实收三十二铜。"
+          },
+          "current_evidence": {
+            "chapter": 5,
+            "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+            "quote": "复核通过，资格生效。"
+          }
+        },
+        {
+          "similarity": "CH004以真实救援劳务换130铜开启现金积累。",
+          "difference": "CH005无需新的事故，又独立赚修炉与夜运净47铜，在本章将钱实交药房，突出主动可重复的工作能力与代价，而非依赖灾难。",
+          "source": {
+            "chapter": 4,
+            "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+            "quote": "还差四十七。"
+          },
+          "current_evidence": {
+            "chapter": 5,
+            "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+            "quote": "本期实收两灵铢。"
+          }
+        }
+      ],
+      "no_match_reason": ""
+    },
+    "reader_updates": [
+      {
+        "kind": "observed",
+        "statement": "谢迟D3原有153铜，支3铜材料、真得30铜修炉费与20铜搬运费，D4真交200铜后个人现金归零。",
+        "evidence": [
+          {
+            "chapter": 5,
+            "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+            "quote": "共三铜。"
+          },
+          {
+            "chapter": 5,
+            "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+            "quote": "将此前约好的三十枚铜钱倒进桌面的小浅盘"
+          },
+          {
+            "chapter": 5,
+            "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+            "quote": "谢迟另从铜盘里数出二十枚。"
+          },
+          {
+            "chapter": 5,
+            "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+            "quote": "本期实收两灵铢。"
+          }
+        ]
+      },
+      {
+        "kind": "observed",
+        "statement": "谢棠在本人病状允许条件下自主识印，只授权哥哥本期代领，药房经两人核验正式批准。",
+        "evidence": [
+          {
+            "chapter": 5,
+            "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+            "quote": "我今天选你，不代表以后任何人都能拿我的病来叫你办别的事。"
+          },
+          {
+            "chapter": 5,
+            "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+            "quote": "复核通过，资格生效。"
+          }
+        ]
+      },
+      {
+        "kind": "observed",
+        "statement": "D4付款联已写实收2灵铢，但D5药品仍未领取、服用或治愈。",
+        "evidence": [
+          {
+            "chapter": 5,
+            "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+            "quote": "今日缴费，不算已发药。"
+          }
+        ]
+      },
+      {
+        "kind": "observed",
+        "statement": "温朴本人申请提交补充说明并有收件戳，不等于听审采信或原阵砂已核。",
+        "evidence": [
+          {
+            "chapter": 5,
+            "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+            "quote": "将一枚收件戳盖在请求纸的角上"
+          }
+        ]
+      },
+      {
+        "kind": "claim",
+        "statement": "温朴听人议论欲将旧班次改为已排入下一班兑付，此为未见证传闻，而非当场发现造假。",
+        "evidence": [
+          {
+            "chapter": 5,
+            "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+            "quote": "没看见。听见有人这样说，不是看见他已经做了。"
+          }
+        ]
+      },
+      {
+        "kind": "uncertain",
+        "statement": "第六章药房能否如期把D5续药交付，以及乙四七原阵砂究竟在哪里，尚无独立证实。",
+        "evidence": [
+          {
+            "chapter": 5,
+            "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+            "quote": "今日缴费，不算已发药。"
+          }
+        ]
+      }
+    ],
+    "reader_update_note": "读者新认知只把真实到账、D4盖印资格、缴费和温朴递件列为observed；改班话语列为claim；D5出药与阵砂原件列为uncertain。未提前披露零号底押、母亲身故或三千人真相。",
+    "surface_findings": []
+  }
+}
