@@ -1,0 +1,232 @@
+{
+  "chapter": 5,
+  "title": "到期前一夜",
+  "stage": "S01",
+  "base_revision": 7,
+  "canon_sha256": "bf7007bd30947ea5654393ba4661faba9900a8569280999d265229ddb8798944",
+  "text_sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+  "complete": true,
+  "story_time_end": 4,
+  "summary": "D3霜月初九谢迟继承153铜，独立以三铜自购辅料修复行脚药商余见山熏药炉，完成验火后真正收取30铜，又于夜间将46篓药材跨湿堤分批运输验封完成独立工单、真收20铜，现金成200。D4霜月初十苏见微核诊、谢棠自愿按印授权谢迟只代缴并代领本期续药，林庚见证。谢迟半日抵山门，面对许七阻难，由穆吏审签并于申初前按直系家属病户授权完成代领资格复核、生效且旧药童代理废止。随后谢迟在药房实交一灵铢与一百铜，总200铜，获真实收钱联，私人现金为零；D5药尚未领取。原秤见证人温朴自发在执律堂提交乙四七未启阵事实与传闻分层的实名补充说明请求，已收件而尚未采信。旧纸角与母印、医站欠款及远期真相均未变化。",
+  "review": {
+    "read_full_text": true,
+    "decision": "adopt",
+    "blocking_issues": [],
+    "sources_checked": [
+      {
+        "chapter": 1,
+        "sha256": "ce7c6086d4df4f39248fdc3ed4c8051bf5a6b9bb50d9bb447760f73437b265cb",
+        "quote": "霜月十一以前，妹妹谢棠还要续药两灵铢。"
+      },
+      {
+        "chapter": 2,
+        "sha256": "d8dffbb508f58226fb080b3288c514997f80ab547c0bd85e2871fe72849fd1a6",
+        "quote": "他数给男人，留下二十三枚。"
+      },
+      {
+        "chapter": 3,
+        "sha256": "37b3e42f14341deaee38cd2e5bcd7eaa9ef20b80c8c0bafae3cbafea53399538",
+        "quote": "受寿栏空白，阵脚号未记，原件封存，未判兑付"
+      },
+      {
+        "chapter": 4,
+        "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+        "quote": "还差四十七。"
+      }
+    ],
+    "conclusion": "已完成CH005全文实读与前四章冻结锚点比对；本章D3—D4资金153+30-3+20=200真实入账与实付，旧药童身份仍无原契权限，病户谢棠自愿有限授权、医者只见证事实，代领资格有正式复核结果；温朴只提交实名申请，证词与阵砂尚未查实；D5药真实领取未提前兑现。当前为候选记录，尚需远端工具正式审核和冻结。"
+  },
+  "facts": [
+    {
+      "kind": "state",
+      "key": "xiechi:cash_D3_start",
+      "value": "D3霜月初九起始持153铜即1灵铢53铜，继承CH004冻结值",
+      "valid_from": 1,
+      "valid_until": null,
+      "quote": "一灵铢五十三铜，摆在桌上"
+    },
+    {
+      "kind": "state",
+      "key": "xiechi:repair_material_spend",
+      "value": "D3从自有钱中支付3铜买细铜线和耐火泥，现金由153变150铜",
+      "valid_from": 1,
+      "valid_until": null,
+      "quote": "共三铜。"
+    },
+    {
+      "kind": "state",
+      "key": "xiechi:repair_paid",
+      "value": "D3替行脚药商余见山修复熏药干燥炉、空火与废草实测通过，现金真实领30铜，现金由150变180",
+      "valid_from": 1,
+      "valid_until": null,
+      "quote": "将此前约好的三十枚铜钱倒进桌面的小浅盘"
+    },
+    {
+      "kind": "state",
+      "key": "xiechi:night_shift_paid",
+      "value": "D3子时前对四十六篓药材完整分运点货验封并从余见山另收20铜，现金由180变200",
+      "valid_from": 1,
+      "valid_until": null,
+      "quote": "谢迟另从铜盘里数出二十枚。"
+    },
+    {
+      "kind": "state",
+      "key": "xiechi:fee_paid_D4",
+      "value": "D4霜月初十按药房正式验钱收据，向药房付谢棠本期2灵铢共200铜，钱袋清空为0；不把收钱写作已出药",
+      "valid_from": 1,
+      "valid_until": null,
+      "quote": "本期实收两灵铢。"
+    },
+    {
+      "kind": "state",
+      "key": "xiechi:cash_after_D4",
+      "value": "实付200铜后个人现金余额0，下一期药费仍需重新筹钱",
+      "valid_from": 1,
+      "valid_until": null,
+      "quote": "摸了一下钱袋底部。空的。"
+    },
+    {
+      "kind": "state",
+      "key": "xietang:proxy_consent_D4",
+      "value": "D4卯末谢棠本人亲自口述并识印授权兄长谢迟仅代缴与领取当期药物，苏见微诊见、林庚为在场见证；非寿契同意",
+      "valid_from": 1,
+      "valid_until": null,
+      "quote": "我今天选你，不代表以后任何人都能拿我的病来叫你办别的事。",
+      "holder": "谢棠"
+    },
+    {
+      "kind": "state",
+      "key": "xietang:proxy_approved_D4",
+      "value": "D4申初前药房穆吏审病户牌、本人在家授权、诊见签、签见人并盖章复核通过，撤销旧药童代理、直系亲属代理资格只限D5本期",
+      "valid_from": 1,
+      "valid_until": null,
+      "quote": "复核通过，资格生效。"
+    },
+    {
+      "kind": "state",
+      "key": "xietang:medicine_not_received",
+      "value": "D4只有缴费和代领资格生效，D5药尚未实际出柜、没有病人服用或副作用后果",
+      "valid_from": 1,
+      "valid_until": null,
+      "quote": "今日缴费，不算已发药。"
+    },
+    {
+      "kind": "state",
+      "key": "xietang:illness_unchanged",
+      "value": "谢棠裂脉症仍在，医者认定不宜半日远行与久站，能亲自同意代理但未痊愈",
+      "valid_from": 1,
+      "valid_until": null,
+      "quote": "久行、久站会加重症状",
+      "holder": "谢棠"
+    },
+    {
+      "kind": "state",
+      "key": "wenpu:formal_statement_request",
+      "value": "温朴原记乙四七暂缓未启阵，D4独立决定实名申请补充执律说明，现场收件戳证明已接件但并非已经采信或定罪",
+      "valid_from": 1,
+      "valid_until": null,
+      "quote": "将一枚收件戳盖在请求纸的角上"
+    },
+    {
+      "kind": "knowledge",
+      "key": "wenpu:personally_seen_D0",
+      "value": "温朴愿陈述亲见：林杏拒签、双见证不足、秤未启阵；另仅听说有人想改班次，未见实际篡改",
+      "valid_from": 1,
+      "valid_until": null,
+      "quote": "没看见。听见有人这样说，不是看见他已经做了。",
+      "holder": "温朴"
+    },
+    {
+      "kind": "state",
+      "key": "xiechi:paper_scrap_unchanged",
+      "value": "谢迟留有炉房登记无砂废纸角且未交出；没有合法取得乙四七原契或命砂",
+      "valid_from": 1,
+      "valid_until": null,
+      "quote": "确认那片无砂废纸角还在。"
+    },
+    {
+      "kind": "state",
+      "key": "xiechi:half_mother_token_unchanged",
+      "value": "叶桑留下的半铜印仍是纪念，不属于付款资产和法器",
+      "valid_from": 1,
+      "valid_until": null,
+      "quote": "他把铜印放回木匣"
+    },
+    {
+      "kind": "state",
+      "key": "sujianwei:medical_evidence_scope",
+      "value": "苏见微只作妹妹在家真实识印的医学见证，不越权决定药房是否准予代领",
+      "valid_from": 1,
+      "valid_until": null,
+      "quote": "不能替她说‘我愿意’。",
+      "holder": "苏见微"
+    },
+    {
+      "kind": "state",
+      "key": "xiechi:role_unchanged",
+      "value": "谢迟仍是撤收契房轮值的药童，办理妹妹代领依病户本人授权而非旧职权",
+      "valid_from": 1,
+      "valid_until": null,
+      "quote": "不是以收契司药童身份领。"
+    },
+    {
+      "kind": "state",
+      "key": "clinic_debts_unchanged",
+      "value": "林杏旧药欠14铜与医站18铜均未在本章结清；已有祝家周转药材不抵妹妹本期配药款",
+      "valid_from": 1,
+      "valid_until": null,
+      "quote": "两百铜分两处装好"
+    },
+    {
+      "kind": "state",
+      "key": "xiechi:wounded_hands",
+      "value": "连续修炉、雨中运货与走山路使谢迟手背裂伤、脚上起泡，没有无代价连续劳作",
+      "valid_from": 1,
+      "valid_until": null,
+      "quote": "脚上起了泡"
+    }
+  ],
+  "progression": {
+    "goal": "D4前赚够谢棠D5续药缺少的47铜、真付2灵铢并办妥代领身份资格",
+    "obstacle": "缺钱、炉子损坏不保证工酬、雨夜药材搬运风险、病户不能远行、庄烬以旧药童身份行政卡领药",
+    "method": "谢迟凭炉房经验完成30铜试火验收工单，自费3铜辅料；夜间按实际安全运送46篓赚20；苏见微诊见谢棠在家亲自授权，以独立亲属身份到药房申请审批并实付200",
+    "choice": "谢迟不拿无砂纸角换资格、不让伤者负担钱；工人雨夜按风险决定停止/继续，谢棠亲口限制授权范围，穆吏坚持独立药房审核而非许七口头阻挠，温朴自愿实名说明",
+    "result": "两笔工酬真实到手，材料钱扣出、D4付款真实完成且袋空；只限本期的谢迟直系代理资格按正式审领印生效；温朴正式提交自述申请",
+    "consequence": "谢迟个人余钱0，修炉运货负伤且D5须真正领药；温朴因署名有被追问风险；药房旧资格不自动覆盖未来药期",
+    "next_options": "CH006 D5凭实际票据与已批准代理资格真正取药并交谢棠，记录药后反应；执律堂依据温朴见闻继续核乙四七阵砂及封签，不能把受理申请当成已证实伪契；CH007庄烬反击需真实代价",
+    "scene_function": "现实劳务/材料技艺与雨夜物资守护→病人个人自主授权→山门权力冲突→两灵铢真付款→温朴自愿出面，区别CH004紧急坍架救援与CH003并账调查"
+  },
+  "thread_events": [
+    {
+      "id": "T03-P02",
+      "action": "payoff",
+      "description": "D3真实得30铜修炉工钱、支3铜辅料、再收20铜夜工，D4将153+30-3+20=200铜全部付入谢棠配药窗口，正式票据实收2灵铢；本承诺是付费而非D5领药。",
+      "quote": "本期实收两灵铢。"
+    },
+    {
+      "id": "T03-P03",
+      "action": "develop",
+      "description": "温朴D4依法独立申请就乙四七未启阵作实名补充说明但只获收件，尚未查验阵砂、不能称有双证已证伪。",
+      "quote": "将一枚收件戳盖在请求纸的角上"
+    },
+    {
+      "id": "T03-P04",
+      "action": "develop",
+      "description": "谢迟仍无收契轮值资格，本章以病户家属身份办理代领，不取得原契与宗门出入簿权限。",
+      "quote": "不是以收契司药童身份领。"
+    },
+    {
+      "id": "T03-P08",
+      "action": "payoff",
+      "description": "D4申初前药房真实复核通过病户自主直系家属本期代理，旧药童代理废止。",
+      "quote": "复核通过，资格生效。"
+    },
+    {
+      "id": "T03-P09",
+      "action": "plant",
+      "description": "已付款且代领资格生效仍未出药，CH006 D5必须真领取交给谢棠、留实际用药与不良反应观察。",
+      "quote": "今日缴费，不算已发药。"
+    }
+  ],
+  "stage_closing": false
+}
