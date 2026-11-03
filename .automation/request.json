@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "xs3-manual-ch005-brief-20261103-193ac8b2",
-  "base_sha": "3d2adc59eb741f41d7e30dd1ad13868d9b3cf5cb",
+  "request_id": "xs3-manual-ch005-candidate-20261103-e81c24d9",
+  "base_sha": "4b62224f941db58ba65a3a576c2192d4a4e01f54",
   "book_id": "376cd0c1-c6be-4958-88fe-08c5f9c37598",
   "controller": {
     "kind": "manual",
@@ -17,19 +17,11 @@
       "args": [
         "--root",
         "book",
-        "brief-check",
-        "--file",
-        "drafts/XS3_CH005_brief_ready.json"
-      ]
-    },
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "history-search",
-        "--query",
-        "谢棠 两灵铢 代领 温朴 乙四七"
+        "candidate",
+        "--chapter",
+        "5",
+        "--text",
+        "drafts/XS3_CH005_到期前一夜_完整正文.txt"
       ]
     },
     {
@@ -39,9 +31,11 @@
         "book",
         "context",
         "--profile",
-        "writer",
+        "reader",
+        "--text",
+        "drafts/XS3_CH005_到期前一夜_完整正文.txt",
         "--out",
-        "drafts/XS3_CH005_writer.md"
+        "drafts/XS3_CH005_reader.md"
       ]
     }
   ]
