@@ -1,17 +1,13 @@
 {
   "schema_version": 1,
-  "request_id": "xs3-ch005-finalize-20261103-ec7b421d",
-  "base_sha": "704214afaeb59345e4460d99631f8887ac4ed292",
+  "request_id": "xs3-ch006-begin-20261104-f4c6d9e1",
+  "base_sha": "9e16fa3f46ed546b49ea9affe1c3a3883365badd",
   "book_id": "376cd0c1-c6be-4958-88fe-08c5f9c37598",
   "controller": {
     "kind": "manual",
-    "session_id": "xs3-ch005-manual-20261103-26a7e05b"
+    "session_id": "xs3-ch006-manual-20261104-e0f37a2c"
   },
   "author_directed": true,
-  "phase": "manual-finalize",
-  "chapter": 5,
-  "run_id": "8289bc4fb4ef491ea7bba47f5a71456d",
-  "text": "drafts/XS3_CH005_到期前一夜_完整正文.txt",
-  "record": "drafts/XS3_CH005_候选事实账.json",
-  "report": "drafts/XS3_CH005_release_reviewed.json"
+  "phase": "manual-begin",
+  "chapter": 6
 }
