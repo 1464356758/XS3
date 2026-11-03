@@ -1,13 +1,38 @@
 {
   "schema_version": 1,
-  "request_id": "xs3-ch006-begin-20261104-f4c6d9e1",
-  "base_sha": "9e16fa3f46ed546b49ea9affe1c3a3883365badd",
+  "request_id": "xs3-ch006-brief-20261104-1b7d239e",
+  "base_sha": "da0fed7a584600cbca1678b0cdf20b7dc274dd92",
   "book_id": "376cd0c1-c6be-4958-88fe-08c5f9c37598",
   "controller": {
     "kind": "manual",
     "session_id": "xs3-ch006-manual-20261104-e0f37a2c"
   },
   "author_directed": true,
-  "phase": "manual-begin",
-  "chapter": 6
+  "phase": "manual-command",
+  "chapter": 6,
+  "run_id": "8ee2c6b73001467ba5b7199fded1219e",
+  "commands": [
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "brief-check",
+        "--file",
+        "drafts/XS3_CH006_brief_ready.json"
+      ]
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "context",
+        "--profile",
+        "writer",
+        "--out",
+        "drafts/XS3_CH006_writer.md"
+      ]
+    }
+  ]
 }
