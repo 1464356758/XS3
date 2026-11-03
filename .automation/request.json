@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "xs3-ch006-brief-20261104-1b7d239e",
-  "base_sha": "da0fed7a584600cbca1678b0cdf20b7dc274dd92",
+  "request_id": "xs3-ch006-candidate-20261104-72d9c4a0",
+  "base_sha": "454994577a6649f58a19b5c3c4bcc314feb173ca",
   "book_id": "376cd0c1-c6be-4958-88fe-08c5f9c37598",
   "controller": {
     "kind": "manual",
@@ -17,9 +17,11 @@
       "args": [
         "--root",
         "book",
-        "brief-check",
-        "--file",
-        "drafts/XS3_CH006_brief_ready.json"
+        "candidate",
+        "--chapter",
+        "6",
+        "--text",
+        "drafts/XS3_CH006_封签里的沙_完整正文.txt"
       ]
     },
     {
@@ -29,9 +31,11 @@
         "book",
         "context",
         "--profile",
-        "writer",
+        "reader",
+        "--text",
+        "drafts/XS3_CH006_封签里的沙_完整正文.txt",
         "--out",
-        "drafts/XS3_CH006_writer.md"
+        "drafts/XS3_CH006_reader.md"
       ]
     }
   ]
