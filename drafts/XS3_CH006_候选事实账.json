@@ -1,0 +1,222 @@
+{
+  "chapter": 6,
+  "title": "封签里的沙",
+  "stage": "S01",
+  "base_revision": 8,
+  "canon_sha256": "bf7007bd30947ea5654393ba4661faba9900a8569280999d265229ddb8798944",
+  "text_sha256": "b345ed92eb95af72bc25f12adb06781da4c58fee08237489a5eea7c2251e0f76",
+  "complete": true,
+  "story_time_end": 5,
+  "summary": "D5霜月十一，谢迟凭D4真实缴款及本期合法亲属代领副签，在穆吏窗口当面核封后拿到谢棠三包续药。苏见微核药案，谢棠亲自服下本次应服量，胸痛暂减但恶心与指颤等副作用真实存在，后两包留待复诊。温朴实名陈述D0乙四七亲见未启阵，秦不渡依法限件开验罗师傅D0封存单槽及配砂仓D0未交和D1庚二一出库独立底联、实物留样，两源表明初六已收及庚二一批号不能同时指真实初六兑付，非普通笔误；仍不知谁补写、砂料实际去向、是否真实转走寿息，原件重封。许七威胁温朴工位。D5晚外务递来未证实、缺独立见证的所谓谢迟盗砂认罪状，谢迟当面否认，留下CH007冲突。",
+  "review": {
+    "read_full_text": true,
+    "decision": "adopt",
+    "blocking_issues": [],
+    "sources_checked": [
+      {
+        "chapter": 5,
+        "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+        "quote": "今日缴费，不算已发药。"
+      },
+      {
+        "chapter": 5,
+        "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+        "quote": "复核通过，资格生效。"
+      }
+    ],
+    "conclusion": "对照CH001—CH005冻结事实，D5亲属代领不依被撤药童资格，药真实出柜服下，余两包与持续副作用如实登记；命秤封存D0原槽与独立砂仓D1发料及封样交叉核实，存真伪界限，不能把初六已收认成已真实转寿。温朴的事实与传闻分离，认罪状副纸非有效认罪。完成V4.3八项前向实读准备。"
+  },
+  "facts": [
+    {
+      "kind": "state",
+      "key": "xietang:D5_medication_dispensed",
+      "value": "D5穆吏核钱票和当期家属代领授权后将三包续药真正出柜交谢迟",
+      "valid_from": 1,
+      "valid_until": null,
+      "quote": "三包本期续药，凭昨日的实收号，今日辰前正式出柜。"
+    },
+    {
+      "kind": "state",
+      "key": "xietang:D5_medicine_taken",
+      "value": "苏见微核药后谢棠本人服用本次应服药量，余两包待后续复查",
+      "valid_from": 1,
+      "valid_until": null,
+      "quote": "谢棠闭了闭眼，分几口喝下药。"
+    },
+    {
+      "kind": "state",
+      "key": "xietang:D5_side_effects",
+      "value": "胸痛部分缓解但指尖颤动、恶心真实发生，不代表治愈",
+      "valid_from": 1,
+      "valid_until": null,
+      "quote": "胸口好像没那么绞了，可指尖有点抖。胃里翻得厉害。"
+    },
+    {
+      "kind": "state",
+      "key": "xietang:care_followup",
+      "value": "D5午后颤减恶心未全止，苏见微保留两包并约次日复诊",
+      "valid_from": 1,
+      "valid_until": null,
+      "quote": "颤减，恶心未全止，继续观察"
+    },
+    {
+      "kind": "belief",
+      "key": "xietang:autonomous_speech",
+      "value": "谢棠要求哥哥服药时退出，自己真实报告不适，不替哥哥隐瞒",
+      "valid_from": 1,
+      "valid_until": null,
+      "quote": "你看着我，我就会想装作一点都不疼。",
+      "holder": "谢棠"
+    },
+    {
+      "kind": "state",
+      "key": "xiechi:cash_D5_zero",
+      "value": "D4全款付后钱袋仍为0，D5仅凭原联领药没有重付",
+      "valid_from": 1,
+      "valid_until": null,
+      "quote": "钱袋仍是空的"
+    },
+    {
+      "kind": "state",
+      "key": "xiechi:foot_blister",
+      "value": "D5谢迟脚泡再磨伤，仍有D3夜工的身体代价",
+      "valid_from": 1,
+      "valid_until": null,
+      "quote": "脚下的泡又被磨破一处"
+    },
+    {
+      "kind": "state",
+      "key": "wenpu:D0_unactivated_testimony",
+      "value": "温朴D0亲见乙四七未启阵、未入命砂，改班只是听来的话",
+      "valid_from": 1,
+      "valid_until": null,
+      "quote": "我亲眼见阵脚没有点火，也没见命砂真正进阵。"
+    },
+    {
+      "kind": "state",
+      "key": "e47:D0_original_tray_cold",
+      "value": "罗师傅D0双签封存乙四七单槽，经秦不渡限件开验未见正常启阵熔砂结壳",
+      "valid_from": 1,
+      "valid_until": null,
+      "quote": "未见正常启阵后的结壳痕迹"
+    },
+    {
+      "kind": "state",
+      "key": "e47:tray_custody",
+      "value": "D0炉房双签至D1执律堂封样房再值守交接，原槽保管链与锁号均受核查",
+      "valid_from": 1,
+      "valid_until": null,
+      "quote": "每道签都有经手人的识印。"
+    },
+    {
+      "kind": "state",
+      "key": "e47:D0_sand_not_issued",
+      "value": "配砂仓D0乙四七出砂栏未交付，原仓账和底联独立保留",
+      "valid_from": 1,
+      "valid_until": null,
+      "quote": "领料栏画了横杠，未交付。"
+    },
+    {
+      "kind": "state",
+      "key": "e47:D1_sand_issued",
+      "value": "D1巳正许七以外务用料章申领庚二一一份，同批未用留样保管于砂仓",
+      "valid_from": 1,
+      "valid_until": null,
+      "quote": "初七巳正，有一张补领票。"
+    },
+    {
+      "kind": "state",
+      "key": "e47:independent_time_conflict",
+      "value": "初七被封乙四七副页保留初六已收与庚二一号，但此砂至初七才开封，不能简单归为笔误",
+      "valid_from": 1,
+      "valid_until": null,
+      "quote": "若这页被写成‘初六已收’，起码‘初六’与‘庚二一’不能同时是真的。"
+    },
+    {
+      "kind": "state",
+      "key": "e47:sand_transfer_unproven",
+      "value": "仓库同批留样不证明领砂者后来把实际那筒砂倒入乙四七，也不证明寿息转移",
+      "valid_from": 1,
+      "valid_until": null,
+      "quote": "不能证明许七后来把那一筒撒到哪里。"
+    },
+    {
+      "kind": "state",
+      "key": "e47:restricted_collection",
+      "value": "执律堂不许凭争议初六已收强制林杏兑命，继续封存原卷；仍需追查写页人",
+      "valid_from": 1,
+      "valid_until": null,
+      "quote": "收契司不得拿这个状态催林杏交命。"
+    },
+    {
+      "kind": "state",
+      "key": "e47:evidence_held_separately",
+      "value": "原槽及限件证物重封执律堂，原仓账退回砂仓；谢迟只收有限副件",
+      "valid_from": 1,
+      "valid_until": null,
+      "quote": "原物仍由执律堂封在库内"
+    },
+    {
+      "kind": "state",
+      "key": "wenpu:employment_threat",
+      "value": "许七口头威胁温朴明日工位，未有正式处罚，但温朴仍署名",
+      "valid_from": 1,
+      "valid_until": null,
+      "quote": "你家炉房的班次，从明天起可能没有了。"
+    },
+    {
+      "kind": "state",
+      "key": "xiechi:disputed_confession",
+      "value": "D5夜收到案外新呈疑似盗砂认罪状副纸，缺独立见证，谢迟当场否认",
+      "valid_from": 1,
+      "valid_until": null,
+      "quote": "这不是我承认过的事。"
+    },
+    {
+      "kind": "knowledge",
+      "key": "xiechi:culprit_unknown",
+      "value": "谢迟虽获两种证据但不知道何人补写、实际是否转寿或幕后全貌",
+      "valid_from": 1,
+      "valid_until": null,
+      "quote": "不知道。",
+      "holder": "谢迟"
+    }
+  ],
+  "progression": {
+    "goal": "D5实际让妹妹服到已付本期续药，同时为乙四七疑点取得不依主角单张纸的独立硬证",
+    "obstacle": "代领审查与药效不确定、病人副作用、执律限件封存和收契司争夺证物、砂料实际去向不清",
+    "method": "穆吏查票查药封、苏见微医学监管；温朴亲见声明、罗师傅原槽三段交接、段保管人独立配砂仓发领底联及同批余样，秦不渡限项合法交叉勘验",
+    "choice": "谢棠选择如实报告身体不适，谢迟不私取命砂、不过早认定主谋；温朴冒工位风险按印，秦不渡不交原物给涉案外务",
+    "result": "谢棠实际取药服药、获得有限症状缓解并记录副作用；乙四七D0已收栏与独立硬证物存在确定的日期与批号冲突，争议状态不得强制兑命",
+    "consequence": "主角现金仍0、妹妹病未治愈，证人受职务威胁、原件仍受限，盗砂认罪状新危机到来",
+    "next_options": "CH007核所谓认罪状缺独立见证并抵抗庄烬拘传/逼供，争取合法听证窗口；CH008保护证人优先但承担取原契失败的代价",
+    "scene_function": "D5药房真实出柜与病房服药副作用→温朴自愿正式作证→原槽与独立仓库两源实物核验→执律有限判明→庄烬假认罪书法律反击"
+  },
+  "thread_events": [
+    {
+      "id": "T03-P03",
+      "action": "payoff",
+      "description": "乙四七D0原槽无启阵结壳且D0未领砂，D1独立配砂仓底联实出庚二一，与初六已收副页构成双源物证冲突，证明不是简单抄漏；未识主谋也未证真实夺寿。",
+      "quote": "若这页被写成‘初六已收’，起码‘初六’与‘庚二一’不能同时是真的。"
+    },
+    {
+      "id": "T03-P04",
+      "action": "develop",
+      "description": "谢迟继续被撤原职、无权私取原砂原契，仅获限项副件，未来仍须合法取证与离谷。",
+      "quote": "原物仍由执律堂封在库内"
+    },
+    {
+      "id": "T03-P09",
+      "action": "payoff",
+      "description": "D5药房真出柜三包，谢棠本人按病案实际服用，出现颤抖与恶心，苏见微记录复诊；本期真实交付兑现。",
+      "quote": "谢棠闭了闭眼，分几口喝下药。"
+    },
+    {
+      "id": "T03-P10",
+      "action": "plant",
+      "description": "庄烬外务送来缺独立见证的疑似盗砂认罪状副件，谢迟否认，CH007必须明确其效力并处理迫认危机。",
+      "quote": "这不是我承认过的事。"
+    }
+  ],
+  "stage_closing": false
+}
