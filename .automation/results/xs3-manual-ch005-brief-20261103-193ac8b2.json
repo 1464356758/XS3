@@ -1,0 +1,103 @@
+{
+  "protocol": "novel-task-executor-v1",
+  "request_id": "xs3-manual-ch005-brief-20261103-193ac8b2",
+  "request_sha256": "b2e14621b1c431362e8b91dca3ab0817b71a26dd4e40e6b316ba79583e27b2d1",
+  "source_sha": "f88e9e82baeb0b84a8954a85126974311cb566e4",
+  "base_sha": "3d2adc59eb741f41d7e30dd1ad13868d9b3cf5cb",
+  "book_id": "376cd0c1-c6be-4958-88fe-08c5f9c37598",
+  "controller": {
+    "kind": "manual",
+    "session_id": "xs3-ch005-manual-20261103-26a7e05b"
+  },
+  "phase": "manual-command",
+  "executed_at": "2026-11-03T04:10:01+00:00",
+  "executor_status": "ok",
+  "github_run_id": "41576487273",
+  "tools": [
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "brief-check",
+        "--file",
+        "drafts/XS3_CH005_brief_ready.json"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/xs3-manual-ch005-brief-20261103-193ac8b2/tool-01.stdout.txt",
+          "sha256": "08f1de67e8568117c21b1376654495c68be0c944e123e61a2c985aacf04e9501",
+          "bytes": 319
+        },
+        "stderr": {
+          "path": ".automation/work/xs3-manual-ch005-brief-20261103-193ac8b2/tool-01.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "history-search",
+        "--query",
+        "谢棠 两灵铢 代领 温朴 乙四七"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/xs3-manual-ch005-brief-20261103-193ac8b2/tool-02.stdout.txt",
+          "sha256": "a2145fa1b245e5152bf7971ac7b69463a70a1a40c2e2ff18c802e8d4bb6b7d1f",
+          "bytes": 9764
+        },
+        "stderr": {
+          "path": ".automation/work/xs3-manual-ch005-brief-20261103-193ac8b2/tool-02.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "context",
+        "--profile",
+        "writer",
+        "--out",
+        "drafts/XS3_CH005_writer.md"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/xs3-manual-ch005-brief-20261103-193ac8b2/tool-03.stdout.txt",
+          "sha256": "b5a4acb3ed71a1c64ba53740e34371c70967a2340aea7bb33c6830012281481f",
+          "bytes": 105
+        },
+        "stderr": {
+          "path": ".automation/work/xs3-manual-ch005-brief-20261103-193ac8b2/tool-03.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    }
+  ],
+  "business_status": "tools_completed",
+  "run_id": "8289bc4fb4ef491ea7bba47f5a71456d",
+  "changed_paths": [
+    ".automation/work/xs3-manual-ch005-brief-20261103-193ac8b2/tool-01.stderr.txt",
+    ".automation/work/xs3-manual-ch005-brief-20261103-193ac8b2/tool-01.stdout.txt",
+    ".automation/work/xs3-manual-ch005-brief-20261103-193ac8b2/tool-02.stderr.txt",
+    ".automation/work/xs3-manual-ch005-brief-20261103-193ac8b2/tool-02.stdout.txt",
+    ".automation/work/xs3-manual-ch005-brief-20261103-193ac8b2/tool-03.stderr.txt",
+    ".automation/work/xs3-manual-ch005-brief-20261103-193ac8b2/tool-03.stdout.txt",
+    "book/briefs/CH005_29217aeef7ba18f0e4784be95f1b58cc184c89d4119b1d568c0e42a7ea739293.json",
+    "book/state.json",
+    "drafts/XS3_CH005_writer.md",
+    "online/index.json"
+  ]
+}
