@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "type": "novel-manual-completion-v1",
+  "status": "completed",
+  "book_id": "376cd0c1-c6be-4958-88fe-08c5f9c37598",
+  "chapter": 5,
+  "run_id": "8289bc4fb4ef491ea7bba47f5a71456d",
+  "controller": {
+    "kind": "manual",
+    "session_id": "xs3-ch005-manual-20261103-26a7e05b"
+  },
+  "started_at": "2026-11-03T03:55:09+00:00",
+  "completed_at": "2026-11-03T04:47:13+00:00",
+  "date": "2026-11-03",
+  "baseline_count": 4,
+  "baseline_fingerprint": "57bc575330ee50d16a3a6d428e89b1eb2bf35eabe5a3c7f633155284fd2f3eb2",
+  "body_path": "chapters/CH005_708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8.txt",
+  "body_sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
+  "record_path": "records/CH005_5548369827be082d9486d3d334fd59c70c3b097e080ad1f90b2fc83c417315db.json",
+  "record_sha256": "5548369827be082d9486d3d334fd59c70c3b097e080ad1f90b2fc83c417315db",
+  "release_path": "releases/CH005_0a04e97f6ce77a6be3ab4790bbddcdf398b6d5a2978967ca21406094c9b093b3.json",
+  "release_sha256": "0a04e97f6ce77a6be3ab4790bbddcdf398b6d5a2978967ca21406094c9b093b3",
+  "state_revision": 8
+}

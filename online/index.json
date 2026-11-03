@@ -11,26 +11,26 @@
   "source": {
     "repository_url": "https://github.com/1464356758/XS3",
     "branch": "main",
-    "generated_at": "2026-11-03T04:45:43+00:00",
-    "state_revision": 7,
-    "workflow_revision": 10,
-    "state_sha256": "10950ed183b82d3dde9f1a84b76d1db0aeccf212d3df907bf6e16cd191941e64",
-    "workflow_sha256": "25eb2bb779f9697bfb7b872bb6cddd2f61e542b4d77b73bcc32121b7daa2ac64",
+    "generated_at": "2026-11-03T04:47:13+00:00",
+    "state_revision": 8,
+    "workflow_revision": 11,
+    "state_sha256": "5ed3c8e7fc50bd4dcd90401b2b5ec976b7f8b78a604e94b35ab620d5acd5f621",
+    "workflow_sha256": "8fbf1f0aa837f06b11797b5594a665b6182e3bdc498b27d5eeb8fbd9cf890f78",
     "manuscript_storage": "plain_files_v1",
     "requires_reader_key": false
   },
   "progress": {
     "target_chapters": 100,
-    "adopted_chapters": 4,
+    "adopted_chapters": 5,
     "target_han": 900000,
-    "actual_han": 37786,
+    "actual_han": 46941,
     "completed": false,
     "needs_revalidation": [],
-    "reviewed_until": 0,
+    "reviewed_until": 5,
     "window_review_due": false,
     "unresolved_reviews": [],
     "serial_mode": true,
-    "frozen_chapters": 4,
+    "frozen_chapters": 5,
     "published_chapters": 0,
     "publication_status": "只统计真实回执；无回执不等于未发布",
     "open_incidents": 0,
@@ -40,10 +40,10 @@
   "task": {
     "phase": "WAITING_NEXT",
     "label": "等待下一章",
-    "chapter": 5,
-    "detail": "第4章已采用并冻结；平台发布另凭真实回执登记。",
+    "chapter": 6,
+    "detail": "第5章已采用并冻结；平台发布另凭真实回执登记。",
     "next_action": "读取正式状态后，由下一次执行处理下一章。",
-    "updated_at": "2026-11-02T10:19:21+00:00"
+    "updated_at": "2026-11-03T04:47:13+00:00"
   },
   "chapters": [
     {
@@ -89,6 +89,18 @@
       "han_count": 9501,
       "text_path": "book/chapters/CH004_6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13.txt",
       "sha256": "6823284b5b6cd391769af50f53c5323525afcfa535455c3c09f063fc36564d13",
+      "needs_revalidation": false,
+      "frozen": true,
+      "publication_status": "unreported",
+      "published_at": null
+    },
+    {
+      "number": 5,
+      "title": "到期前一夜",
+      "stage": "S01",
+      "han_count": 9155,
+      "text_path": "book/chapters/CH005_708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8.txt",
+      "sha256": "708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8",
       "needs_revalidation": false,
       "frozen": true,
       "publication_status": "unreported",
@@ -463,6 +475,12 @@
       "phase": "WAITING_NEXT",
       "label": "等待下一章",
       "detail": "第4章已采用并冻结；平台发布另凭真实回执登记。"
+    },
+    {
+      "at": "2026-11-03T04:47:13+00:00",
+      "phase": "WAITING_NEXT",
+      "label": "等待下一章",
+      "detail": "第5章已采用并冻结；平台发布另凭真实回执登记。"
     }
   ]
 }

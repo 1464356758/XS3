@@ -2,7 +2,7 @@
   "schema_version": 1,
   "type": "novel-manual-task-v1",
   "book_id": "376cd0c1-c6be-4958-88fe-08c5f9c37598",
-  "status": "running",
+  "status": "completed",
   "chapter": 5,
   "run_id": "8289bc4fb4ef491ea7bba47f5a71456d",
   "started_at": "2026-11-03T03:55:09+00:00",
@@ -13,5 +13,7 @@
   "baseline_count": 4,
   "baseline_fingerprint": "57bc575330ee50d16a3a6d428e89b1eb2bf35eabe5a3c7f633155284fd2f3eb2",
   "authorization": "explicit-author-request-to-complete-this-chapter",
-  "attempts": []
+  "attempts": [],
+  "completed_at": "2026-11-03T04:47:13+00:00",
+  "receipt_path": "manual/completions/CH005_708f43d1f65d2d56c5bfcce0a0f48ab2f02405166c6e98b122e8cfb6b475bbb8.json"
 }
