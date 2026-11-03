@@ -1,0 +1,80 @@
+{
+  "protocol": "novel-task-executor-v1",
+  "request_id": "xs3-manual-ch005-record-20261103-c98b4e21",
+  "request_sha256": "a1990ccdc30ef3862c4d89e89fe700b61c3f395ea589c60e848748f291186f2f",
+  "source_sha": "7946d8280d1ce19e4701e642fb12201d690e8597",
+  "base_sha": "438d985d4ff910c3de1015c3a8ce3d0bf9082901",
+  "book_id": "376cd0c1-c6be-4958-88fe-08c5f9c37598",
+  "controller": {
+    "kind": "manual",
+    "session_id": "xs3-ch005-manual-20261103-26a7e05b"
+  },
+  "phase": "manual-command",
+  "executed_at": "2026-11-03T04:38:34+00:00",
+  "executor_status": "ok",
+  "github_run_id": "41579306292",
+  "tools": [
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "check-record",
+        "--text",
+        "drafts/XS3_CH005_到期前一夜_完整正文.txt",
+        "--record",
+        "drafts/XS3_CH005_候选事实账.json"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/xs3-manual-ch005-record-20261103-c98b4e21/tool-01.stdout.txt",
+          "sha256": "5de2020738852c7b6919bc95c8d23883e7269dff7736fb479540807c9adcf1c6",
+          "bytes": 110
+        },
+        "stderr": {
+          "path": ".automation/work/xs3-manual-ch005-record-20261103-c98b4e21/tool-01.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "release-request",
+        "--text",
+        "drafts/XS3_CH005_到期前一夜_完整正文.txt",
+        "--record",
+        "drafts/XS3_CH005_候选事实账.json",
+        "--out",
+        "drafts/XS3_CH005_release_template.json"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/xs3-manual-ch005-record-20261103-c98b4e21/tool-02.stdout.txt",
+          "sha256": "90de517fc10364faf34bef8279f84d5540c156f4f07debd87206266802961f9c",
+          "bytes": 202
+        },
+        "stderr": {
+          "path": ".automation/work/xs3-manual-ch005-record-20261103-c98b4e21/tool-02.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    }
+  ],
+  "business_status": "tools_completed",
+  "run_id": "8289bc4fb4ef491ea7bba47f5a71456d",
+  "changed_paths": [
+    ".automation/work/xs3-manual-ch005-record-20261103-c98b4e21/tool-01.stderr.txt",
+    ".automation/work/xs3-manual-ch005-record-20261103-c98b4e21/tool-01.stdout.txt",
+    ".automation/work/xs3-manual-ch005-record-20261103-c98b4e21/tool-02.stderr.txt",
+    ".automation/work/xs3-manual-ch005-record-20261103-c98b4e21/tool-02.stdout.txt",
+    "drafts/XS3_CH005_release_template.json",
+    "online/index.json"
+  ]
+}
