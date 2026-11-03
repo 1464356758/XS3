@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "xs3-manual-ch005-record-20261103-c98b4e21",
-  "base_sha": "438d985d4ff910c3de1015c3a8ce3d0bf9082901",
+  "request_id": "xs3-ch005-releasecheck-20261103-d4c9b72e",
+  "base_sha": "39cc9eb566e98ea87effa0a63002fe6d58482320",
   "book_id": "376cd0c1-c6be-4958-88fe-08c5f9c37598",
   "controller": {
     "kind": "manual",
@@ -17,25 +17,13 @@
       "args": [
         "--root",
         "book",
-        "check-record",
-        "--text",
-        "drafts/XS3_CH005_到期前一夜_完整正文.txt",
-        "--record",
-        "drafts/XS3_CH005_候选事实账.json"
-      ]
-    },
-    {
-      "script": "novel_state.py",
-      "args": [
-        "--root",
-        "book",
-        "release-request",
+        "release-check",
         "--text",
         "drafts/XS3_CH005_到期前一夜_完整正文.txt",
         "--record",
         "drafts/XS3_CH005_候选事实账.json",
-        "--out",
-        "drafts/XS3_CH005_release_template.json"
+        "--report",
+        "drafts/XS3_CH005_release_reviewed.json"
       ]
     }
   ]
