@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "request_id": "xs3-manual-ch005-candidate-20261103-e81c24d9",
-  "base_sha": "4b62224f941db58ba65a3a576c2192d4a4e01f54",
+  "request_id": "xs3-manual-ch005-record-20261103-c98b4e21",
+  "base_sha": "438d985d4ff910c3de1015c3a8ce3d0bf9082901",
   "book_id": "376cd0c1-c6be-4958-88fe-08c5f9c37598",
   "controller": {
     "kind": "manual",
@@ -17,11 +17,11 @@
       "args": [
         "--root",
         "book",
-        "candidate",
-        "--chapter",
-        "5",
+        "check-record",
         "--text",
-        "drafts/XS3_CH005_到期前一夜_完整正文.txt"
+        "drafts/XS3_CH005_到期前一夜_完整正文.txt",
+        "--record",
+        "drafts/XS3_CH005_候选事实账.json"
       ]
     },
     {
@@ -29,13 +29,13 @@
       "args": [
         "--root",
         "book",
-        "context",
-        "--profile",
-        "reader",
+        "release-request",
         "--text",
         "drafts/XS3_CH005_到期前一夜_完整正文.txt",
+        "--record",
+        "drafts/XS3_CH005_候选事实账.json",
         "--out",
-        "drafts/XS3_CH005_reader.md"
+        "drafts/XS3_CH005_release_template.json"
       ]
     }
   ]
