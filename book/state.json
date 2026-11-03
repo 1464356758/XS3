@@ -548,6 +548,10 @@
     "5": {
       "path": "briefs/CH005_29217aeef7ba18f0e4784be95f1b58cc184c89d4119b1d568c0e42a7ea739293.json",
       "sha256": "29217aeef7ba18f0e4784be95f1b58cc184c89d4119b1d568c0e42a7ea739293"
+    },
+    "6": {
+      "path": "briefs/CH006_db18157490c6f76da310a1d591a1ef10b18177ce87480d1854eb138942df2d90.json",
+      "sha256": "db18157490c6f76da310a1d591a1ef10b18177ce87480d1854eb138942df2d90"
     }
   }
 }

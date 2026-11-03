@@ -1,0 +1,78 @@
+{
+  "protocol": "novel-task-executor-v1",
+  "request_id": "xs3-ch006-brief-20261104-1b7d239e",
+  "request_sha256": "df26bede6e32f92366b5167acc284c8734663e23f62c091be8cdf0459d587ffe",
+  "source_sha": "280177430d892f39b154ca03023a5ba63b9ede15",
+  "base_sha": "da0fed7a584600cbca1678b0cdf20b7dc274dd92",
+  "book_id": "376cd0c1-c6be-4958-88fe-08c5f9c37598",
+  "controller": {
+    "kind": "manual",
+    "session_id": "xs3-ch006-manual-20261104-e0f37a2c"
+  },
+  "phase": "manual-command",
+  "executed_at": "2026-11-03T20:17:27+00:00",
+  "executor_status": "ok",
+  "github_run_id": "41711137738",
+  "tools": [
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "brief-check",
+        "--file",
+        "drafts/XS3_CH006_brief_ready.json"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/xs3-ch006-brief-20261104-1b7d239e/tool-01.stdout.txt",
+          "sha256": "b3162de2120a6b0099045b3d90b465d8a70e8da3c1d440c9fa92c2863ea27a65",
+          "bytes": 319
+        },
+        "stderr": {
+          "path": ".automation/work/xs3-ch006-brief-20261104-1b7d239e/tool-01.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    },
+    {
+      "script": "novel_state.py",
+      "args": [
+        "--root",
+        "book",
+        "context",
+        "--profile",
+        "writer",
+        "--out",
+        "drafts/XS3_CH006_writer.md"
+      ],
+      "exit_code": 0,
+      "outputs": {
+        "stdout": {
+          "path": ".automation/work/xs3-ch006-brief-20261104-1b7d239e/tool-02.stdout.txt",
+          "sha256": "5e57dcf4d1353d5ac61d1db1f03b39d3365b738166e68954e414bbe472e2cd67",
+          "bytes": 105
+        },
+        "stderr": {
+          "path": ".automation/work/xs3-ch006-brief-20261104-1b7d239e/tool-02.stderr.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        }
+      }
+    }
+  ],
+  "business_status": "tools_completed",
+  "run_id": "8ee2c6b73001467ba5b7199fded1219e",
+  "changed_paths": [
+    ".automation/work/xs3-ch006-brief-20261104-1b7d239e/tool-01.stderr.txt",
+    ".automation/work/xs3-ch006-brief-20261104-1b7d239e/tool-01.stdout.txt",
+    ".automation/work/xs3-ch006-brief-20261104-1b7d239e/tool-02.stderr.txt",
+    ".automation/work/xs3-ch006-brief-20261104-1b7d239e/tool-02.stdout.txt",
+    "book/briefs/CH006_db18157490c6f76da310a1d591a1ef10b18177ce87480d1854eb138942df2d90.json",
+    "book/state.json",
+    "drafts/XS3_CH006_writer.md",
+    "online/index.json"
+  ]
+}
