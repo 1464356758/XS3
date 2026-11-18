@@ -5,15 +5,27 @@
     5500,
     6500
   ],
-  "chapters": {},
+  "chapters": {
+    "1": {
+      "frozen_at": "2026-11-18T23:26:16.643718+00:00",
+      "han_count": 6097,
+      "number": 1,
+      "record_path": "objects/6334a0de5bc2c1f4a5d22a1ecae56cd5db5ff8e9a0026ccda3a65132b6c2ec17.json",
+      "record_sha256": "6334a0de5bc2c1f4a5d22a1ecae56cd5db5ff8e9a0026ccda3a65132b6c2ec17",
+      "request_id": "XS3-8cccda21-CH001-start-20261119",
+      "text_path": "chapters/CH001_cf5a04ffd575eeeda86d100a15dcab0869c5c1e1055437593885850f525f8a68.txt",
+      "text_sha256": "cf5a04ffd575eeeda86d100a15dcab0869c5c1e1055437593885850f525f8a68",
+      "title": "这球你够得着"
+    }
+  },
   "edition": "novel-a7",
   "opening_path": "book/objects/c9c3056c288acdf5a0a9b093247bbfcac067a450eec0d0c498ad2cbf7322608b.json",
   "platform": "七猫中文网",
   "repository_url": "https://github.com/1464356758/XS3",
-  "revision": 0,
+  "revision": 1,
   "schema": "novel-v6",
   "target_chapters": 150,
   "title": "我妈十八岁，非要跟我争首发",
-  "updated_at": "2026-11-18T16:32:40.324860+00:00",
+  "updated_at": "2026-11-18T23:26:16.643718+00:00",
   "version": "7.0.1"
 }

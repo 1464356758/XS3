@@ -1,0 +1,25 @@
+{
+  "assessment_path": "book/objects/95ac7f0d5d13663edf32879f46a568ef3454e641d0ff7257d0fbc5f927952d19.json",
+  "assessment_sha256": "95ac7f0d5d13663edf32879f46a568ef3454e641d0ff7257d0fbc5f927952d19",
+  "attachments": {
+    "memory": "book/objects/7b6f192d05556bf62bbf25c96d09c158f76cba9f424517d5abcd95ac576b4b26.md",
+    "plan": "book/objects/b4e4e675f0c7c125d04773f887aeda8733b9e903c94c178eaabcc7ae1b0b1bb4.md",
+    "review": "book/objects/2c8483457f7bbdabc983b9c737fafb857b05fe0e2318c054662b46600ea4f140.md"
+  },
+  "book_id": "8cccda21-3836-4487-9fe7-4fbcb480e27f",
+  "frozen_at": "2026-11-18T23:26:16.643718+00:00",
+  "han_count": 6097,
+  "hashes": {
+    "memory": "7b6f192d05556bf62bbf25c96d09c158f76cba9f424517d5abcd95ac576b4b26",
+    "plan": "b4e4e675f0c7c125d04773f887aeda8733b9e903c94c178eaabcc7ae1b0b1bb4",
+    "review": "2c8483457f7bbdabc983b9c737fafb857b05fe0e2318c054662b46600ea4f140",
+    "text": "cf5a04ffd575eeeda86d100a15dcab0869c5c1e1055437593885850f525f8a68"
+  },
+  "number": 1,
+  "previous_record_sha256": null,
+  "request_id": "XS3-8cccda21-CH001-start-20261119",
+  "schema": "novel-v6-chapter",
+  "text_path": "book/chapters/CH001_cf5a04ffd575eeeda86d100a15dcab0869c5c1e1055437593885850f525f8a68.txt",
+  "text_sha256": "cf5a04ffd575eeeda86d100a15dcab0869c5c1e1055437593885850f525f8a68",
+  "title": "这球你够得着"
+}
