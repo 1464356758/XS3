@@ -1,0 +1,30 @@
+{
+  "book": {
+    "id": "8cccda21-3836-4487-9fe7-4fbcb480e27f",
+    "platform": "七猫中文网",
+    "title": "待选题新书"
+  },
+  "chapters": [],
+  "edition": "novel-a7",
+  "engine": "novel-v6",
+  "generated_at": "2026-11-18T15:53:04.627061+00:00",
+  "initialized": true,
+  "progress": {
+    "actual_han": 0,
+    "adopted_chapters": 0,
+    "target_chapters": 150,
+    "target_han": 900000
+  },
+  "schema_version": 1,
+  "source": {
+    "branch": "main",
+    "repository_url": "https://github.com/1464356758/XS3",
+    "state_sha256": "0cb8e111713d00056267ce8ccd392634d8233d25de738cdf14cf2a2bcdcc8f5c"
+  },
+  "task": {
+    "label": "等待作者指令",
+    "next_action": "读取WORKFLOW.md并按当前作品继续",
+    "phase": "WAITING_TOPIC"
+  },
+  "version": "7.0.1"
+}

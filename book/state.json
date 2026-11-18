@@ -1,0 +1,18 @@
+{
+  "book_id": "8cccda21-3836-4487-9fe7-4fbcb480e27f",
+  "branch": "main",
+  "chapter_han": [
+    5500,
+    6500
+  ],
+  "chapters": {},
+  "edition": "novel-a7",
+  "platform": "七猫中文网",
+  "repository_url": "https://github.com/1464356758/XS3",
+  "revision": 0,
+  "schema": "novel-v6",
+  "target_chapters": 150,
+  "title": "",
+  "updated_at": "2026-11-18T15:53:04.627061+00:00",
+  "version": "7.0.1"
+}

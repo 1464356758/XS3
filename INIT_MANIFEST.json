@@ -1,0 +1,18 @@
+{
+  "engine": "novel-v6",
+  "edition": "novel-a7",
+  "version": "7.0.1",
+  "files": {
+    "AGENTS.md": "3bba95ae1168c8dc8bbce404f0932889bd725c2e35daa14493f912db3c3b4a6a",
+    "CRAFT.md": "0e8c8b511d6b17e847bc201bad5c4c47a9ea5d266dea8cd5e2ca758e30ac2c18",
+    "README.md": "dc826d51b5535019e71f1b6c7c2859d615304e6c0bdb37e5d5958c481b263a2b",
+    "THIRD_PARTY_NOTICES.md": "5d0a74f9717db452604b5c83a58de82066b23c1013c68de833d4d38894a2f73e",
+    "WORKFLOW.md": "404852565878ef2fe7b71fceb349ba4137a213198a43ea339a7661fdca635a13",
+    "novel.py": "77e1183a6d21f815aba1ea9a2af49fec826084d6877755b389cc90cd22355d66",
+    "templates/plan.md": "1701c4d7a96eb796c43a7c4790ec0fa2fc73b9ad23c6c61ec16416ad610e30ea",
+    "tools/opening.py": "5af3b9448d3a66eb1172052eddf1cd1ee8bc28503354ec63bd44da78b1607274",
+    "tools/prose_check.py": "389f5105bc832918a69e2f5d14090f1b4de779618666ec892b7d4316287e7610",
+    "启动新书.txt": "fa6f076e2232b5eb83771e11faaef0471434569413e2b868a69610e2fbec933e",
+    "读稿示范.md": "9fcc7fde25b815d1275edd1022bebc9e88abc3e9cecd3a2e2ea974c040aedd26"
+  }
+}
