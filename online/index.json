@@ -19,7 +19,7 @@
   "source": {
     "branch": "main",
     "repository_url": "https://github.com/1464356758/XS3",
-    "state_sha256": "04433b79296b2734829676837522be004d5b4788fae3be9c5fc24e4684af5457"
+    "state_sha256": "dc0cd7800ac7d21028905645afe98df8bf45a6c1b33d84983f94d9f6ba9d7604"
   },
   "task": {
     "label": "等待作者指令",
