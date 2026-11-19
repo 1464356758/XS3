@@ -1,0 +1,15 @@
+{
+  "assessed_at": "2026-11-19T09:57:13.486953+00:00",
+  "chapter": 4,
+  "decision": "revise",
+  "hashes": {
+    "review": "3c0e4b55864e58dd98f91d0ea843c8909ff6c50959b788d156f262ab315f016a",
+    "text": "0a363e9bc7d6b6ea4338ff741f8d97251027a96f6a0a490a64c5b1e14c148109"
+  },
+  "note": "编辑判断不等于平台签约或独立读者评价",
+  "returned_drafts": [
+    "0a363e9bc7d6b6ea4338ff741f8d97251027a96f6a0a490a64c5b1e14c148109"
+  ],
+  "reviewer": "same-context-model",
+  "schema": "novel-v6-assessment"
+}
