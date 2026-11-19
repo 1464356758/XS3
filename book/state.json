@@ -27,16 +27,27 @@
       "text_path": "chapters/CH002_88d4bdc98ef99d7d67cf1a4351b228cbba3280319f4876a2079b21de4ea95435.txt",
       "text_sha256": "88d4bdc98ef99d7d67cf1a4351b228cbba3280319f4876a2079b21de4ea95435",
       "title": "你穿错颜色了吧"
+    },
+    "3": {
+      "frozen_at": "2026-11-19T09:25:14.323119+00:00",
+      "han_count": 6150,
+      "number": 3,
+      "record_path": "objects/c274cf56bb0f4ab6bddc29c84d19d074d42ad37104e3c7a2ead6c8dbd4b9bb95.json",
+      "record_sha256": "c274cf56bb0f4ab6bddc29c84d19d074d42ad37104e3c7a2ead6c8dbd4b9bb95",
+      "request_id": "XS3-8cccda21-CH003-next-20261119",
+      "text_path": "chapters/CH003_7acea965ccaee65814ce8309a5b3f53ddc66aa2427bdaf837d2113199a780431.txt",
+      "text_sha256": "7acea965ccaee65814ce8309a5b3f53ddc66aa2427bdaf837d2113199a780431",
+      "title": "她先看见了边上的人"
     }
   },
   "edition": "novel-a7",
   "opening_path": "book/objects/c9c3056c288acdf5a0a9b093247bbfcac067a450eec0d0c498ad2cbf7322608b.json",
   "platform": "七猫中文网",
   "repository_url": "https://github.com/1464356758/XS3",
-  "revision": 2,
+  "revision": 3,
   "schema": "novel-v6",
   "target_chapters": 150,
   "title": "我妈十八岁，非要跟我争首发",
-  "updated_at": "2026-11-19T04:27:27.551810+00:00",
+  "updated_at": "2026-11-19T09:25:14.323119+00:00",
   "version": "7.0.1"
 }

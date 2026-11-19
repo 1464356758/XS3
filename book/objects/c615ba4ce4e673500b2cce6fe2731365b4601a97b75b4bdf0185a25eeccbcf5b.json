@@ -1,0 +1,34 @@
+{
+  "assessed_at": "2026-11-19T09:25:14.233994+00:00",
+  "chapter": 3,
+  "decision": "ready",
+  "hashes": {
+    "memory": "3af094ba3683bac37ad4c26ad63ee5d83ce6f60e40966c46344b2d0d942e3ae4",
+    "plan": "738ca1d6bbd8c2545cf6fea1931d6feabd74f5fa7a9943fc9fd895868aba6135",
+    "review": "a67596f3158d73c927c2f663996609fcfa8957fc4432ba8038cd1e4e6351679a",
+    "text": "7acea965ccaee65814ce8309a5b3f53ddc66aa2427bdaf837d2113199a780431"
+  },
+  "note": "编辑判断不等于平台签约或独立读者评价",
+  "opening_path": "book/objects/c9c3056c288acdf5a0a9b093247bbfcac067a450eec0d0c498ad2cbf7322608b.json",
+  "reading": {
+    "friction": {
+      "quote": "曲苗人没走远，球还归她。",
+      "why": "开球后最容易看乱的是同一个人连送两脚横传。这里得等梁月挡出去的球回到曲苗脚下，再看曲苗转身送哪一边。还要占读者一口气，但这第一脚是小满亲眼漏掉的事，值得留。"
+    },
+    "next": "小满带去的录音里，进球的人有名有姓，妈妈只在一片叫喊声里。轮到同学问她妈妈站哪儿，梁月肯把自己第二下离开中路的事也讲出来吗？",
+    "payoff": {
+      "quote": "“我就带这盘。”她说，“这是我妈踢的。”",
+      "why": "广播只报了对手。刚刚还嫌听不见妈妈名字的小满，见梁月真要给她换带，亲手弹出这盘收好了。她已经选定要给同学听的这一场。"
+    },
+    "previous": {
+      "quote": "“我想看她把球踢进你门里。”",
+      "why": "第二章白荻肯把半根冰棍接过去，仍盼秀秀赢妈妈。秀秀的远射中柱、头球被抱，最后一次白荻索性跑到小芹门前，两人一起起跳。她确实为秀秀挣到了最后一脚的机会。"
+    },
+    "verdict": "ready"
+  },
+  "returned_drafts": [
+    "c00af5021f4cc53d6a89b464ba759d49b07cda2242c965eb98440b67835eba57"
+  ],
+  "reviewer": "same-context-model",
+  "schema": "novel-v6-assessment"
+}

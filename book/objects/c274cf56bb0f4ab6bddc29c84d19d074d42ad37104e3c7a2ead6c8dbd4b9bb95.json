@@ -1,0 +1,25 @@
+{
+  "assessment_path": "book/objects/c615ba4ce4e673500b2cce6fe2731365b4601a97b75b4bdf0185a25eeccbcf5b.json",
+  "assessment_sha256": "c615ba4ce4e673500b2cce6fe2731365b4601a97b75b4bdf0185a25eeccbcf5b",
+  "attachments": {
+    "memory": "book/objects/3af094ba3683bac37ad4c26ad63ee5d83ce6f60e40966c46344b2d0d942e3ae4.md",
+    "plan": "book/objects/738ca1d6bbd8c2545cf6fea1931d6feabd74f5fa7a9943fc9fd895868aba6135.md",
+    "review": "book/objects/a67596f3158d73c927c2f663996609fcfa8957fc4432ba8038cd1e4e6351679a.md"
+  },
+  "book_id": "8cccda21-3836-4487-9fe7-4fbcb480e27f",
+  "frozen_at": "2026-11-19T09:25:14.323119+00:00",
+  "han_count": 6150,
+  "hashes": {
+    "memory": "3af094ba3683bac37ad4c26ad63ee5d83ce6f60e40966c46344b2d0d942e3ae4",
+    "plan": "738ca1d6bbd8c2545cf6fea1931d6feabd74f5fa7a9943fc9fd895868aba6135",
+    "review": "a67596f3158d73c927c2f663996609fcfa8957fc4432ba8038cd1e4e6351679a",
+    "text": "7acea965ccaee65814ce8309a5b3f53ddc66aa2427bdaf837d2113199a780431"
+  },
+  "number": 3,
+  "previous_record_sha256": "aff1ab3474b893aa7be877d2fe82a0fe6b082dbda61c5e82f32a618ae5242449",
+  "request_id": "XS3-8cccda21-CH003-next-20261119",
+  "schema": "novel-v6-chapter",
+  "text_path": "book/chapters/CH003_7acea965ccaee65814ce8309a5b3f53ddc66aa2427bdaf837d2113199a780431.txt",
+  "text_sha256": "7acea965ccaee65814ce8309a5b3f53ddc66aa2427bdaf837d2113199a780431",
+  "title": "她先看见了边上的人"
+}
