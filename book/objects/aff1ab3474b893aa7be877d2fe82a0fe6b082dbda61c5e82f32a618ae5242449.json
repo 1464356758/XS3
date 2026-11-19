@@ -1,0 +1,25 @@
+{
+  "assessment_path": "book/objects/2eef34bc152ff4f03a755c587ab42be6cacba6e4ffcea30971d9f897f1c1e54a.json",
+  "assessment_sha256": "2eef34bc152ff4f03a755c587ab42be6cacba6e4ffcea30971d9f897f1c1e54a",
+  "attachments": {
+    "memory": "book/objects/c6e6302f4c24a819bb8d33790f57f33b12141ad4f0fd473f79d5590857c6c24c.md",
+    "plan": "book/objects/83f4f49a2c6cf1c257f5d7c0a3cfc565ded3c2c1c5dd0ed2de0922a34f6e900b.md",
+    "review": "book/objects/e7fca76c91b8e4cb5095f890701a1a62dc4adbce9381827f0ae40a41253b9681.md"
+  },
+  "book_id": "8cccda21-3836-4487-9fe7-4fbcb480e27f",
+  "frozen_at": "2026-11-19T04:27:27.551810+00:00",
+  "han_count": 6085,
+  "hashes": {
+    "memory": "c6e6302f4c24a819bb8d33790f57f33b12141ad4f0fd473f79d5590857c6c24c",
+    "plan": "83f4f49a2c6cf1c257f5d7c0a3cfc565ded3c2c1c5dd0ed2de0922a34f6e900b",
+    "review": "e7fca76c91b8e4cb5095f890701a1a62dc4adbce9381827f0ae40a41253b9681",
+    "text": "88d4bdc98ef99d7d67cf1a4351b228cbba3280319f4876a2079b21de4ea95435"
+  },
+  "number": 2,
+  "previous_record_sha256": "6334a0de5bc2c1f4a5d22a1ecae56cd5db5ff8e9a0026ccda3a65132b6c2ec17",
+  "request_id": "XS3-8cccda21-CH002-next-20261119",
+  "schema": "novel-v6-chapter",
+  "text_path": "book/chapters/CH002_88d4bdc98ef99d7d67cf1a4351b228cbba3280319f4876a2079b21de4ea95435.txt",
+  "text_sha256": "88d4bdc98ef99d7d67cf1a4351b228cbba3280319f4876a2079b21de4ea95435",
+  "title": "你穿错颜色了吧"
+}

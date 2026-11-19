@@ -16,16 +16,27 @@
       "text_path": "chapters/CH001_cf5a04ffd575eeeda86d100a15dcab0869c5c1e1055437593885850f525f8a68.txt",
       "text_sha256": "cf5a04ffd575eeeda86d100a15dcab0869c5c1e1055437593885850f525f8a68",
       "title": "这球你够得着"
+    },
+    "2": {
+      "frozen_at": "2026-11-19T04:27:27.551810+00:00",
+      "han_count": 6085,
+      "number": 2,
+      "record_path": "objects/aff1ab3474b893aa7be877d2fe82a0fe6b082dbda61c5e82f32a618ae5242449.json",
+      "record_sha256": "aff1ab3474b893aa7be877d2fe82a0fe6b082dbda61c5e82f32a618ae5242449",
+      "request_id": "XS3-8cccda21-CH002-next-20261119",
+      "text_path": "chapters/CH002_88d4bdc98ef99d7d67cf1a4351b228cbba3280319f4876a2079b21de4ea95435.txt",
+      "text_sha256": "88d4bdc98ef99d7d67cf1a4351b228cbba3280319f4876a2079b21de4ea95435",
+      "title": "你穿错颜色了吧"
     }
   },
   "edition": "novel-a7",
   "opening_path": "book/objects/c9c3056c288acdf5a0a9b093247bbfcac067a450eec0d0c498ad2cbf7322608b.json",
   "platform": "七猫中文网",
   "repository_url": "https://github.com/1464356758/XS3",
-  "revision": 1,
+  "revision": 2,
   "schema": "novel-v6",
   "target_chapters": 150,
   "title": "我妈十八岁，非要跟我争首发",
-  "updated_at": "2026-11-18T23:26:16.643718+00:00",
+  "updated_at": "2026-11-19T04:27:27.551810+00:00",
   "version": "7.0.1"
 }

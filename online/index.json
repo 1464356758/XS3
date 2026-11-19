@@ -12,15 +12,23 @@
       "sha256": "cf5a04ffd575eeeda86d100a15dcab0869c5c1e1055437593885850f525f8a68",
       "text_path": "book/chapters/CH001_cf5a04ffd575eeeda86d100a15dcab0869c5c1e1055437593885850f525f8a68.txt",
       "title": "这球你够得着"
+    },
+    {
+      "han_count": 6085,
+      "number": 2,
+      "publication_status": "unconfirmed",
+      "sha256": "88d4bdc98ef99d7d67cf1a4351b228cbba3280319f4876a2079b21de4ea95435",
+      "text_path": "book/chapters/CH002_88d4bdc98ef99d7d67cf1a4351b228cbba3280319f4876a2079b21de4ea95435.txt",
+      "title": "你穿错颜色了吧"
     }
   ],
   "edition": "novel-a7",
   "engine": "novel-v6",
-  "generated_at": "2026-11-18T23:26:16.643718+00:00",
+  "generated_at": "2026-11-19T04:27:27.551810+00:00",
   "initialized": true,
   "progress": {
-    "actual_han": 6097,
-    "adopted_chapters": 1,
+    "actual_han": 12182,
+    "adopted_chapters": 2,
     "target_chapters": 150,
     "target_han": 900000
   },
@@ -28,12 +36,12 @@
   "source": {
     "branch": "main",
     "repository_url": "https://github.com/1464356758/XS3",
-    "state_sha256": "4c3f34d39b99377e5aac0ed4674ce875707d3a1b6b2f6787ecee07d17f06e280"
+    "state_sha256": "406e4c04fef167f739017c311ffed1fb3d6e5a8bbef58d2801576e1f631067be"
   },
   "task": {
-    "label": "接续草稿",
+    "label": "等待作者指令",
     "next_action": "读取WORKFLOW.md并按当前作品继续",
-    "phase": "WRITING"
+    "phase": "WAITING_NEXT"
   },
   "version": "7.0.1"
 }
