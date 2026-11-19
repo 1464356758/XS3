@@ -1,0 +1,25 @@
+{
+  "assessment_path": "book/objects/85b2394fbc002fd1d9941eedd267a72b95f12c04c4ed334618940d51210a7893.json",
+  "assessment_sha256": "85b2394fbc002fd1d9941eedd267a72b95f12c04c4ed334618940d51210a7893",
+  "attachments": {
+    "memory": "book/objects/0ab0bc2198a0e66ed428dfb4ec6360382e40d17fbb172899976c59108c0b4229.md",
+    "plan": "book/objects/28dbd8e12ee3e765570d90183342d3249feee539ce97ff129ab2b34118c8694d.md",
+    "review": "book/objects/b2bc5e9fee1f92f4e58698aa96eb0cfa8f56c3f4d15a5ccfa7213f1775be3b8a.md"
+  },
+  "book_id": "8cccda21-3836-4487-9fe7-4fbcb480e27f",
+  "frozen_at": "2026-11-19T10:08:11.124303+00:00",
+  "han_count": 6044,
+  "hashes": {
+    "memory": "0ab0bc2198a0e66ed428dfb4ec6360382e40d17fbb172899976c59108c0b4229",
+    "plan": "28dbd8e12ee3e765570d90183342d3249feee539ce97ff129ab2b34118c8694d",
+    "review": "b2bc5e9fee1f92f4e58698aa96eb0cfa8f56c3f4d15a5ccfa7213f1775be3b8a",
+    "text": "1de10d9d6209490b0048bc046c00e0d11a76a7a0c21da265e4d844d3ccf44c35"
+  },
+  "number": 4,
+  "previous_record_sha256": "c274cf56bb0f4ab6bddc29c84d19d074d42ad37104e3c7a2ead6c8dbd4b9bb95",
+  "request_id": "XS3-8cccda21-CH004-next-20261119",
+  "schema": "novel-v6-chapter",
+  "text_path": "book/chapters/CH004_1de10d9d6209490b0048bc046c00e0d11a76a7a0c21da265e4d844d3ccf44c35.txt",
+  "text_sha256": "1de10d9d6209490b0048bc046c00e0d11a76a7a0c21da265e4d844d3ccf44c35",
+  "title": "我妈站哪儿"
+}

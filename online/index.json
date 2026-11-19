@@ -28,15 +28,23 @@
       "sha256": "7acea965ccaee65814ce8309a5b3f53ddc66aa2427bdaf837d2113199a780431",
       "text_path": "book/chapters/CH003_7acea965ccaee65814ce8309a5b3f53ddc66aa2427bdaf837d2113199a780431.txt",
       "title": "她先看见了边上的人"
+    },
+    {
+      "han_count": 6044,
+      "number": 4,
+      "publication_status": "unconfirmed",
+      "sha256": "1de10d9d6209490b0048bc046c00e0d11a76a7a0c21da265e4d844d3ccf44c35",
+      "text_path": "book/chapters/CH004_1de10d9d6209490b0048bc046c00e0d11a76a7a0c21da265e4d844d3ccf44c35.txt",
+      "title": "我妈站哪儿"
     }
   ],
   "edition": "novel-a7",
   "engine": "novel-v6",
-  "generated_at": "2026-11-19T09:25:14.323119+00:00",
+  "generated_at": "2026-11-19T10:08:11.124303+00:00",
   "initialized": true,
   "progress": {
-    "actual_han": 18332,
-    "adopted_chapters": 3,
+    "actual_han": 24376,
+    "adopted_chapters": 4,
     "target_chapters": 150,
     "target_han": 900000
   },
@@ -44,12 +52,12 @@
   "source": {
     "branch": "main",
     "repository_url": "https://github.com/1464356758/XS3",
-    "state_sha256": "8c7fb2b3b8b50a07ed34a49cbc95958112db6dcb840c07273eaab0df95646cac"
+    "state_sha256": "3bcc8aece6a5e17f53bf3ca0839cbc4bee7e7bee42e6b57d9806cf6496b92b1c"
   },
   "task": {
-    "label": "接续草稿",
+    "label": "等待作者指令",
     "next_action": "读取WORKFLOW.md并按当前作品继续",
-    "phase": "WRITING"
+    "phase": "WAITING_NEXT"
   },
   "version": "7.0.1"
 }

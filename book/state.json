@@ -38,16 +38,27 @@
       "text_path": "chapters/CH003_7acea965ccaee65814ce8309a5b3f53ddc66aa2427bdaf837d2113199a780431.txt",
       "text_sha256": "7acea965ccaee65814ce8309a5b3f53ddc66aa2427bdaf837d2113199a780431",
       "title": "她先看见了边上的人"
+    },
+    "4": {
+      "frozen_at": "2026-11-19T10:08:11.124303+00:00",
+      "han_count": 6044,
+      "number": 4,
+      "record_path": "objects/f9ff2261d6f77478064b10cd098ebc5a6406798a9ff5c0eddc5e453dcf1bee53.json",
+      "record_sha256": "f9ff2261d6f77478064b10cd098ebc5a6406798a9ff5c0eddc5e453dcf1bee53",
+      "request_id": "XS3-8cccda21-CH004-next-20261119",
+      "text_path": "chapters/CH004_1de10d9d6209490b0048bc046c00e0d11a76a7a0c21da265e4d844d3ccf44c35.txt",
+      "text_sha256": "1de10d9d6209490b0048bc046c00e0d11a76a7a0c21da265e4d844d3ccf44c35",
+      "title": "我妈站哪儿"
     }
   },
   "edition": "novel-a7",
   "opening_path": "book/objects/c9c3056c288acdf5a0a9b093247bbfcac067a450eec0d0c498ad2cbf7322608b.json",
   "platform": "七猫中文网",
   "repository_url": "https://github.com/1464356758/XS3",
-  "revision": 3,
+  "revision": 4,
   "schema": "novel-v6",
   "target_chapters": 150,
   "title": "我妈十八岁，非要跟我争首发",
-  "updated_at": "2026-11-19T09:25:14.323119+00:00",
+  "updated_at": "2026-11-19T10:08:11.124303+00:00",
   "version": "7.0.1"
 }
